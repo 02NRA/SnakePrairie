@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "tigerclawfirstmod:block/maple_planks",
+    "top": "tigerclawfirstmod:block/maple_planks",
+    "side": "tigerclawfirstmod:block/maple_planks"
+  },
+  "render_type": "solid"
+}

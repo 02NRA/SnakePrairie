@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tigerclawfirstmod:block/maple_log_top",
+    "up": "tigerclawfirstmod:block/maple_log_top",
+    "north": "tigerclawfirstmod:block/maple_log_side",
+    "east": "tigerclawfirstmod:block/maple_log_side",
+    "south": "tigerclawfirstmod:block/maple_log_side",
+    "west": "tigerclawfirstmod:block/maple_log_side",
+    "particle": "tigerclawfirstmod:block/maple_log_top"
+  },
+  "render_type": "solid"
+}

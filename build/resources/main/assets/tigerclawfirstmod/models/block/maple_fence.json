@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "tigerclawfirstmod:block/maple_planks",
+    "particle": "tigerclawfirstmod:block/maple_planks"
+  },
+  "render_type": "solid"
+}

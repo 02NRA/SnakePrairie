@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tigerclawfirstmod:block/maple_log_side",
+    "particle": "tigerclawfirstmod:block/maple_log_side"
+  },
+  "render_type": "solid"
+}

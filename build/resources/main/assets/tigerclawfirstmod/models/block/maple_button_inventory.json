@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "tigerclawfirstmod:block/maple_planks"
+  },
+  "render_type": "solid"
+}

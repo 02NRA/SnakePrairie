@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tigerclawfirstmod:block/maple_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tigerclawfirstmod:block/maple_log"
+    },
+    "axis=z": {
+      "model": "tigerclawfirstmod:block/maple_log",
+      "x": 90
+    }
+  }
+}

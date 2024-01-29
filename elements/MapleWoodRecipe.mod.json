@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MapleLog"
+      },
+      {
+        "value": "CUSTOM:MapleLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MapleLog"
+      },
+      {
+        "value": "CUSTOM:MapleLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MapleWood"
+    },
+    "name": "maple_wood_recipe",
+    "namespace": "mod"
+  }
+}

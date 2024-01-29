@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tigerclawfirstmod:block/maple_slab"
+    },
+    "type=top": {
+      "model": "tigerclawfirstmod:block/maple_slab_top"
+    },
+    "type=double": {
+      "model": "tigerclawfirstmod:block/maple_slab_full"
+    }
+  }
+}

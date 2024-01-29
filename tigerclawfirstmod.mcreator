@@ -1,0 +1,566 @@
+{
+  "mod_elements": [
+    {
+      "name": "MapleWood",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_wood.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MapleWoodBlock.java",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_wood.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_wood.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_log.json",
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_log.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MapleLogBlock.java",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_log.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MaplePlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_planks.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_planks.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_planks.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MaplePlanksBlock.java"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_leaves.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_leaves.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MapleLeavesBlock.java",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_leaves.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_stairs.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_stairs_inner.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MapleStairsBlock.java",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_stairs.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_stairs_outer.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_stairs.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_slab_full.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MapleSlabBlock.java",
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_slab.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_slab.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_slab.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_slab_top.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleFence",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_fence_inventory.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_fence_post.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MapleFenceBlock.java",
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_fence.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_fence.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_fence.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleFenceGate",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_fence_gate.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MapleFenceGateBlock.java",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_fence_gate_open.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_fence_gate.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_fence_gate_wall.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_fence_gate.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MaplePressurePlate",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_pressure_plate.json",
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_pressure_plate.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_pressure_plate.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_pressure_plate_down.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MaplePressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleButton",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_button.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MapleButtonBlock.java",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_button.json",
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_button.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_button_inventory.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_button_pressed.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleWoodRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_wood_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MaplePlanksLogRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MaplePlanksWoodRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleStairsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleSlabRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_slab_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleFenceRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_fence_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MaplePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleButtonRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_button_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleStickRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/maple_stick_recipe.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleTree",
+      "type": "feature",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/forge/biome_modifier/maple_tree_biome_modifier.json",
+          "src/main/resources/data/tigerclawfirstmod/worldgen/placed_feature/maple_tree.json",
+          "src/main/resources/data/tigerclawfirstmod/worldgen/configured_feature/maple_tree.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "MapleSapling",
+      "type": "plant",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/models/block/maple_sapling.json",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/maple_sapling.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/block/MapleSaplingBlock.java",
+          "src/main/resources/assets/tigerclawfirstmod/blockstates/maple_sapling.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "AmberPickaxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tigerclawfirstmod/item/AmberPickaxeItem.java",
+          "src/main/resources/assets/tigerclawfirstmod/models/item/amber_pickaxe.json"
+        ]
+      },
+      "path": "~/Amber"
+    },
+    {
+      "name": "MapleTreeStructure",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_tree_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/worldgen/structure_set/maple_tree_structure.json",
+          "src/main/resources/data/tigerclawfirstmod/worldgen/template_pool/maple_tree_structure.json",
+          "src/main/resources/data/tigerclawfirstmod/worldgen/structure/maple_tree_structure.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "AutumnalForest",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "autumnal_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/worldgen/biome/autumnal_forest.json",
+          "src/main/resources/data/tigerclawfirstmod/worldgen/configured_feature/autumnal_forest_tree.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/world/features/treedecorators/AutumnalForestFruitDecorator.java",
+          "src/main/resources/data/tigerclawfirstmod/worldgen/placed_feature/autumnal_forest_tree.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/world/features/treedecorators/AutumnalForestLeaveDecorator.java",
+          "src/main/java/net/mcreator/tigerclawfirstmod/world/features/treedecorators/AutumnalForestTrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "MapleSaplingGrow",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_sapling_grow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tigerclawfirstmod/procedures/MapleSaplingGrowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "AmberChunk",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_chunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/models/item/amber_chunk.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/item/AmberChunkItem.java"
+        ]
+      },
+      "path": "~/Amber"
+    },
+    {
+      "name": "AmberPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/amber_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Amber"
+    },
+    {
+      "name": "Wood",
+      "type": "tag",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wood.json"
+        ]
+      },
+      "path": "~/Maple"
+    },
+    {
+      "name": "SapBucket",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sap_bucket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tigerclawfirstmod/models/item/sap_bucket.json",
+          "src/main/java/net/mcreator/tigerclawfirstmod/item/SapBucketItem.java"
+        ]
+      },
+      "path": "~/Amber"
+    },
+    {
+      "name": "AmberChunkRecipie",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_chunk_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tigerclawfirstmod/recipes/amber_chunk_recipie.json"
+        ]
+      },
+      "path": "~/Amber"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.tigerclawfirstmod.maple_slab": "Maple Slab",
+      "biome.tigerclawfirstmod.autumnal_forest": "Autumnal Forest",
+      "item.tigerclawfirstmod.amber_chunk": "Amber Chunk",
+      "block.tigerclawfirstmod.maple_pressure_plate": "Maple Pressure Plate",
+      "block.tigerclawfirstmod.maple_log": "Maple Log",
+      "block.tigerclawfirstmod.maple_fence_gate": "Maple Fence Gate",
+      "block.tigerclawfirstmod.maple_fence": "Maple Fence",
+      "item.tigerclawfirstmod.sap_bucket": "Bucket of Sap",
+      "block.tigerclawfirstmod.maple_planks": "Maple Planks",
+      "block.tigerclawfirstmod.maple_button": "Maple Button",
+      "item.tigerclawfirstmod.amber_pickaxe": "Amber Pickaxe",
+      "block.tigerclawfirstmod.maple_wood": "Maple Wood",
+      "block.tigerclawfirstmod.maple_stairs": "Maple Stairs",
+      "block.tigerclawfirstmod.maple_sapling": "Maple Sapling",
+      "block.tigerclawfirstmod.maple_leaves": "Maple Leaves"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Maple",
+        "children": []
+      },
+      {
+        "name": "Amber",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "tigerclawfirstmod",
+    "modName": "TigerclawFirstMod",
+    "version": "1.0.2",
+    "description": "Autumnal Forest",
+    "author": "tigerclaw6, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.tigerclawfirstmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

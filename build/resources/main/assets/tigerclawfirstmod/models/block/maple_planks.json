@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tigerclawfirstmod:block/maple_planks",
+    "particle": "tigerclawfirstmod:block/maple_planks"
+  },
+  "render_type": "solid"
+}

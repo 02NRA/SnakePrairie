@@ -3,14 +3,15 @@ loaderVersion="[47,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="justakritch"
-version="1.0.0"
-displayName="JustAKritch"
+modId="tigerclawfirstmod"
+version="1.0.2"
+displayName="TigerclawFirstMod"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="Kritcharon, MCreator"
+authors="tigerclaw6, MCreator"
+description="Autumnal Forest"
 
-[[dependencies.justakritch]]
+[[dependencies.tigerclawfirstmod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"

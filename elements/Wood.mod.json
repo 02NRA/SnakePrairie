@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MaplePlanks"
+      },
+      {
+        "value": "CUSTOM:MapleLog"
+      },
+      {
+        "value": "CUSTOM:MapleWood"
+      },
+      {
+        "value": "CUSTOM:MapleStairs"
+      },
+      {
+        "value": "CUSTOM:MapleSlab"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "wood",
+    "namespace": "minecraft"
+  }
+}
