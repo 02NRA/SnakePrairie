@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "justakritch:skewered_marshmallow"
+  },
+  "result": "justakritch:toasted_skewered_marshmallow"
+}
