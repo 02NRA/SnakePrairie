@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "Blocks.SKULL#5"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
+        "value": "Items.HEART_POTTERY_SHERD"
+      },
+      {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.ENDER_DRAGON_SPAWN_EGG"
+    },
+    "name": "ender_dragon_spawn_egg",
+    "namespace": "mod"
+  }
+}

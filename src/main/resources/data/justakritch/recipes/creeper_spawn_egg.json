@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:candles"
+    },
+    "b": {
+      "item": "minecraft:ghast_tear"
+    },
+    "c": {
+      "item": "minecraft:creeper_head"
+    },
+    "d": {
+      "item": "minecraft:cake"
+    }
+  },
+  "result": {
+    "item": "minecraft:creeper_spawn_egg",
+    "count": 1
+  }
+}
