@@ -30,3 +30,9 @@ Currently, this mod is in 0.3.2
 4. Make your edits
 5. Export the mod as a .jar file (at the time of writing this, in the upper righthand corner of mcreator)
 6. Follow steps 1 and 3-7 under "Instructions to use this mod"
+
+### Mod Manual and Changelog
+Until I fully write a wiki for this repo, please reference:
+
+
+https://docs.google.com/document/d/1ZivfeTOlH9SafRgBOtiUq-LksKAa1ayI0lRQHWRrJmE/edit?usp=sharing
