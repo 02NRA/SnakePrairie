@@ -11,7 +11,7 @@ This mod is currently on Forge version 47.2.0
 
 
 At the time of repository creation, this mod was in version 0.2.1;
-Currently, this mod is in 0.3.1
+Currently, this mod is in 0.3.2
 
 
 ### Instructions to use this mod
