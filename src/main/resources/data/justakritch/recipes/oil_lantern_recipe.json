@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "justakritch:oil_bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:lantern",
+    "count": 9
+  }
+}

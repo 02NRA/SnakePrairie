@@ -35,7 +35,7 @@
     },
     "resistance": 100.0,
     "luminance": 0,
-    "lightOpacity": 1,
+    "lightOpacity": 5,
     "emissiveRendering": false,
     "tickRate": 0,
     "flammability": 0,

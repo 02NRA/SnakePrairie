@@ -28,5 +28,7 @@ public class JustakritchModTabs {
 				tabData.accept(JustakritchModItems.SKEWERED_MARSHMALLOW.get());
 				tabData.accept(JustakritchModItems.TOASTED_SKEWERED_MARSHMALLOW.get());
 				tabData.accept(JustakritchModItems.SMORE.get());
+				tabData.accept(JustakritchModItems.OIL_BUCKET.get());
+				tabData.accept(JustakritchModBlocks.CLEANED_GLASS.get().asItem());
 			}).withSearchBar().build());
 }

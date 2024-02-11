@@ -18,12 +18,15 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.justakritch.fluid.QuicksandFluid;
+import net.mcreator.justakritch.fluid.OilFluid;
 import net.mcreator.justakritch.JustakritchMod;
 
 public class JustakritchModFluids {
 	public static final DeferredRegister<Fluid> REGISTRY = DeferredRegister.create(ForgeRegistries.FLUIDS, JustakritchMod.MODID);
 	public static final RegistryObject<FlowingFluid> QUICKSAND = REGISTRY.register("quicksand", () -> new QuicksandFluid.Source());
 	public static final RegistryObject<FlowingFluid> FLOWING_QUICKSAND = REGISTRY.register("flowing_quicksand", () -> new QuicksandFluid.Flowing());
+	public static final RegistryObject<FlowingFluid> OIL = REGISTRY.register("oil", () -> new OilFluid.Source());
+	public static final RegistryObject<FlowingFluid> FLOWING_OIL = REGISTRY.register("flowing_oil", () -> new OilFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -31,6 +34,8 @@ public class JustakritchModFluids {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ItemBlockRenderTypes.setRenderLayer(QUICKSAND.get(), RenderType.translucent());
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_QUICKSAND.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(OIL.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(FLOWING_OIL.get(), RenderType.translucent());
 		}
 	}
 }

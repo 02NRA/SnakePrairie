@@ -554,6 +554,173 @@
         ]
       },
       "path": "~/Smore"
+    },
+    {
+      "name": "RottenFleshCompost",
+      "type": "itemextension",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotten_flesh_compost",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "GunpowderFuel",
+      "type": "itemextension",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunpowder_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "GrassBlockCompost",
+      "type": "itemextension",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_block_compost",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/justakritch/blockstates/oil.json",
+          "src/main/java/net/mcreator/justakritch/fluid/OilFluid.java",
+          "src/main/java/net/mcreator/justakritch/block/OilBlock.java",
+          "src/main/resources/assets/justakritch/models/item/oil_bucket.json",
+          "src/main/java/net/mcreator/justakritch/item/OilItem.java",
+          "src/main/resources/assets/justakritch/models/block/oil.json",
+          "src/main/java/net/mcreator/justakritch/fluid/types/OilFluidType.java"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "OilFuel",
+      "type": "itemextension",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "OilFuelFuelBurningSuccessCondition",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_fuel_fuel_burning_success_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/procedures/OilFuelFuelBurningSuccessConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "OilLanternRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_lantern_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/oil_lantern_recipe.json"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "CleanedGlassOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaned_glass_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/procedures/CleanedGlassOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CleanedGlass"
+    },
+    {
+      "name": "CleanedGlass",
+      "type": "block",
+      "sortid": 49,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "cleaned_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/block/CleanedGlassBlock.java",
+          "src/main/resources/assets/justakritch/models/block/cleaned_glass.json",
+          "src/main/resources/assets/justakritch/models/item/cleaned_glass.json",
+          "src/main/resources/assets/justakritch/blockstates/cleaned_glass.json"
+        ]
+      },
+      "path": "~/CleanedGlass"
     }
   ],
   "variable_elements": [],
@@ -564,13 +731,17 @@
       "fluid.justakritch.quicksand": "Quicksand",
       "item.justakritch.quicksand_bucket": "Quicksand Bucket",
       "item.justakritch.sling_shot": "Sling Shot",
+      "block.justakritch.oil": "Oil",
       "effect.justakritch.whimsy": "Whimsy",
       "item.justakritch.toasted_skewered_marshmallow": "Toasted Skewered Marshmallow",
       "item.justakritch.shiv": "Shiv",
+      "item.justakritch.oil_bucket": "Oil Bucket",
       "block.justakritch.quicksand": "Quicksand",
       "item.justakritch.potion_of_glow": "Potion Of Glow",
       "item_group.justakritch.just_a_kritch": "Just A Kritch",
+      "block.justakritch.cleaned_glass": "Cleaned Glass",
       "item.justakritch.smore": "Smore",
+      "fluid.justakritch.oil": "Oil",
       "item.justakritch.pebble": "Pebble",
       "item.justakritch.skewered_marshmallow": "Skewered Marshmallow"
     }
@@ -614,13 +785,17 @@
       {
         "name": "Fluids",
         "children": []
+      },
+      {
+        "name": "CleanedGlass",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "justakritch",
     "modName": "JustAKritch",
-    "version": "0.2.1",
+    "version": "0.3.1",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
@@ -631,6 +806,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.justakritch",
     "lockBaseModFiles": false
   },

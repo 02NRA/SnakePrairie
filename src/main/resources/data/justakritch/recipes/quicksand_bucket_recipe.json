@@ -3,19 +3,19 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "minecraft:sand"
+      "item": "minecraft:sand"
     },
     {
-      "tag": "minecraft:sand"
+      "item": "minecraft:sand"
     },
     {
       "item": "minecraft:water_bucket"
     },
     {
-      "tag": "minecraft:sand"
+      "item": "minecraft:sand"
     },
     {
-      "tag": "minecraft:sand"
+      "item": "minecraft:sand"
     }
   ],
   "result": {

@@ -157,14 +157,20 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\justakritch\build\reobfJa
   assets/
   assets/justakritch/
   assets/justakritch/blockstates/
+  assets/justakritch/blockstates/cleaned_glass.json
+  assets/justakritch/blockstates/oil.json
   assets/justakritch/blockstates/quicksand.json
   assets/justakritch/lang/
   assets/justakritch/lang/en_us.json
   assets/justakritch/models/
   assets/justakritch/models/block/
+  assets/justakritch/models/block/cleaned_glass.json
+  assets/justakritch/models/block/oil.json
   assets/justakritch/models/block/quicksand.json
   assets/justakritch/models/item/
+  assets/justakritch/models/item/cleaned_glass.json
   assets/justakritch/models/item/cooked_egg.json
+  assets/justakritch/models/item/oil_bucket.json
   assets/justakritch/models/item/pebble.json
   assets/justakritch/models/item/potion_of_glow.json
   assets/justakritch/models/item/quicksand_bucket.json
@@ -175,10 +181,14 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\justakritch\build\reobfJa
   assets/justakritch/models/item/toasted_skewered_marshmallow.json
   assets/justakritch/textures/
   assets/justakritch/textures/block/
+  assets/justakritch/textures/block/cleanedglass.png
+  assets/justakritch/textures/block/oil.png
+  assets/justakritch/textures/block/oil_still.png
   assets/justakritch/textures/block/sand.png
   assets/justakritch/textures/block/suspicious_sand_3.png
   assets/justakritch/textures/item/
   assets/justakritch/textures/item/cooked_egg_improved.png
+  assets/justakritch/textures/item/milkshake.png
   assets/justakritch/textures/item/pebble.png
   assets/justakritch/textures/item/potion_of_glow.png
   assets/justakritch/textures/item/shiv.png
@@ -191,6 +201,9 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\justakritch\build\reobfJa
   assets/justakritch/textures/mob_effect/whimsy.png
   data/
   data/justakritch/
+  data/justakritch/loot_tables/
+  data/justakritch/loot_tables/blocks/
+  data/justakritch/loot_tables/blocks/cleaned_glass.json
   data/justakritch/recipes/
   data/justakritch/recipes/cooked_egg_recipe.json
   data/justakritch/recipes/creeper_spawn_egg.json
@@ -201,6 +214,7 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\justakritch\build\reobfJa
   data/justakritch/recipes/iron_horse_armor.json
   data/justakritch/recipes/mob_spawner.json
   data/justakritch/recipes/name_tag_recipe.json
+  data/justakritch/recipes/oil_lantern_recipe.json
   data/justakritch/recipes/pebble_recipe.json
   data/justakritch/recipes/pebble_to_gravel_recipe.json
   data/justakritch/recipes/quartz_block_to_quartz_recipe.json
@@ -220,28 +234,38 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\justakritch\build\reobfJa
   net/mcreator/justakritch/
   net/mcreator/justakritch/JustakritchMod.class
   net/mcreator/justakritch/block/
+  net/mcreator/justakritch/block/CleanedGlassBlock.class
+  net/mcreator/justakritch/block/OilBlock.class
   net/mcreator/justakritch/block/QuicksandBlock.class
   net/mcreator/justakritch/entity/
   net/mcreator/justakritch/entity/PebbleProjectileEntity.class
   net/mcreator/justakritch/fluid/
+  net/mcreator/justakritch/fluid/OilFluid$Flowing.class
+  net/mcreator/justakritch/fluid/OilFluid$Source.class
+  net/mcreator/justakritch/fluid/OilFluid.class
   net/mcreator/justakritch/fluid/QuicksandFluid$Flowing.class
   net/mcreator/justakritch/fluid/QuicksandFluid$Source.class
   net/mcreator/justakritch/fluid/QuicksandFluid.class
   net/mcreator/justakritch/fluid/types/
+  net/mcreator/justakritch/fluid/types/OilFluidType$1.class
+  net/mcreator/justakritch/fluid/types/OilFluidType.class
   net/mcreator/justakritch/fluid/types/QuicksandFluidType$1.class
   net/mcreator/justakritch/fluid/types/QuicksandFluidType.class
   net/mcreator/justakritch/init/
   net/mcreator/justakritch/init/JustakritchModBlocks.class
+  net/mcreator/justakritch/init/JustakritchModCompostableItems.class
   net/mcreator/justakritch/init/JustakritchModEntities.class
   net/mcreator/justakritch/init/JustakritchModEntityRenderers.class
   net/mcreator/justakritch/init/JustakritchModFluidTypes.class
   net/mcreator/justakritch/init/JustakritchModFluids$ClientSideHandler.class
   net/mcreator/justakritch/init/JustakritchModFluids.class
+  net/mcreator/justakritch/init/JustakritchModFuels.class
   net/mcreator/justakritch/init/JustakritchModItems.class
   net/mcreator/justakritch/init/JustakritchModMobEffects.class
   net/mcreator/justakritch/init/JustakritchModTabs.class
   net/mcreator/justakritch/item/
   net/mcreator/justakritch/item/CookedEggItem.class
+  net/mcreator/justakritch/item/OilItem.class
   net/mcreator/justakritch/item/PebbleItem.class
   net/mcreator/justakritch/item/PotionOfGlowItem.class
   net/mcreator/justakritch/item/QuicksandItem.class
@@ -254,7 +278,9 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\justakritch\build\reobfJa
   net/mcreator/justakritch/potion/WhimsyMobEffect.class
   net/mcreator/justakritch/procedures/
   net/mcreator/justakritch/procedures/ApplyWhimsyProcedure.class
+  net/mcreator/justakritch/procedures/CleanedGlassOnBlockRightClickedProcedure.class
   net/mcreator/justakritch/procedures/GlowEffectProcedure.class
+  net/mcreator/justakritch/procedures/OilFuelFuelBurningSuccessConditionProcedure.class
   net/mcreator/justakritch/recipes/
   net/mcreator/justakritch/recipes/brewing/
   net/mcreator/justakritch/recipes/brewing/PotionOfGlowRecipeBrewingRecipe.class

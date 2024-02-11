@@ -8,7 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.justakritch.item.ToastedSkeweredMarshmallowItem;
 import net.mcreator.justakritch.item.SmoreItem;
@@ -18,6 +20,7 @@ import net.mcreator.justakritch.item.ShivItem;
 import net.mcreator.justakritch.item.QuicksandItem;
 import net.mcreator.justakritch.item.PotionOfGlowItem;
 import net.mcreator.justakritch.item.PebbleItem;
+import net.mcreator.justakritch.item.OilItem;
 import net.mcreator.justakritch.item.CookedEggItem;
 import net.mcreator.justakritch.JustakritchMod;
 
@@ -32,4 +35,10 @@ public class JustakritchModItems {
 	public static final RegistryObject<Item> SKEWERED_MARSHMALLOW = REGISTRY.register("skewered_marshmallow", () -> new SkeweredMarshmallowItem());
 	public static final RegistryObject<Item> TOASTED_SKEWERED_MARSHMALLOW = REGISTRY.register("toasted_skewered_marshmallow", () -> new ToastedSkeweredMarshmallowItem());
 	public static final RegistryObject<Item> SMORE = REGISTRY.register("smore", () -> new SmoreItem());
+	public static final RegistryObject<Item> OIL_BUCKET = REGISTRY.register("oil_bucket", () -> new OilItem());
+	public static final RegistryObject<Item> CLEANED_GLASS = block(JustakritchModBlocks.CLEANED_GLASS);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "justakritch:block/cleanedglass",
+    "up": "justakritch:block/cleanedglass",
+    "north": "justakritch:block/cleanedglass",
+    "east": "justakritch:block/cleanedglass",
+    "south": "justakritch:block/cleanedglass",
+    "west": "justakritch:block/cleanedglass",
+    "particle": "justakritch:block/cleanedglass"
+  },
+  "render_type": "cutout"
+}

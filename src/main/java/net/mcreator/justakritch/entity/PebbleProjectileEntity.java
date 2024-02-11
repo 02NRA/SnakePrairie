@@ -72,7 +72,7 @@ public class PebbleProjectileEntity extends AbstractArrow implements ItemSupplie
 	}
 
 	public static PebbleProjectileEntity shoot(Level world, LivingEntity entity, RandomSource source) {
-		return shoot(world, entity, source, 1f, 5, 6);
+		return shoot(world, entity, source, 1f, 3, 6);
 	}
 
 	public static PebbleProjectileEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
@@ -94,7 +94,7 @@ public class PebbleProjectileEntity extends AbstractArrow implements ItemSupplie
 		double dz = target.getZ() - entity.getZ();
 		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(5);
+		entityarrow.setBaseDamage(3);
 		entityarrow.setKnockback(6);
 		entityarrow.setCritArrow(true);
 		entity.level().addFreshEntity(entityarrow);
