@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "spoonful_of_sugar:toasted_skewered_marshmallow"
+    }
+  ],
+  "result": {
+    "item": "spoonful_of_sugar:smore",
+    "count": 1
+  }
+}

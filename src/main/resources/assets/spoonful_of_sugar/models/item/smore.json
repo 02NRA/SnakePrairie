@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "spoonful_of_sugar:item/smore"
+  }
+}

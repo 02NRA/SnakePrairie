@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Just A Kritch",
+    "icon": {
+      "value": "Blocks.COMMAND_BLOCK"
+    },
+    "showSearch": true
+  }
+}

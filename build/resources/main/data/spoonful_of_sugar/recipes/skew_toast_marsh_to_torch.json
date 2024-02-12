@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "spoonful_of_sugar:toasted_skewered_marshmallow"
+  },
+  "result": "minecraft:torch"
+}
