@@ -23,5 +23,6 @@ public class SpoonfulOfSugarModTabs {
 				tabData.accept(SpoonfulOfSugarModItems.SKEWERED_MARSHMALLOW.get());
 				tabData.accept(SpoonfulOfSugarModItems.TOASTED_SKEWERED_MARSHMALLOW.get());
 				tabData.accept(SpoonfulOfSugarModItems.SMORE.get());
+				tabData.accept(SpoonfulOfSugarModItems.MILKSHAKE.get());
 			}).withSearchBar().build());
 }

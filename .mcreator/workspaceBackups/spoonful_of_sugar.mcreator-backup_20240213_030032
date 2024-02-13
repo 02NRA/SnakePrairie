@@ -1,0 +1,322 @@
+{
+  "mod_elements": [
+    {
+      "name": "JustAKritch",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "just_a_kritch",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CookedEgg",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spoonful_of_sugar/models/item/cooked_egg.json",
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/CookedEggItem.java"
+        ]
+      },
+      "path": "~/EdibleEgg"
+    },
+    {
+      "name": "CookedEggRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_egg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/cooked_egg_recipe.json"
+        ]
+      },
+      "path": "~/EdibleEgg"
+    },
+    {
+      "name": "SkeweredMarshmallow",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_marshmallow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/SkeweredMarshmallowItem.java",
+          "src/main/resources/assets/spoonful_of_sugar/models/item/skewered_marshmallow.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "ToastedSkeweredMarshmallow",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toasted_skewered_marshmallow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spoonful_of_sugar/models/item/toasted_skewered_marshmallow.json",
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/ToastedSkeweredMarshmallowItem.java"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "Smore",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/SmoreItem.java",
+          "src/main/resources/assets/spoonful_of_sugar/models/item/smore.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "SkeweredMarshmallowRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_marshmallow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/skewered_marshmallow_recipe.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "SmoreRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/smore_recipe.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "ToastSkewMarshRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toast_skew_marsh_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/toast_skew_marsh_recipe.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "SkewToastMarshToTorch",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skew_toast_marsh_to_torch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/skew_toast_marsh_to_torch.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "Whimsy",
+      "type": "potioneffect",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whimsy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spoonful_of_sugar/potion/WhimsyMobEffect.java"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "ApplyWhimsy",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apply_whimsy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spoonful_of_sugar/procedures/ApplyWhimsyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "BrainFreeze",
+      "type": "potioneffect",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_freeze",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spoonful_of_sugar/potion/BrainFreezeMobEffect.java"
+        ]
+      },
+      "path": "~/Milkshake"
+    },
+    {
+      "name": "ApplyBrainFreeze",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apply_brain_freeze",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spoonful_of_sugar/procedures/ApplyBrainFreezeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Milkshake"
+    },
+    {
+      "name": "Milkshake",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milkshake",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spoonful_of_sugar/models/item/milkshake.json",
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/MilkshakeItem.java"
+        ]
+      },
+      "path": "~/Milkshake"
+    },
+    {
+      "name": "MilkshakeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milkshake_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/milkshake_recipe.json"
+        ]
+      },
+      "path": "~/Milkshake"
+    },
+    {
+      "name": "AltCookieRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_cookie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/alt_cookie_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.spoonful_of_sugar.milkshake": "Milkshake",
+      "item.justakritch.cooked_egg": "Cooked Egg",
+      "fluid.justakritch.quicksand": "Quicksand",
+      "item.justakritch.sling_shot": "Sling Shot",
+      "block.justakritch.oil": "Oil",
+      "effect.justakritch.whimsy": "Whimsy",
+      "effect.spoonful_of_sugar.brain_freeze": "Brain Freeze",
+      "item_group.spoonful_of_sugar.just_a_kritch": "Just A Kritch",
+      "item.justakritch.oil_bucket": "Oil Bucket",
+      "item.justakritch.potion_of_glow": "Potion Of Glow",
+      "effect.spoonful_of_sugar.whimsy": "Whimsy",
+      "item.justakritch.pebble": "Pebble",
+      "item.justakritch.quicksand_bucket": "Quicksand Bucket",
+      "item.spoonful_of_sugar.skewered_marshmallow": "Skewered Marshmallow",
+      "item.spoonful_of_sugar.smore": "Smore",
+      "item.justakritch.toasted_skewered_marshmallow": "Toasted Skewered Marshmallow",
+      "item.spoonful_of_sugar.toasted_skewered_marshmallow": "Toasted Skewered Marshmallow",
+      "item.justakritch.shiv": "Shiv",
+      "block.justakritch.quicksand": "Quicksand",
+      "item_group.justakritch.just_a_kritch": "Just A Kritch",
+      "block.justakritch.cleaned_glass": "Cleaned Glass",
+      "item.spoonful_of_sugar.cooked_egg": "Cooked Egg",
+      "item.justakritch.smore": "Smore",
+      "fluid.justakritch.oil": "Oil",
+      "item.justakritch.skewered_marshmallow": "Skewered Marshmallow"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "EdibleEgg",
+        "children": []
+      },
+      {
+        "name": "Smore",
+        "children": []
+      },
+      {
+        "name": "Milkshake",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "spoonful_of_sugar",
+    "modName": "Spoonful_of_sugar",
+    "version": "1.0.0",
+    "author": "Kritcharon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.spoonful_of_sugar",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

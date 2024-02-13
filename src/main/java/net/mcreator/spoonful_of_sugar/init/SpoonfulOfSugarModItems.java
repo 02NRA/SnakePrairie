@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.mcreator.spoonful_of_sugar.item.ToastedSkeweredMarshmallowItem;
 import net.mcreator.spoonful_of_sugar.item.SmoreItem;
 import net.mcreator.spoonful_of_sugar.item.SkeweredMarshmallowItem;
+import net.mcreator.spoonful_of_sugar.item.MilkshakeItem;
 import net.mcreator.spoonful_of_sugar.item.CookedEggItem;
 import net.mcreator.spoonful_of_sugar.SpoonfulOfSugarMod;
 
@@ -22,4 +23,5 @@ public class SpoonfulOfSugarModItems {
 	public static final RegistryObject<Item> SKEWERED_MARSHMALLOW = REGISTRY.register("skewered_marshmallow", () -> new SkeweredMarshmallowItem());
 	public static final RegistryObject<Item> TOASTED_SKEWERED_MARSHMALLOW = REGISTRY.register("toasted_skewered_marshmallow", () -> new ToastedSkeweredMarshmallowItem());
 	public static final RegistryObject<Item> SMORE = REGISTRY.register("smore", () -> new SmoreItem());
+	public static final RegistryObject<Item> MILKSHAKE = REGISTRY.register("milkshake", () -> new MilkshakeItem());
 }

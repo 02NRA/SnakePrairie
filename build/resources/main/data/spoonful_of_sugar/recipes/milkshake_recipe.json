@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass_bottle"
+    },
+    "b": {
+      "item": "minecraft:ice"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "spoonful_of_sugar:milkshake",
+    "count": 4
+  }
+}

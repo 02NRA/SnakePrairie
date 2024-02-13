@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "smore",
+    "texture": "smore_improved",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
@@ -41,7 +41,7 @@
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
-      "value": "CUSTOM:PebbleProjectile"
+      "value": "Arrow"
     },
     "isFood": true,
     "nutritionalValue": 2,

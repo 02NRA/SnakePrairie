@@ -1,9 +1,11 @@
 {
+  "item.spoonful_of_sugar.milkshake": "Milkshake",
   "item.justakritch.cooked_egg": "Cooked Egg",
   "fluid.justakritch.quicksand": "Quicksand",
   "item.justakritch.sling_shot": "Sling Shot",
   "block.justakritch.oil": "Oil",
   "effect.justakritch.whimsy": "Whimsy",
+  "effect.spoonful_of_sugar.brain_freeze": "Brain Freeze",
   "item_group.spoonful_of_sugar.just_a_kritch": "Just A Kritch",
   "item.justakritch.oil_bucket": "Oil Bucket",
   "item.justakritch.potion_of_glow": "Potion Of Glow",

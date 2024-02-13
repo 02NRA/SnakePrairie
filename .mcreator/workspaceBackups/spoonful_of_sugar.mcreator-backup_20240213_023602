@@ -49,8 +49,8 @@
       "registry_name": "skewered_marshmallow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/spoonful_of_sugar/models/item/skewered_marshmallow.json",
-          "src/main/java/net/mcreator/spoonful_of_sugar/item/SkeweredMarshmallowItem.java"
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/SkeweredMarshmallowItem.java",
+          "src/main/resources/assets/spoonful_of_sugar/models/item/skewered_marshmallow.json"
         ]
       },
       "path": "~/Smore"
@@ -64,8 +64,8 @@
       "registry_name": "toasted_skewered_marshmallow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/spoonful_of_sugar/item/ToastedSkeweredMarshmallowItem.java",
-          "src/main/resources/assets/spoonful_of_sugar/models/item/toasted_skewered_marshmallow.json"
+          "src/main/resources/assets/spoonful_of_sugar/models/item/toasted_skewered_marshmallow.json",
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/ToastedSkeweredMarshmallowItem.java"
         ]
       },
       "path": "~/Smore"
@@ -153,7 +153,7 @@
           "src/main/java/net/mcreator/spoonful_of_sugar/potion/WhimsyMobEffect.java"
         ]
       },
-      "path": "~/Smore"
+      "path": "~/Effects"
     },
     {
       "name": "ApplyWhimsy",
@@ -173,18 +173,69 @@
           }
         ]
       },
-      "path": "~/Smore"
+      "path": "~/Effects"
+    },
+    {
+      "name": "BrainFreeze",
+      "type": "potioneffect",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_freeze",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spoonful_of_sugar/potion/BrainFreezeMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "ApplyBrainFreeze",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apply_brain_freeze",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spoonful_of_sugar/procedures/ApplyBrainFreezeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Milkshake",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milkshake",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spoonful_of_sugar/models/item/milkshake.json",
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/MilkshakeItem.java"
+        ]
+      },
+      "path": "~/Effects"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.spoonful_of_sugar.milkshake": "Milkshake",
       "item.justakritch.cooked_egg": "Cooked Egg",
       "fluid.justakritch.quicksand": "Quicksand",
       "item.justakritch.sling_shot": "Sling Shot",
       "block.justakritch.oil": "Oil",
       "effect.justakritch.whimsy": "Whimsy",
+      "effect.spoonful_of_sugar.brain_freeze": "Brain Freeze",
       "item_group.spoonful_of_sugar.just_a_kritch": "Just A Kritch",
       "item.justakritch.oil_bucket": "Oil Bucket",
       "item.justakritch.potion_of_glow": "Potion Of Glow",
@@ -214,6 +265,14 @@
       },
       {
         "name": "Smore",
+        "children": []
+      },
+      {
+        "name": "Milkshake",
+        "children": []
+      },
+      {
+        "name": "Effects",
         "children": []
       }
     ]
