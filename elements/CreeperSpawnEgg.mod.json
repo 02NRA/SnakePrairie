@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CANDLE"
+      },
+      {
+        "value": "Items.GHAST_TEAR"
+      },
+      {
+        "value": "Blocks.CANDLE"
+      },
+      {
+        "value": "Items.GHAST_TEAR"
+      },
+      {
+        "value": "Blocks.SKULL#4"
+      },
+      {
+        "value": "Items.GHAST_TEAR"
+      },
+      {
+        "value": "Items.CAKE"
+      },
+      {
+        "value": "Items.GHAST_TEAR"
+      },
+      {
+        "value": "Items.CAKE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SPAWN_EGG#50"
+    },
+    "name": "creeper_spawn_egg",
+    "namespace": "mod"
+  }
+}

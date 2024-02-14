@@ -1,0 +1,828 @@
+{
+  "mod_elements": [
+    {
+      "name": "JustAKritch",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "just_a_kritch",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Quicksand",
+      "type": "fluid",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quicksand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/justakritch/blockstates/quicksand.json",
+          "src/main/java/net/mcreator/justakritch/item/QuicksandItem.java",
+          "src/main/resources/assets/justakritch/models/block/quicksand.json",
+          "src/main/java/net/mcreator/justakritch/block/QuicksandBlock.java",
+          "src/main/java/net/mcreator/justakritch/fluid/QuicksandFluid.java",
+          "src/main/java/net/mcreator/justakritch/fluid/types/QuicksandFluidType.java",
+          "src/main/resources/assets/justakritch/models/item/quicksand_bucket.json"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "QuicksandBucketRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quicksand_bucket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/quicksand_bucket_recipe.json"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "SaddleRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/saddle_recipe.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Horse"
+    },
+    {
+      "name": "NameTagRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_tag_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/name_tag_recipe.json"
+        ]
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "WoolToString",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_to_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/wool_to_string.json"
+        ]
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "QuartzBlockToQuartzRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_block_to_quartz_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/quartz_block_to_quartz_recipe.json"
+        ]
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "EnderDragonSpawnEgg",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_dragon_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/ender_dragon_spawn_egg.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "MobSpawner",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_spawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/mob_spawner.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "CreeperSpawnEgg",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/creeper_spawn_egg.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "SkeletonSpawnEgg",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/skeleton_spawn_egg.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "ZombieSpawnEgg",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/zombie_spawn_egg.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "EnchantedGoldenAppleRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_golden_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/enchanted_golden_apple_recipe.json"
+        ]
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "IronHorseArmor",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_horse_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/iron_horse_armor.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Horse"
+    },
+    {
+      "name": "GoldHorseArmor",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_horse_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/gold_horse_armor.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Horse"
+    },
+    {
+      "name": "DiamondHorseArmor",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_horse_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/diamond_horse_armor.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Horse"
+    },
+    {
+      "name": "Shiv",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shiv",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/item/ShivItem.java",
+          "src/main/resources/assets/justakritch/models/item/shiv.json"
+        ]
+      },
+      "path": "~/Shiv"
+    },
+    {
+      "name": "ShivRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shiv_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/shiv_recipe.json"
+        ]
+      },
+      "path": "~/Shiv"
+    },
+    {
+      "name": "PotionOfGlow",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_glow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/justakritch/models/item/potion_of_glow.json",
+          "src/main/java/net/mcreator/justakritch/item/PotionOfGlowItem.java"
+        ]
+      },
+      "path": "~/GlowPotion"
+    },
+    {
+      "name": "PotionOfGlowRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_glow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/recipes/brewing/PotionOfGlowRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/GlowPotion"
+    },
+    {
+      "name": "GlowEffect",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/procedures/GlowEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GlowPotion"
+    },
+    {
+      "name": "CookedEgg",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/item/CookedEggItem.java",
+          "src/main/resources/assets/justakritch/models/item/cooked_egg.json"
+        ]
+      },
+      "path": "~/EdibleEgg"
+    },
+    {
+      "name": "CookedEggRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_egg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/cooked_egg_recipe.json"
+        ]
+      },
+      "path": "~/EdibleEgg"
+    },
+    {
+      "name": "Pebble",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/justakritch/models/item/pebble.json",
+          "src/main/java/net/mcreator/justakritch/item/PebbleItem.java"
+        ]
+      },
+      "path": "~/SlingShot"
+    },
+    {
+      "name": "PebbleRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/pebble_recipe.json"
+        ]
+      },
+      "path": "~/SlingShot"
+    },
+    {
+      "name": "PebbleToGravelRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble_to_gravel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/pebble_to_gravel_recipe.json"
+        ]
+      },
+      "path": "~/SlingShot"
+    },
+    {
+      "name": "PebbleProjectile",
+      "type": "projectile",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/entity/PebbleProjectileEntity.java"
+        ]
+      },
+      "path": "~/SlingShot"
+    },
+    {
+      "name": "SlingShot",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sling_shot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/justakritch/models/item/sling_shot.json",
+          "src/main/java/net/mcreator/justakritch/item/SlingShotItem.java"
+        ]
+      },
+      "path": "~/SlingShot"
+    },
+    {
+      "name": "SlingShotRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sling_shot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/sling_shot_recipe.json"
+        ]
+      },
+      "path": "~/SlingShot"
+    },
+    {
+      "name": "SkeweredMarshmallow",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_marshmallow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/justakritch/models/item/skewered_marshmallow.json",
+          "src/main/java/net/mcreator/justakritch/item/SkeweredMarshmallowItem.java"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "ToastedSkeweredMarshmallow",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toasted_skewered_marshmallow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/justakritch/models/item/toasted_skewered_marshmallow.json",
+          "src/main/java/net/mcreator/justakritch/item/ToastedSkeweredMarshmallowItem.java"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "Smore",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/item/SmoreItem.java",
+          "src/main/resources/assets/justakritch/models/item/smore.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "SkeweredMarshmallowRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skewered_marshmallow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/skewered_marshmallow_recipe.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "SmoreRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/smore_recipe.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "ToastSkewMarshRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toast_skew_marsh_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/toast_skew_marsh_recipe.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "SkewToastMarshToTorch",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skew_toast_marsh_to_torch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/skew_toast_marsh_to_torch.json"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "Whimsy",
+      "type": "potioneffect",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whimsy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/potion/WhimsyMobEffect.java"
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "ApplyWhimsy",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apply_whimsy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/procedures/ApplyWhimsyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Smore"
+    },
+    {
+      "name": "RottenFleshCompost",
+      "type": "itemextension",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotten_flesh_compost",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "GunpowderFuel",
+      "type": "itemextension",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunpowder_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "GrassBlockCompost",
+      "type": "itemextension",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_block_compost",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/justakritch/blockstates/oil.json",
+          "src/main/java/net/mcreator/justakritch/fluid/OilFluid.java",
+          "src/main/java/net/mcreator/justakritch/block/OilBlock.java",
+          "src/main/resources/assets/justakritch/models/item/oil_bucket.json",
+          "src/main/java/net/mcreator/justakritch/item/OilItem.java",
+          "src/main/resources/assets/justakritch/models/block/oil.json",
+          "src/main/java/net/mcreator/justakritch/fluid/types/OilFluidType.java"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "OilFuel",
+      "type": "itemextension",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "OilFuelFuelBurningSuccessCondition",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_fuel_fuel_burning_success_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/procedures/OilFuelFuelBurningSuccessConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "OilLanternRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_lantern_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/recipes/oil_lantern_recipe.json"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "CleanedGlassOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaned_glass_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/procedures/CleanedGlassOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CleanedGlass"
+    },
+    {
+      "name": "CleanedGlass",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaned_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/justakritch/block/CleanedGlassBlock.java",
+          "src/main/resources/assets/justakritch/models/block/cleaned_glass.json",
+          "src/main/resources/assets/justakritch/models/item/cleaned_glass.json",
+          "src/main/resources/assets/justakritch/blockstates/cleaned_glass.json"
+        ]
+      },
+      "path": "~/CleanedGlass"
+    },
+    {
+      "name": "CleanedGlassSilkTouch",
+      "type": "loottable",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaned_glass_silk_touch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/justakritch/loot_tables/blocks/cleaned_glass.json"
+        ]
+      },
+      "path": "~/CleanedGlass"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.justakritch.cooked_egg": "Cooked Egg",
+      "fluid.justakritch.quicksand": "Quicksand",
+      "item.justakritch.quicksand_bucket": "Quicksand Bucket",
+      "item.justakritch.sling_shot": "Sling Shot",
+      "block.justakritch.oil": "Oil",
+      "effect.justakritch.whimsy": "Whimsy",
+      "item.justakritch.toasted_skewered_marshmallow": "Toasted Skewered Marshmallow",
+      "item.justakritch.shiv": "Shiv",
+      "item.justakritch.oil_bucket": "Oil Bucket",
+      "block.justakritch.quicksand": "Quicksand",
+      "item.justakritch.potion_of_glow": "Potion Of Glow",
+      "item_group.justakritch.just_a_kritch": "Just A Kritch",
+      "block.justakritch.cleaned_glass": "Cleaned Glass",
+      "item.justakritch.smore": "Smore",
+      "fluid.justakritch.oil": "Oil",
+      "item.justakritch.pebble": "Pebble",
+      "item.justakritch.skewered_marshmallow": "Skewered Marshmallow"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "EdibleEgg",
+        "children": []
+      },
+      {
+        "name": "SlingShot",
+        "children": []
+      },
+      {
+        "name": "VanillaRecipes",
+        "children": [
+          {
+            "name": "Spawning",
+            "children": []
+          },
+          {
+            "name": "Horse",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Smore",
+        "children": []
+      },
+      {
+        "name": "Shiv",
+        "children": []
+      },
+      {
+        "name": "GlowPotion",
+        "children": []
+      },
+      {
+        "name": "Fluids",
+        "children": []
+      },
+      {
+        "name": "CleanedGlass",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "justakritch",
+    "modName": "JustAKritch",
+    "version": "0.3.2",
+    "author": "Kritcharon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.justakritch",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
