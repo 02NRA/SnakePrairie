@@ -1,5 +1,5 @@
 # Enriched Vanilla: Recipes
-Current mod version: 1.1.0
+Current mod version: 1.0.0
 
 For MC version: 1.20.1
 
