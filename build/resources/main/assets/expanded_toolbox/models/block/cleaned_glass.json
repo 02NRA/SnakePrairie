@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "expanded_toolbox:block/cleanedglass",
+    "up": "expanded_toolbox:block/cleanedglass",
+    "north": "expanded_toolbox:block/cleanedglass",
+    "east": "expanded_toolbox:block/cleanedglass",
+    "south": "expanded_toolbox:block/cleanedglass",
+    "west": "expanded_toolbox:block/cleanedglass",
+    "particle": "expanded_toolbox:block/cleanedglass"
+  },
+  "render_type": "cutout"
+}
