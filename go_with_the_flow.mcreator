@@ -1,0 +1,175 @@
+{
+  "mod_elements": [
+    {
+      "name": "JustAKritch",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "just_a_kritch",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Quicksand",
+      "type": "fluid",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quicksand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/go_with_the_flow/blockstates/quicksand.json",
+          "src/main/java/net/mcreator/go_with_the_flow/item/QuicksandItem.java",
+          "src/main/resources/assets/go_with_the_flow/models/item/quicksand_bucket.json",
+          "src/main/java/net/mcreator/go_with_the_flow/fluid/QuicksandFluid.java",
+          "src/main/java/net/mcreator/go_with_the_flow/block/QuicksandBlock.java",
+          "src/main/java/net/mcreator/go_with_the_flow/fluid/types/QuicksandFluidType.java",
+          "src/main/resources/assets/go_with_the_flow/models/block/quicksand.json"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "QuicksandBucketRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quicksand_bucket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/go_with_the_flow/recipes/quicksand_bucket_recipe.json"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/go_with_the_flow/item/OilItem.java",
+          "src/main/resources/assets/go_with_the_flow/models/item/oil_bucket.json",
+          "src/main/java/net/mcreator/go_with_the_flow/fluid/OilFluid.java",
+          "src/main/java/net/mcreator/go_with_the_flow/block/OilBlock.java",
+          "src/main/java/net/mcreator/go_with_the_flow/fluid/types/OilFluidType.java",
+          "src/main/resources/assets/go_with_the_flow/blockstates/oil.json",
+          "src/main/resources/assets/go_with_the_flow/models/block/oil.json"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "OilFuel",
+      "type": "itemextension",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "OilFuelFuelBurningSuccessCondition",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_fuel_fuel_burning_success_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/go_with_the_flow/procedures/OilFuelFuelBurningSuccessConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "OilLanternRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_lantern_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/go_with_the_flow/recipes/oil_lantern_recipe.json"
+        ]
+      },
+      "path": "~/Fluids"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "fluid.justakritch.quicksand": "Quicksand",
+      "item.justakritch.quicksand_bucket": "Quicksand Bucket",
+      "block.justakritch.oil": "Oil",
+      "block.go_with_the_flow.oil": "Oil",
+      "item.go_with_the_flow.oil_bucket": "Oil Bucket",
+      "item.justakritch.oil_bucket": "Oil Bucket",
+      "fluid.go_with_the_flow.quicksand": "Quicksand",
+      "block.justakritch.quicksand": "Quicksand",
+      "item_group.go_with_the_flow.just_a_kritch": "Go with the Flow",
+      "item.go_with_the_flow.quicksand_bucket": "Quicksand Bucket",
+      "item_group.justakritch.just_a_kritch": "Go with the Flow",
+      "fluid.justakritch.oil": "Oil",
+      "block.go_with_the_flow.quicksand": "Quicksand",
+      "fluid.go_with_the_flow.oil": "Oil"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Fluids",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "go_with_the_flow",
+    "modName": "go_with_the_flow",
+    "version": "1.0.0",
+    "author": "Kritcharon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.go_with_the_flow",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,16 @@
+{
+  "fluid.justakritch.quicksand": "Quicksand",
+  "item.justakritch.quicksand_bucket": "Quicksand Bucket",
+  "block.justakritch.oil": "Oil",
+  "block.go_with_the_flow.oil": "Oil",
+  "item.go_with_the_flow.oil_bucket": "Oil Bucket",
+  "item.justakritch.oil_bucket": "Oil Bucket",
+  "fluid.go_with_the_flow.quicksand": "Quicksand",
+  "block.justakritch.quicksand": "Quicksand",
+  "item_group.go_with_the_flow.just_a_kritch": "Go with the Flow",
+  "item.go_with_the_flow.quicksand_bucket": "Quicksand Bucket",
+  "item_group.justakritch.just_a_kritch": "Go with the Flow",
+  "fluid.justakritch.oil": "Oil",
+  "block.go_with_the_flow.quicksand": "Quicksand",
+  "fluid.go_with_the_flow.oil": "Oil"
+}

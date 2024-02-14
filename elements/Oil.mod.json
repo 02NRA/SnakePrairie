@@ -1,0 +1,45 @@
+{
+  "_fv": 57,
+  "_type": "fluid",
+  "definition": {
+    "name": "Oil",
+    "bucketName": "Oil Bucket",
+    "textureStill": "oil_still",
+    "textureFlowing": "oil",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 10,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "SQUID_INK"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "CUSTOM:JustAKritch"
+    },
+    "emptySound": {
+      "value": "block.lava.ambient"
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 50.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 6,
+    "fireSpreadSpeed": 2,
+    "colorOnMap": "DEFAULT"
+  }
+}
