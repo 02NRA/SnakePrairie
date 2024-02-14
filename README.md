@@ -2,7 +2,8 @@
 The name of this mod is a reference to the song from Mary Poppins.
 
 Current mod version: 1.1.0
-For MC: 1.20.1
+
+For MC version: 1.20.1
 
 ## Contents
 - Finally, cook and eat an egg!
