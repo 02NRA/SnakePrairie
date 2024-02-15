@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.go_with_the_flow.block.QuicksandBlock;
+import net.mcreator.go_with_the_flow.block.OilShaleBlock;
 import net.mcreator.go_with_the_flow.block.OilBlock;
 import net.mcreator.go_with_the_flow.GoWithTheFlowMod;
 
@@ -18,4 +19,5 @@ public class GoWithTheFlowModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, GoWithTheFlowMod.MODID);
 	public static final RegistryObject<Block> QUICKSAND = REGISTRY.register("quicksand", () -> new QuicksandBlock());
 	public static final RegistryObject<Block> OIL = REGISTRY.register("oil", () -> new OilBlock());
+	public static final RegistryObject<Block> OIL_SHALE = REGISTRY.register("oil_shale", () -> new OilShaleBlock());
 }

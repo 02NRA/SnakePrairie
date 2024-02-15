@@ -21,5 +21,6 @@ public class GoWithTheFlowModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.go_with_the_flow.just_a_kritch")).icon(() -> new ItemStack(Blocks.COMMAND_BLOCK)).displayItems((parameters, tabData) -> {
 				tabData.accept(GoWithTheFlowModItems.QUICKSAND_BUCKET.get());
 				tabData.accept(GoWithTheFlowModItems.OIL_BUCKET.get());
+				tabData.accept(GoWithTheFlowModBlocks.OIL_SHALE.get().asItem());
 			}).withSearchBar().build());
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "go_with_the_flow:block/oilshale",
+    "up": "go_with_the_flow:block/oilshale",
+    "north": "go_with_the_flow:block/oilshale",
+    "east": "go_with_the_flow:block/oilshale",
+    "south": "go_with_the_flow:block/oilshale",
+    "west": "go_with_the_flow:block/oilshale",
+    "particle": "go_with_the_flow:block/oilshale"
+  },
+  "render_type": "solid"
+}
