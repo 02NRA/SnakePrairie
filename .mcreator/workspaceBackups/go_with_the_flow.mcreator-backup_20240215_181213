@@ -204,6 +204,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -239,6 +243,20 @@
           "src/main/resources/data/go_with_the_flow/forge/biome_modifier/oil_shale_biome_modifier.json",
           "src/main/resources/data/go_with_the_flow/worldgen/placed_feature/oil_shale.json",
           "src/main/resources/assets/go_with_the_flow/models/block/oil_shale.json"
+        ]
+      },
+      "path": "~/Oil"
+    },
+    {
+      "name": "OilShaleSilkTouch",
+      "type": "loottable",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_shale_silk_touch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/go_with_the_flow/loot_tables/blocks/oil_shale.json"
         ]
       },
       "path": "~/Oil"
@@ -281,7 +299,7 @@
   "workspaceSettings": {
     "modid": "go_with_the_flow",
     "modName": "go_with_the_flow",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

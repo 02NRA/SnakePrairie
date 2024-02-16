@@ -1,7 +1,6 @@
 
 package net.mcreator.go_with_the_flow.block;
 
-import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -24,11 +23,10 @@ import net.mcreator.go_with_the_flow.procedures.OilShaleBlockDestroyedByPlayerPr
 import net.mcreator.go_with_the_flow.procedures.OilShaleBlockDestroyedByExplosionProcedure;
 
 import java.util.List;
-import java.util.Collections;
 
 public class OilShaleBlock extends Block {
 	public OilShaleBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.BASALT).strength(1f, 10f).requiresCorrectToolForDrops().pushReaction(PushReaction.DESTROY));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.BASALT).strength(1.25f, 2f).requiresCorrectToolForDrops().pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override
@@ -49,17 +47,9 @@ public class OilShaleBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
-	}
-
-	@Override
 	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		OilShaleBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		OilShaleBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 		return retval;
 	}
 

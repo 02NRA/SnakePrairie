@@ -154,6 +154,112 @@
         ]
       },
       "path": "~/Oil"
+    },
+    {
+      "name": "OilShaleOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_shale_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/go_with_the_flow/procedures/OilShaleOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Oil"
+    },
+    {
+      "name": "OilShaleBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_shale_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/go_with_the_flow/procedures/OilShaleBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Oil"
+    },
+    {
+      "name": "OilShale",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_shale",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/go_with_the_flow/block/OilShaleBlock.java",
+          "src/main/resources/assets/go_with_the_flow/models/item/oil_shale.json",
+          "src/main/resources/data/go_with_the_flow/worldgen/configured_feature/oil_shale.json",
+          "src/main/resources/assets/go_with_the_flow/blockstates/oil_shale.json",
+          "src/main/resources/data/go_with_the_flow/forge/biome_modifier/oil_shale_biome_modifier.json",
+          "src/main/resources/data/go_with_the_flow/worldgen/placed_feature/oil_shale.json",
+          "src/main/resources/assets/go_with_the_flow/models/block/oil_shale.json"
+        ]
+      },
+      "path": "~/Oil"
+    },
+    {
+      "name": "OilShaleSilkTouch",
+      "type": "loottable",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_shale_silk_touch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/go_with_the_flow/loot_tables/blocks/oil_shale.json"
+        ]
+      },
+      "path": "~/Oil"
     }
   ],
   "variable_elements": [],
@@ -171,6 +277,7 @@
       "item_group.go_with_the_flow.just_a_kritch": "Go with the Flow",
       "item.go_with_the_flow.quicksand_bucket": "Quicksand Bucket",
       "item_group.justakritch.just_a_kritch": "Go with the Flow",
+      "block.go_with_the_flow.oil_shale": "Oil Shale",
       "fluid.justakritch.oil": "Oil",
       "block.go_with_the_flow.quicksand": "Quicksand",
       "fluid.go_with_the_flow.oil": "Oil"
@@ -192,7 +299,7 @@
   "workspaceSettings": {
     "modid": "go_with_the_flow",
     "modName": "go_with_the_flow",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
