@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "large_quicksand_pit",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 10,
+    "separation": 6,
+    "restrictionBiomes": [
+      {
+        "value": "desert"
+      }
+    ],
+    "surfaceDetectionType": "MOTION_BLOCKING",
+    "terrainAdaptation": "bury",
+    "generationStep": "FLUID_SPRINGS"
+  }
+}

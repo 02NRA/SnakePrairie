@@ -260,6 +260,22 @@
         ]
       },
       "path": "~/Oil"
+    },
+    {
+      "name": "SmallQuicksandPit",
+      "type": "structure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_quicksand_pit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/go_with_the_flow/worldgen/structure/small_quicksand_pit.json",
+          "src/main/resources/data/go_with_the_flow/worldgen/structure_set/small_quicksand_pit.json",
+          "src/main/resources/data/go_with_the_flow/worldgen/template_pool/small_quicksand_pit.json"
+        ]
+      },
+      "path": "~/Quicksand"
     }
   ],
   "variable_elements": [],
@@ -299,7 +315,7 @@
   "workspaceSettings": {
     "modid": "go_with_the_flow",
     "modName": "go_with_the_flow",
-    "version": "1.1.2",
+    "version": "1.1.4",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

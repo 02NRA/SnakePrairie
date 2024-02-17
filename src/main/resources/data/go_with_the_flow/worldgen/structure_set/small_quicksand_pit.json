@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "go_with_the_flow:small_quicksand_pit",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 7,
+    "separation": 5,
+    "salt": 1168076447
+  }
+}

@@ -148,15 +148,15 @@ Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/b
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getBucket()Lnet/minecraft/world/item/Item; from net/minecraft/world/level/material/Fluid/getBucket()Lnet/minecraft/world/item/Item;: getBucket -> m_6859_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/material/Fluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z: canBeReplacedWith -> m_5486_
 Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/OilFluid/getDripParticle()Lnet/minecraft/core/particles/ParticleOptions; from net/minecraft/world/level/material/Fluid/getDripParticle()Lnet/minecraft/core/particles/ParticleOptions;: getDripParticle -> m_7792_
-Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/QuicksandFluid$Flowing/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
 Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/QuicksandFluid$Source/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
-Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/QuicksandFluid$Flowing/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/material/FlowingFluid/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createFluidStateDefinition -> m_7180_
+Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/QuicksandFluid$Flowing/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
 Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/OilFluid$Source/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
-Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/QuicksandFluid$Flowing/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/QuicksandFluid$Source/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
 Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/OilFluid$Flowing/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
 Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/OilFluid$Source/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
-Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/QuicksandFluid$Source/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/QuicksandFluid$Flowing/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/material/FlowingFluid/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createFluidStateDefinition -> m_7180_
 Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/OilFluid$Flowing/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/material/FlowingFluid/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createFluidStateDefinition -> m_7180_
+Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/QuicksandFluid$Flowing/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
 Conflicting propagated mapping for net/mcreator/go_with_the_flow/fluid/OilFluid$Flowing/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
 Conflicting propagated mapping for net/mcreator/go_with_the_flow/item/OilItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/go_with_the_flow/item/QuicksandItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
@@ -221,11 +221,23 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\SnakePrairie\build\reobfJ
   data/go_with_the_flow/recipes/
   data/go_with_the_flow/recipes/oil_lantern_recipe.json
   data/go_with_the_flow/recipes/quicksand_bucket_recipe.json
+  data/go_with_the_flow/structures/
+  data/go_with_the_flow/structures/large_quicksand_pit.nbt
+  data/go_with_the_flow/structures/small_quicksand_pit.nbt
   data/go_with_the_flow/worldgen/
   data/go_with_the_flow/worldgen/configured_feature/
   data/go_with_the_flow/worldgen/configured_feature/oil_shale.json
   data/go_with_the_flow/worldgen/placed_feature/
   data/go_with_the_flow/worldgen/placed_feature/oil_shale.json
+  data/go_with_the_flow/worldgen/structure/
+  data/go_with_the_flow/worldgen/structure/large_quicksand_pit.json
+  data/go_with_the_flow/worldgen/structure/small_quicksand_pit.json
+  data/go_with_the_flow/worldgen/structure_set/
+  data/go_with_the_flow/worldgen/structure_set/large_quicksand_pit.json
+  data/go_with_the_flow/worldgen/structure_set/small_quicksand_pit.json
+  data/go_with_the_flow/worldgen/template_pool/
+  data/go_with_the_flow/worldgen/template_pool/large_quicksand_pit.json
+  data/go_with_the_flow/worldgen/template_pool/small_quicksand_pit.json
   data/minecraft/
   data/minecraft/tags/
   data/minecraft/tags/blocks/
