@@ -167,12 +167,22 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\SnakePrairie\build\reobfJ
   data/
   data/enrichedvanillarecipes/
   data/enrichedvanillarecipes/recipes/
+  data/enrichedvanillarecipes/recipes/anvils_melt.json
+  data/enrichedvanillarecipes/recipes/cauldrons_melt.json
+  data/enrichedvanillarecipes/recipes/chains_melt.json
   data/enrichedvanillarecipes/recipes/creeper_spawn_egg.json
   data/enrichedvanillarecipes/recipes/diamond_horse_armor.json
   data/enrichedvanillarecipes/recipes/enchanted_golden_apple_recipe.json
   data/enrichedvanillarecipes/recipes/ender_dragon_spawn_egg.json
   data/enrichedvanillarecipes/recipes/gold_horse_armor.json
+  data/enrichedvanillarecipes/recipes/gold_pressure_plates_melt.json
+  data/enrichedvanillarecipes/recipes/iron_bars_melt.json
+  data/enrichedvanillarecipes/recipes/iron_doors_melt.json
   data/enrichedvanillarecipes/recipes/iron_horse_armor.json
+  data/enrichedvanillarecipes/recipes/iron_pressure_plates_melt.json
+  data/enrichedvanillarecipes/recipes/iron_trapdoors_melt.json
+  data/enrichedvanillarecipes/recipes/lightning_rods_melt.json
+  data/enrichedvanillarecipes/recipes/minecarts_melt.json
   data/enrichedvanillarecipes/recipes/mob_spawner.json
   data/enrichedvanillarecipes/recipes/name_tag_recipe.json
   data/enrichedvanillarecipes/recipes/quartz_block_to_quartz_recipe.json
@@ -184,4 +194,7 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\SnakePrairie\build\reobfJ
   net/mcreator/
   net/mcreator/enrichedvanillarecipes/
   net/mcreator/enrichedvanillarecipes/EnrichedvanillarecipesMod.class
+  net/mcreator/enrichedvanillarecipes/init/
+  net/mcreator/enrichedvanillarecipes/init/EnrichedvanillarecipesModCompostableItems.class
+  net/mcreator/enrichedvanillarecipes/init/EnrichedvanillarecipesModFuels.class
   pack.mcmeta

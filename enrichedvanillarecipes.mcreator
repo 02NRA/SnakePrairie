@@ -1,17 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "JustAKritch",
-      "type": "tab",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "just_a_kritch",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "SaddleRecipe",
       "type": "recipe",
       "sortid": 4,
@@ -192,13 +181,176 @@
         ]
       },
       "path": "~/VanillaRecipes/Horse"
+    },
+    {
+      "name": "GunPowderFuel",
+      "type": "itemextension",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun_powder_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "GrassBlockCompost",
+      "type": "itemextension",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_block_compost",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "IronBarsMelt",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bars_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/iron_bars_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "IronDoorsMelt",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_doors_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/iron_doors_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "IronTrapdoorsMelt",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_trapdoors_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/iron_trapdoors_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "IronPressurePlatesMelt",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_pressure_plates_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/iron_pressure_plates_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "GoldPressurePlatesMelt",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_pressure_plates_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/gold_pressure_plates_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "AnvilsMelt",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvils_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/anvils_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "LightningRodsMelt",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_rods_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/lightning_rods_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "CauldronsMelt",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cauldrons_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/cauldrons_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "MinecartsMelt",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecarts_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/minecarts_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "ChainsMelt",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chains_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/chains_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item_group.enrichedvanillarecipes.just_a_kritch": "Just A Kritch",
       "item_group.justakritch.just_a_kritch": "Just A Kritch"
     }
   },
@@ -217,13 +369,17 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Meltdown",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "enrichedvanillarecipes",
     "modName": "enriched_vanilla-recipes",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

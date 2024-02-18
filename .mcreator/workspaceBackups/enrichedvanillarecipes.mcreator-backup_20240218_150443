@@ -1,0 +1,300 @@
+{
+  "mod_elements": [
+    {
+      "name": "SaddleRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/saddle_recipe.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Horse"
+    },
+    {
+      "name": "NameTagRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_tag_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/name_tag_recipe.json"
+        ]
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "WoolToString",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_to_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/wool_to_string.json"
+        ]
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "QuartzBlockToQuartzRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_block_to_quartz_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/quartz_block_to_quartz_recipe.json"
+        ]
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "EnderDragonSpawnEgg",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_dragon_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/ender_dragon_spawn_egg.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "MobSpawner",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_spawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/mob_spawner.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "CreeperSpawnEgg",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/creeper_spawn_egg.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "SkeletonSpawnEgg",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/skeleton_spawn_egg.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "ZombieSpawnEgg",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/zombie_spawn_egg.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Spawning"
+    },
+    {
+      "name": "EnchantedGoldenAppleRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_golden_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/enchanted_golden_apple_recipe.json"
+        ]
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "IronHorseArmor",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_horse_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/iron_horse_armor.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Horse"
+    },
+    {
+      "name": "GoldHorseArmor",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_horse_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/gold_horse_armor.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Horse"
+    },
+    {
+      "name": "DiamondHorseArmor",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_horse_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/diamond_horse_armor.json"
+        ]
+      },
+      "path": "~/VanillaRecipes/Horse"
+    },
+    {
+      "name": "GunPowderFuel",
+      "type": "itemextension",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun_powder_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "GrassBlockCompost",
+      "type": "itemextension",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_block_compost",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "IronBarsMelt",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bars_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/iron_bars_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "IronDoorsMelt",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_doors_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/iron_doors_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "IronTrapdoorsMelt",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_trapdoors_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipes/iron_trapdoors_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.justakritch.just_a_kritch": "Just A Kritch"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "VanillaRecipes",
+        "children": [
+          {
+            "name": "Spawning",
+            "children": []
+          },
+          {
+            "name": "Horse",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Meltdown",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "enrichedvanillarecipes",
+    "modName": "enriched_vanilla-recipes",
+    "version": "1.0.0",
+    "author": "Kritcharon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.enrichedvanillarecipes",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
