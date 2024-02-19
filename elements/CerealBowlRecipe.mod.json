@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.GLASS_BOTTLE"
-      },
-      {
-        "value": "Blocks.SNOW"
-      },
-      {
-        "value": "Items.GLASS_BOTTLE"
+        "value": "Items.BOWL"
       },
       {
         "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": "Items.WHEAT"
       },
       {
         "value": "Items.MILK_BUCKET"
       },
       {
-        "value": "Items.SUGAR"
+        "value": "Blocks.WHEAT"
       },
       {
-        "value": "Items.GLASS_BOTTLE"
+        "value": "Items.BOWL"
       },
       {
-        "value": "Items.SUGAR"
+        "value": "Blocks.WHEAT"
       },
       {
-        "value": "Items.GLASS_BOTTLE"
+        "value": "Items.BOWL"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Milkshake"
+      "value": "CUSTOM:CerealBowl"
     },
-    "name": "milkshake_recipe",
+    "name": "cereal_bowl_recipe",
     "namespace": "mod"
   }
 }

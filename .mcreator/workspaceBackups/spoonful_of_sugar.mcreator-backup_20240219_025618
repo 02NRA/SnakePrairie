@@ -49,8 +49,8 @@
       "registry_name": "skewered_marshmallow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/spoonful_of_sugar/models/item/skewered_marshmallow.json",
-          "src/main/java/net/mcreator/spoonful_of_sugar/item/SkeweredMarshmallowItem.java"
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/SkeweredMarshmallowItem.java",
+          "src/main/resources/assets/spoonful_of_sugar/models/item/skewered_marshmallow.json"
         ]
       },
       "path": "~/Smore"
@@ -64,8 +64,8 @@
       "registry_name": "toasted_skewered_marshmallow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/spoonful_of_sugar/item/ToastedSkeweredMarshmallowItem.java",
-          "src/main/resources/assets/spoonful_of_sugar/models/item/toasted_skewered_marshmallow.json"
+          "src/main/resources/assets/spoonful_of_sugar/models/item/toasted_skewered_marshmallow.json",
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/ToastedSkeweredMarshmallowItem.java"
         ]
       },
       "path": "~/Smore"
@@ -153,7 +153,7 @@
           "src/main/java/net/mcreator/spoonful_of_sugar/potion/WhimsyMobEffect.java"
         ]
       },
-      "path": "~/Effects"
+      "path": "~/Smore"
     },
     {
       "name": "ApplyWhimsy",
@@ -173,7 +173,7 @@
           }
         ]
       },
-      "path": "~/Effects"
+      "path": "~/Smore"
     },
     {
       "name": "BrainFreeze",
@@ -187,7 +187,7 @@
           "src/main/java/net/mcreator/spoonful_of_sugar/potion/BrainFreezeMobEffect.java"
         ]
       },
-      "path": "~/Effects"
+      "path": "~/Milkshake"
     },
     {
       "name": "ApplyBrainFreeze",
@@ -207,20 +207,106 @@
           }
         ]
       },
-      "path": "~/Effects"
+      "path": "~/Milkshake"
+    },
+    {
+      "name": "Milkshake",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milkshake",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spoonful_of_sugar/models/item/milkshake.json",
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/MilkshakeItem.java"
+        ]
+      },
+      "path": "~/Milkshake"
+    },
+    {
+      "name": "MilkshakeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milkshake_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/milkshake_recipe.json"
+        ]
+      },
+      "path": "~/Milkshake"
+    },
+    {
+      "name": "AltCookieRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_cookie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/alt_cookie_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AltCookieRecipe2",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_cookie_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/alt_cookie_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "CerealBowl",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cereal_bowl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spoonful_of_sugar/item/CerealBowlItem.java",
+          "src/main/resources/assets/spoonful_of_sugar/models/item/cereal_bowl.json"
+        ]
+      },
+      "path": "~/Cereal"
+    },
+    {
+      "name": "CerealBowlRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cereal_bowl_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spoonful_of_sugar/recipes/cereal_bowl_recipe.json"
+        ]
+      },
+      "path": "~/Cereal"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.spoonful_of_sugar.milkshake": "Milkshake",
       "item.justakritch.cooked_egg": "Cooked Egg",
       "fluid.justakritch.quicksand": "Quicksand",
       "item.justakritch.sling_shot": "Sling Shot",
       "block.justakritch.oil": "Oil",
       "effect.justakritch.whimsy": "Whimsy",
+      "item.spoonful_of_sugar.cereal_bowl": "Cereal Bowl",
       "effect.spoonful_of_sugar.brain_freeze": "Brain Freeze",
-      "item_group.spoonful_of_sugar.just_a_kritch": "Just A Kritch",
+      "item_group.spoonful_of_sugar.just_a_kritch": "Spoonful of Sugar",
       "item.justakritch.oil_bucket": "Oil Bucket",
       "item.justakritch.potion_of_glow": "Potion Of Glow",
       "effect.spoonful_of_sugar.whimsy": "Whimsy",
@@ -256,15 +342,15 @@
         "children": []
       },
       {
-        "name": "Effects",
+        "name": "Cereal",
         "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "spoonful_of_sugar",
-    "modName": "Spoonful_of_sugar",
-    "version": "1.0.0",
+    "modName": "spoonful_of_sugar",
+    "version": "1.2.1",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

@@ -3,25 +3,28 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "cdc",
-    "aca"
+    "cde",
+    "aea"
   ],
   "key": {
     "a": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:bowl"
     },
     "b": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:sugar"
     },
     "c": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:wheat"
     },
     "d": {
       "item": "minecraft:milk_bucket"
+    },
+    "e": {
+      "item": "minecraft:wheat"
     }
   },
   "result": {
-    "item": "spoonful_of_sugar:milkshake",
+    "item": "spoonful_of_sugar:cereal_bowl",
     "count": 4
   }
 }
