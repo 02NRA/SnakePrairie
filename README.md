@@ -1,4 +1,4 @@
-# Go with the Flow
+# The New World
 Current mod version: 1.0.1
 
 For MC version: 1.20.1
