@@ -29,12 +29,62 @@
           "src/main/resources/data/the_new_world/worldgen/structure/enderman_castle_dark.json"
         ]
       }
+    },
+    {
+      "name": "AstralPlanesBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_planes_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_new_world/worldgen/biome/astral_planes_biome.json"
+        ]
+      }
+    },
+    {
+      "name": "AstralPlane",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_plane",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_new_world/dimension_type/astral_plane.json",
+          "src/main/resources/data/the_new_world/dimension/astral_plane.json",
+          "src/main/java/net/mcreator/thenewworld/world/dimension/AstralPlaneDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "AstralPlaneEntrance",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_plane_entrance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/procedures/AstralPlaneEntranceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.the_new_world.astral_planes_biome": "Astral Planes Biome"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -43,7 +93,7 @@
   "workspaceSettings": {
     "modid": "the_new_world",
     "modName": "the_new_world",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
@@ -54,6 +104,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thenewworld",
     "lockBaseModFiles": false
   },

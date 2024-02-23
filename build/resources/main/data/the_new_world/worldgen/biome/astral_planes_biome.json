@@ -1,0 +1,54 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.1,
+  "downfall": 0.1,
+  "effects": {
+    "particle": {
+      "options": {
+        "type": "enchant"
+      },
+      "probability": 0.005
+    },
+    "foliage_color": -12225688,
+    "grass_color": -12225688,
+    "sky_color": -12225688,
+    "fog_color": -12225688,
+    "water_color": -12225688,
+    "water_fog_color": -12225688
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

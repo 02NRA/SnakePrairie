@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bedrock",
+    "minecraft:sculk",
+    "minecraft:crying_obsidian"
+  ]
+}
