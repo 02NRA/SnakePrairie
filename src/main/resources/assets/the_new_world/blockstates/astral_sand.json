@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_new_world:block/astral_sand"
+    },
+    "facing=east": {
+      "model": "the_new_world:block/astral_sand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_new_world:block/astral_sand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_new_world:block/astral_sand",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "the_new_world:block/astral_sand",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "the_new_world:block/astral_sand",
+      "x": 90
+    }
+  }
+}

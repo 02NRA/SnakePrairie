@@ -414,7 +414,10 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:sculk"
+                              "Name": "the_new_world:astral_sand",
+                              "Properties": {
+                                "facing": "north"
+                              }
                             }
                           }
                         },

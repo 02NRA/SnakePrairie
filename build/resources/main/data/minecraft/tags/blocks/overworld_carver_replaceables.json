@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:bedrock",
-    "minecraft:sculk",
+    "the_new_world:astral_sand",
     "minecraft:crying_obsidian"
   ]
 }

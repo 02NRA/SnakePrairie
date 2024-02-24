@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.thenewworld.init.TheNewWorldModItems;
+import net.mcreator.thenewworld.init.TheNewWorldModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,10 @@ public class TheNewWorldMod {
 	public TheNewWorldMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		TheNewWorldModBlocks.REGISTRY.register(bus);
+
+		TheNewWorldModItems.REGISTRY.register(bus);
 
 	}
 

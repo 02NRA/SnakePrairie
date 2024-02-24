@@ -15,16 +15,19 @@
       "value": "Blocks.VOID_AIR"
     },
     "airColor": {
-      "value": -12225688,
+      "value": -16777216,
       "falpha": 0.0
     },
     "canRespawnHere": false,
     "hasFog": true,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "AstralPlaneAmbiant"
+    },
     "portalFrame": {
       "value": ""
     },

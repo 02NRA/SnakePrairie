@@ -4,7 +4,7 @@
   "definition": {
     "name": "Astral Planes Biome",
     "groundBlock": {
-      "value": "Blocks.SCULK"
+      "value": "CUSTOM:AstralSand"
     },
     "undergroundBlock": {
       "value": "Blocks.CRYING_OBSIDIAN"
@@ -13,23 +13,23 @@
       "value": ""
     },
     "airColor": {
-      "value": -12225688,
+      "value": -16777216,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -12225688,
+      "value": -16777216,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -12225688,
+      "value": -16777216,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -12225688,
+      "value": -16777216,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -12225688,
+      "value": -16777216,
       "falpha": 0.0
     },
     "ambientSound": {

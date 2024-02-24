@@ -13,7 +13,8 @@
           "src/main/resources/data/the_new_world/worldgen/template_pool/enderman_castle_light.json",
           "src/main/resources/data/the_new_world/worldgen/structure_set/enderman_castle_light.json"
         ]
-      }
+      },
+      "path": "~/Structures"
     },
     {
       "name": "EndermanCastleDark",
@@ -28,7 +29,8 @@
           "src/main/resources/data/the_new_world/worldgen/structure_set/enderman_castle_dark.json",
           "src/main/resources/data/the_new_world/worldgen/structure/enderman_castle_dark.json"
         ]
-      }
+      },
+      "path": "~/Structures"
     },
     {
       "name": "AstralPlanesBiome",
@@ -40,7 +42,8 @@
         "files": [
           "src/main/resources/data/the_new_world/worldgen/biome/astral_planes_biome.json"
         ]
-      }
+      },
+      "path": "~/AstralPlane"
     },
     {
       "name": "AstralPlane",
@@ -54,7 +57,8 @@
           "src/main/resources/data/the_new_world/dimension/astral_plane.json",
           "src/main/java/net/mcreator/thenewworld/world/dimension/AstralPlaneDimension.java"
         ]
-      }
+      },
+      "path": "~/AstralPlane"
     },
     {
       "name": "AstralPlaneEntrance",
@@ -73,11 +77,24 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AstralPlane"
     },
     {
       "name": "AstralPlaneExit",
@@ -96,24 +113,120 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralPlaneAmbiant",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_plane_ambiant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/procedures/AstralPlaneAmbiantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralSandBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_sand_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/procedures/AstralSandBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralSand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_new_world/blockstates/astral_sand.json",
+          "src/main/java/net/mcreator/thenewworld/block/AstralSandBlock.java",
+          "src/main/resources/assets/the_new_world/models/block/astral_sand.json",
+          "src/main/resources/assets/the_new_world/models/item/astral_sand.json"
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralSandDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_sand_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_new_world/loot_tables/blocks/astral_sand.json"
+        ]
+      },
+      "path": "~/AstralPlane"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.the_new_world.astral_planes_biome": "Astral Planes Biome"
+      "biome.the_new_world.astral_planes_biome": "Astral Planes Biome",
+      "block.the_new_world.astral_sand": "Astral Sand"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "AstralPlane",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "the_new_world",
     "modName": "the_new_world",
-    "version": "1.1.1",
+    "version": "1.1.12",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

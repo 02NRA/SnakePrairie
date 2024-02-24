@@ -134,8 +134,6 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\Kritcharon\MCreatorWorkspaces\SnakePrairie\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/mcreator/thenewworld/world/dimension/AstralPlaneDimension$DimensionSpecialEffectsHandler$1/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3; from net/minecraft/client/renderer/DimensionSpecialEffects/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;: getBrightnessDependentFogColor -> m_5927_
-Conflicting propagated mapping for net/mcreator/thenewworld/world/dimension/AstralPlaneDimension$DimensionSpecialEffectsHandler$1/isFoggyAt(II)Z from net/minecraft/client/renderer/DimensionSpecialEffects/isFoggyAt(II)Z: isFoggyAt -> m_5781_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
@@ -145,8 +143,18 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\SnakePrairie\build\reobfJ
   META-INF/mods.toml
   assets/
   assets/the_new_world/
+  assets/the_new_world/blockstates/
+  assets/the_new_world/blockstates/astral_sand.json
   assets/the_new_world/lang/
   assets/the_new_world/lang/en_us.json
+  assets/the_new_world/models/
+  assets/the_new_world/models/block/
+  assets/the_new_world/models/block/astral_sand.json
+  assets/the_new_world/models/item/
+  assets/the_new_world/models/item/astral_sand.json
+  assets/the_new_world/textures/
+  assets/the_new_world/textures/block/
+  assets/the_new_world/textures/block/end_portal.png
   data/
   data/minecraft/
   data/minecraft/tags/
@@ -157,6 +165,9 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\SnakePrairie\build\reobfJ
   data/the_new_world/dimension/astral_plane.json
   data/the_new_world/dimension_type/
   data/the_new_world/dimension_type/astral_plane.json
+  data/the_new_world/loot_tables/
+  data/the_new_world/loot_tables/blocks/
+  data/the_new_world/loot_tables/blocks/astral_sand.json
   data/the_new_world/structures/
   data/the_new_world/structures/enderman_castle_dark.nbt
   data/the_new_world/structures/enderman_castle_light.nbt
@@ -176,9 +187,16 @@ Writing Output: C:\Users\Kritcharon\MCreatorWorkspaces\SnakePrairie\build\reobfJ
   net/mcreator/
   net/mcreator/thenewworld/
   net/mcreator/thenewworld/TheNewWorldMod.class
+  net/mcreator/thenewworld/block/
+  net/mcreator/thenewworld/block/AstralSandBlock.class
+  net/mcreator/thenewworld/init/
+  net/mcreator/thenewworld/init/TheNewWorldModBlocks.class
+  net/mcreator/thenewworld/init/TheNewWorldModItems.class
   net/mcreator/thenewworld/procedures/
+  net/mcreator/thenewworld/procedures/AstralPlaneAmbiantProcedure.class
   net/mcreator/thenewworld/procedures/AstralPlaneEntranceProcedure.class
   net/mcreator/thenewworld/procedures/AstralPlaneExitProcedure.class
+  net/mcreator/thenewworld/procedures/AstralSandBlockDestroyedByPlayerProcedure.class
   net/mcreator/thenewworld/world/
   net/mcreator/thenewworld/world/dimension/
   net/mcreator/thenewworld/world/dimension/AstralPlaneDimension$DimensionSpecialEffectsHandler$1.class
