@@ -286,6 +286,55 @@
         ]
       },
       "path": "~/LookingGlass"
+    },
+    {
+      "name": "GlowEffectLong",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_effect_long",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/procedures/GlowEffectLongProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GlowPotion"
+    },
+    {
+      "name": "PotionOfGlowLong",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_glow_long",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/expanded_toolbox/models/item/potion_of_glow_long.json",
+          "src/main/java/net/mcreator/expanded_toolbox/item/PotionOfGlowLongItem.java"
+        ]
+      },
+      "path": "~/GlowPotion"
+    },
+    {
+      "name": "PotionOfGlowLongRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_glow_long_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/recipes/brewing/PotionOfGlowLongRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/GlowPotion"
     }
   ],
   "variable_elements": [],
@@ -304,6 +353,7 @@
       "block.justakritch.cleaned_glass": "Cleaned Glass",
       "item.expanded_toolbox.pebble": "Pebble",
       "item.expanded_toolbox.potion_of_glow": "Potion Of Glow",
+      "item.expanded_toolbox.potion_of_glow_long": "Potion Of Glow",
       "item.justakritch.pebble": "Pebble"
     }
   },
@@ -335,7 +385,7 @@
   "workspaceSettings": {
     "modid": "expanded_toolbox",
     "modName": "expanded_toolbox",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

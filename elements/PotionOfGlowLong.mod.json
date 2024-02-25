@@ -28,7 +28,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "§9Glowing (3:00)"
+        "§9Glowing (8:00)"
       ]
     },
     "glowCondition": {
@@ -38,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "GlowEffect"
+      "name": "GlowEffectLong"
     },
     "enableRanged": false,
     "shootConstantly": false,

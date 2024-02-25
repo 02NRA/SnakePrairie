@@ -352,8 +352,8 @@
       "item_group.justakritch.just_a_kritch": "Just A Kritch",
       "block.justakritch.cleaned_glass": "Cleaned Glass",
       "item.expanded_toolbox.pebble": "Pebble",
-      "item.expanded_toolbox.potion_of_glow": "Potion Of Glowing",
-      "item.expanded_toolbox.potion_of_glow_long": "Potion Of Glowing",
+      "item.expanded_toolbox.potion_of_glow": "Potion Of Glow",
+      "item.expanded_toolbox.potion_of_glow_long": "Potion Of Glow",
       "item.justakritch.pebble": "Pebble"
     }
   },
@@ -385,7 +385,7 @@
   "workspaceSettings": {
     "modid": "expanded_toolbox",
     "modName": "expanded_toolbox",
-    "version": "1.2.4",
+    "version": "1.2.1",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

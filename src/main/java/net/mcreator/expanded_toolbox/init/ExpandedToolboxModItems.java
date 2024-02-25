@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.expanded_toolbox.item.SlingShotItem;
 import net.mcreator.expanded_toolbox.item.ShivItem;
+import net.mcreator.expanded_toolbox.item.PotionOfGlowLongItem;
 import net.mcreator.expanded_toolbox.item.PotionOfGlowItem;
 import net.mcreator.expanded_toolbox.item.PebbleItem;
 import net.mcreator.expanded_toolbox.ExpandedToolboxMod;
@@ -26,6 +27,7 @@ public class ExpandedToolboxModItems {
 	public static final RegistryObject<Item> SLING_SHOT = REGISTRY.register("sling_shot", () -> new SlingShotItem());
 	public static final RegistryObject<Item> CLEANED_GLASS = block(ExpandedToolboxModBlocks.CLEANED_GLASS);
 	public static final RegistryObject<Item> LAME_CLEANED_GLASS = block(ExpandedToolboxModBlocks.LAME_CLEANED_GLASS);
+	public static final RegistryObject<Item> POTION_OF_GLOW_LONG = REGISTRY.register("potion_of_glow_long", () -> new PotionOfGlowLongItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

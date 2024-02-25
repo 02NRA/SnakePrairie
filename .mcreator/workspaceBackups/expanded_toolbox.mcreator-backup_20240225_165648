@@ -176,21 +176,6 @@
       "path": "~/SlingShot"
     },
     {
-      "name": "CleanedGlassOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cleaned_glass_on_block_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/expanded_toolbox/procedures/CleanedGlassOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/CleanedGlass"
-    },
-    {
       "name": "CleanedGlass",
       "type": "block",
       "sortid": 49,
@@ -205,7 +190,7 @@
           "src/main/java/net/mcreator/expanded_toolbox/block/CleanedGlassBlock.java"
         ]
       },
-      "path": "~/CleanedGlass"
+      "path": "~/LookingGlass"
     },
     {
       "name": "CleanedGlassSilkTouch",
@@ -219,7 +204,7 @@
           "src/main/resources/data/expanded_toolbox/loot_tables/blocks/cleaned_glass.json"
         ]
       },
-      "path": "~/CleanedGlass"
+      "path": "~/LookingGlass"
     },
     {
       "name": "LameCleanedGlass",
@@ -277,24 +262,87 @@
     {
       "name": "LameCleanedGlassSilkTouch",
       "type": "loottable",
-      "sortid": 52,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lame_cleaned_glass_silk_touch",
       "metadata": {
         "files": [
-          "src/main/resources/data/expanded_toolbox/loot_tables/lame_cleaned_glass_silk_touch.json"
+          "src/main/resources/data/expanded_toolbox/loot_tables/blocks/lame_cleaned_glass.json"
         ]
       },
       "path": "~/LameCleanedGlass"
+    },
+    {
+      "name": "CleanedGlassRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaned_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/expanded_toolbox/recipes/cleaned_glass_recipe.json"
+        ]
+      },
+      "path": "~/LookingGlass"
+    },
+    {
+      "name": "GlowEffectLong",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_effect_long",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/procedures/GlowEffectLongProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GlowPotion"
+    },
+    {
+      "name": "PotionOfGlowLong",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_glow_long",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/expanded_toolbox/models/item/potion_of_glow_long.json",
+          "src/main/java/net/mcreator/expanded_toolbox/item/PotionOfGlowLongItem.java"
+        ]
+      },
+      "path": "~/GlowPotion"
+    },
+    {
+      "name": "PotionOfGlowLongRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_glow_long_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/recipes/brewing/PotionOfGlowLongRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/GlowPotion"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item_group.expanded_toolbox.just_a_kritch": "Just A Kritch",
-      "block.expanded_toolbox.cleaned_glass": "Cleaned Glass",
+      "item_group.expanded_toolbox.just_a_kritch": "Expanded Toolbox",
+      "block.expanded_toolbox.cleaned_glass": "Looking Glass",
       "block.expanded_toolbox.lame_cleaned_glass": "Cleaned Glass",
       "item.justakritch.sling_shot": "Sling Shot",
       "item.expanded_toolbox.shiv": "Shiv",
@@ -304,7 +352,8 @@
       "item_group.justakritch.just_a_kritch": "Just A Kritch",
       "block.justakritch.cleaned_glass": "Cleaned Glass",
       "item.expanded_toolbox.pebble": "Pebble",
-      "item.expanded_toolbox.potion_of_glow": "Potion Of Glow",
+      "item.expanded_toolbox.potion_of_glow": "Potion Of Glowing",
+      "item.expanded_toolbox.potion_of_glow_long": "Potion Of Glowing",
       "item.justakritch.pebble": "Pebble"
     }
   },
@@ -324,7 +373,7 @@
         "children": []
       },
       {
-        "name": "CleanedGlass",
+        "name": "LookingGlass",
         "children": []
       },
       {
@@ -336,7 +385,7 @@
   "workspaceSettings": {
     "modid": "expanded_toolbox",
     "modName": "expanded_toolbox",
-    "version": "1.0.0",
+    "version": "1.2.4",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
