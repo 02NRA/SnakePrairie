@@ -176,6 +176,21 @@
       "path": "~/SlingShot"
     },
     {
+      "name": "CleanedGlassOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaned_glass_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/procedures/CleanedGlassOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/CleanedGlass"
+    },
+    {
       "name": "CleanedGlass",
       "type": "block",
       "sortid": 49,
@@ -190,7 +205,7 @@
           "src/main/java/net/mcreator/expanded_toolbox/block/CleanedGlassBlock.java"
         ]
       },
-      "path": "~/LookingGlass"
+      "path": "~/CleanedGlass"
     },
     {
       "name": "CleanedGlassSilkTouch",
@@ -204,7 +219,7 @@
           "src/main/resources/data/expanded_toolbox/loot_tables/blocks/cleaned_glass.json"
         ]
       },
-      "path": "~/LookingGlass"
+      "path": "~/CleanedGlass"
     },
     {
       "name": "LameCleanedGlass",
@@ -285,14 +300,14 @@
           "src/main/resources/data/expanded_toolbox/recipes/cleaned_glass_recipe.json"
         ]
       },
-      "path": "~/LookingGlass"
+      "path": "~/CleanedGlass"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item_group.expanded_toolbox.just_a_kritch": "Expanded Toolbox",
+      "item_group.expanded_toolbox.just_a_kritch": "Just A Kritch",
       "block.expanded_toolbox.cleaned_glass": "Looking Glass",
       "block.expanded_toolbox.lame_cleaned_glass": "Cleaned Glass",
       "item.justakritch.sling_shot": "Sling Shot",
@@ -323,7 +338,7 @@
         "children": []
       },
       {
-        "name": "LookingGlass",
+        "name": "CleanedGlass",
         "children": []
       },
       {
@@ -335,7 +350,7 @@
   "workspaceSettings": {
     "modid": "expanded_toolbox",
     "modName": "expanded_toolbox",
-    "version": "1.1.2",
+    "version": "1.0.0",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

@@ -186,28 +186,7 @@
         "files": [
           "src/main/java/net/mcreator/expanded_toolbox/procedures/CleanedGlassOnBlockRightClickedProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/CleanedGlass"
     },
@@ -241,6 +220,73 @@
         ]
       },
       "path": "~/CleanedGlass"
+    },
+    {
+      "name": "LameCleanedGlass",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_cleaned_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/expanded_toolbox/models/block/lame_cleaned_glass.json",
+          "src/main/resources/assets/expanded_toolbox/blockstates/lame_cleaned_glass.json",
+          "src/main/java/net/mcreator/expanded_toolbox/block/LameCleanedGlassBlock.java",
+          "src/main/resources/assets/expanded_toolbox/models/item/lame_cleaned_glass.json"
+        ]
+      },
+      "path": "~/LameCleanedGlass"
+    },
+    {
+      "name": "LameCleanedGlassBrush",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_cleaned_glass_brush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/procedures/LameCleanedGlassBrushProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/LameCleanedGlass"
+    },
+    {
+      "name": "LameCleanedGlassSilkTouch",
+      "type": "loottable",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_cleaned_glass_silk_touch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/expanded_toolbox/loot_tables/lame_cleaned_glass_silk_touch.json"
+        ]
+      },
+      "path": "~/LameCleanedGlass"
     }
   ],
   "variable_elements": [],
@@ -249,6 +295,7 @@
     "en_us": {
       "item_group.expanded_toolbox.just_a_kritch": "Just A Kritch",
       "block.expanded_toolbox.cleaned_glass": "Cleaned Glass",
+      "block.expanded_toolbox.lame_cleaned_glass": "Cleaned Glass",
       "item.justakritch.sling_shot": "Sling Shot",
       "item.expanded_toolbox.shiv": "Shiv",
       "item.justakritch.shiv": "Shiv",
@@ -278,6 +325,10 @@
       },
       {
         "name": "CleanedGlass",
+        "children": []
+      },
+      {
+        "name": "LameCleanedGlass",
         "children": []
       }
     ]

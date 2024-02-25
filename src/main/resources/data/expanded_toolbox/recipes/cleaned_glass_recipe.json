@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ender_eye"
+    },
+    "b": {
+      "item": "minecraft:tinted_glass"
+    }
+  },
+  "result": {
+    "item": "expanded_toolbox:cleaned_glass",
+    "count": 1
+  }
+}

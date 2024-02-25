@@ -17,13 +17,14 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.expanded_toolbox.init.ExpandedToolboxModBlocks;
+import net.mcreator.expanded_toolbox.ExpandedToolboxMod;
 
 import javax.annotation.Nullable;
 
 import java.util.Map;
 
 @Mod.EventBusSubscriber
-public class CleanedGlassOnBlockRightClickedProcedure {
+public class LameCleanedGlassBrushProcedure {
 	@SubscribeEvent
 	public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
 		if (event.getHand() != event.getEntity().getUsedItemHand())
@@ -40,27 +41,31 @@ public class CleanedGlassOnBlockRightClickedProcedure {
 			return;
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.GLASS) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.BRUSH) {
-				{
-					ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-					if (_ist.hurt(1, RandomSource.create(), null)) {
-						_ist.shrink(1);
-						_ist.setDamageValue(0);
-					}
-				}
-				{
-					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockState _bs = ExpandedToolboxModBlocks.CLEANED_GLASS.get().defaultBlockState();
-					BlockState _bso = world.getBlockState(_bp);
-					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-						if (_property != null && _bs.getValue(_property) != null)
-							try {
-								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-							} catch (Exception e) {
+				ExpandedToolboxMod.queueServerWork(40, () -> {
+					if ((entity instanceof LivingEntity _entUseItem4 ? _entUseItem4.getUseItem() : ItemStack.EMPTY).getItem() == Items.BRUSH) {
+						{
+							ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+							if (_ist.hurt(1, RandomSource.create(), null)) {
+								_ist.shrink(1);
+								_ist.setDamageValue(0);
 							}
+						}
+						{
+							BlockPos _bp = BlockPos.containing(x, y, z);
+							BlockState _bs = ExpandedToolboxModBlocks.LAME_CLEANED_GLASS.get().defaultBlockState();
+							BlockState _bso = world.getBlockState(_bp);
+							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+								if (_property != null && _bs.getValue(_property) != null)
+									try {
+										_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+									} catch (Exception e) {
+									}
+							}
+							world.setBlock(_bp, _bs, 3);
+						}
 					}
-					world.setBlock(_bp, _bs, 3);
-				}
+				});
 			}
 		}
 	}

@@ -25,6 +25,7 @@ public class ExpandedToolboxModItems {
 	public static final RegistryObject<Item> PEBBLE = REGISTRY.register("pebble", () -> new PebbleItem());
 	public static final RegistryObject<Item> SLING_SHOT = REGISTRY.register("sling_shot", () -> new SlingShotItem());
 	public static final RegistryObject<Item> CLEANED_GLASS = block(ExpandedToolboxModBlocks.CLEANED_GLASS);
+	public static final RegistryObject<Item> LAME_CLEANED_GLASS = block(ExpandedToolboxModBlocks.LAME_CLEANED_GLASS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

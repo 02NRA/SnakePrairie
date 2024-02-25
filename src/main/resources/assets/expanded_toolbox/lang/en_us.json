@@ -1,6 +1,7 @@
 {
-  "item_group.expanded_toolbox.just_a_kritch": "Just A Kritch",
-  "block.expanded_toolbox.cleaned_glass": "Cleaned Glass",
+  "item_group.expanded_toolbox.just_a_kritch": "Expanded Toolbox",
+  "block.expanded_toolbox.cleaned_glass": "Looking Glass",
+  "block.expanded_toolbox.lame_cleaned_glass": "Cleaned Glass",
   "item.justakritch.sling_shot": "Sling Shot",
   "item.expanded_toolbox.shiv": "Shiv",
   "item.justakritch.shiv": "Shiv",

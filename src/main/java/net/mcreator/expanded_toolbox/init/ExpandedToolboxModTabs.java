@@ -24,5 +24,6 @@ public class ExpandedToolboxModTabs {
 				tabData.accept(ExpandedToolboxModItems.PEBBLE.get());
 				tabData.accept(ExpandedToolboxModItems.SLING_SHOT.get());
 				tabData.accept(ExpandedToolboxModBlocks.CLEANED_GLASS.get().asItem());
+				tabData.accept(ExpandedToolboxModBlocks.LAME_CLEANED_GLASS.get().asItem());
 			}).withSearchBar().build());
 }
