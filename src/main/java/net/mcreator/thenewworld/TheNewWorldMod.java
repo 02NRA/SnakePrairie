@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.thenewworld.init.TheNewWorldModTabs;
 import net.mcreator.thenewworld.init.TheNewWorldModItems;
 import net.mcreator.thenewworld.init.TheNewWorldModBlocks;
 
@@ -53,6 +54,8 @@ public class TheNewWorldMod {
 		TheNewWorldModBlocks.REGISTRY.register(bus);
 
 		TheNewWorldModItems.REGISTRY.register(bus);
+
+		TheNewWorldModTabs.REGISTRY.register(bus);
 
 	}
 

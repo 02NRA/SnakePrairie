@@ -16,6 +16,7 @@ import net.mcreator.thenewworld.TheNewWorldMod;
 
 public class TheNewWorldModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TheNewWorldMod.MODID);
+	public static final RegistryObject<Item> RUINED_ENCHANTING_TABLE = block(TheNewWorldModBlocks.RUINED_ENCHANTING_TABLE);
 	public static final RegistryObject<Item> ASTRAL_SAND = block(TheNewWorldModBlocks.ASTRAL_SAND);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

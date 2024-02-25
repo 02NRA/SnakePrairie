@@ -35,6 +35,7 @@
     {
       "name": "AstralPlanesBiome",
       "type": "biome",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_planes_biome",
@@ -48,6 +49,7 @@
     {
       "name": "AstralPlane",
       "type": "dimension",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_plane",
@@ -131,10 +133,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -175,6 +173,7 @@
     {
       "name": "AstralSand",
       "type": "block",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_sand",
@@ -191,6 +190,7 @@
     {
       "name": "AstralSandDrop",
       "type": "loottable",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_sand_drop",
@@ -200,6 +200,68 @@
         ]
       },
       "path": "~/AstralPlane"
+    },
+    {
+      "name": "RuinedEnchantingTable",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruined_enchanting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_new_world/models/item/ruined_enchanting_table.json",
+          "src/main/java/net/mcreator/thenewworld/block/RuinedEnchantingTableBlock.java",
+          "src/main/resources/assets/the_new_world/models/block/ruined_enchanting_table.json",
+          "src/main/resources/assets/the_new_world/blockstates/ruined_enchanting_table.json"
+        ]
+      }
+    },
+    {
+      "name": "TheNewWorld",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_new_world",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RuinedEnchantingTableOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruined_enchanting_table_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/procedures/RuinedEnchantingTableOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -207,7 +269,9 @@
   "language_map": {
     "en_us": {
       "biome.the_new_world.astral_planes_biome": "Astral Planes Biome",
-      "block.the_new_world.astral_sand": "Astral Sand"
+      "block.the_new_world.astral_sand": "Astral Sand",
+      "item_group.the_new_world.the_new_world": "The New World",
+      "block.the_new_world.ruined_enchanting_table": "Ruined Enchanting Table"
     }
   },
   "foldersRoot": {
@@ -226,7 +290,7 @@
   "workspaceSettings": {
     "modid": "the_new_world",
     "modName": "the_new_world",
-    "version": "1.1.12",
+    "version": "1.2.0",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

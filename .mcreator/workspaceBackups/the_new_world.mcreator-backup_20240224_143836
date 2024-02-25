@@ -131,10 +131,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -175,6 +171,7 @@
     {
       "name": "AstralSand",
       "type": "block",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_sand",
@@ -200,6 +197,22 @@
         ]
       },
       "path": "~/AstralPlane"
+    },
+    {
+      "name": "RuinedEnchantingTable",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruined_enchanting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_new_world/models/item/ruined_enchanting_table.json",
+          "src/main/java/net/mcreator/thenewworld/block/RuinedEnchantingTableBlock.java",
+          "src/main/resources/assets/the_new_world/models/block/ruined_enchanting_table.json",
+          "src/main/resources/assets/the_new_world/blockstates/ruined_enchanting_table.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -207,7 +220,8 @@
   "language_map": {
     "en_us": {
       "biome.the_new_world.astral_planes_biome": "Astral Planes Biome",
-      "block.the_new_world.astral_sand": "Astral Sand"
+      "block.the_new_world.astral_sand": "Astral Sand",
+      "block.the_new_world.ruined_enchanting_table": "Ruined Enchanting Table"
     }
   },
   "foldersRoot": {
@@ -226,7 +240,7 @@
   "workspaceSettings": {
     "modid": "the_new_world",
     "modName": "the_new_world",
-    "version": "1.1.12",
+    "version": "1.1.15",
     "author": "Kritcharon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

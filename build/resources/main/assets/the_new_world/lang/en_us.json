@@ -1,4 +1,6 @@
 {
   "biome.the_new_world.astral_planes_biome": "Astral Planes Biome",
-  "block.the_new_world.astral_sand": "Astral Sand"
+  "block.the_new_world.astral_sand": "Astral Sand",
+  "item_group.the_new_world.the_new_world": "The New World",
+  "block.the_new_world.ruined_enchanting_table": "Ruined Enchanting Table"
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_new_world:block/enchanting_table_bottom",
+    "up": "the_new_world:block/enchanting_table_top",
+    "north": "the_new_world:block/enchanting_table_side",
+    "east": "the_new_world:block/enchanting_table_side",
+    "south": "the_new_world:block/enchanting_table_side",
+    "west": "the_new_world:block/enchanting_table_side",
+    "particle": "the_new_world:block/enchanting_table_bottom"
+  },
+  "render_type": "cutout"
+}
