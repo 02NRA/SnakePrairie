@@ -1,9 +1,9 @@
 package net.mcreator.expanded_toolbox.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.bus.api.Event;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
@@ -13,7 +13,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.util.RandomSource;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.expanded_toolbox.init.ExpandedToolboxModBlocks;
@@ -21,13 +22,11 @@ import net.mcreator.expanded_toolbox.ExpandedToolboxMod;
 
 import javax.annotation.Nullable;
 
-import java.util.Map;
-
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class LameCleanedGlassBrushProcedure {
 	@SubscribeEvent
 	public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
-		if (event.getHand() != event.getEntity().getUsedItemHand())
+		if (event.getHand() != InteractionHand.MAIN_HAND)
 			return;
 		execute(event, event.getLevel(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ(), event.getEntity());
 	}
@@ -43,22 +42,19 @@ public class LameCleanedGlassBrushProcedure {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.BRUSH) {
 				ExpandedToolboxMod.queueServerWork(40, () -> {
 					if ((entity instanceof LivingEntity _entUseItem4 ? _entUseItem4.getUseItem() : ItemStack.EMPTY).getItem() == Items.BRUSH) {
-						{
-							ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-							if (_ist.hurt(1, RandomSource.create(), null)) {
-								_ist.shrink(1);
-								_ist.setDamageValue(0);
-							}
+						if (world instanceof ServerLevel _level) {
+							(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).hurtAndBreak(1, _level, null, _stkprov -> {
+							});
 						}
 						{
 							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockState _bs = ExpandedToolboxModBlocks.LAME_CLEANED_GLASS.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
-							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-								if (_property != null && _bs.getValue(_property) != null)
+							for (Property<?> _propertyOld : _bso.getProperties()) {
+								Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+								if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
 									try {
-										_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+										_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
 									} catch (Exception e) {
 									}
 							}

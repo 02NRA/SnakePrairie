@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Special",
@@ -9,24 +9,26 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Shiv",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "CUSTOM:JustAKritch"
-    },
-    "harvestLevel": 1,
+    "creativeTabs": [
+      "CUSTOM:JustAKritch"
+    ],
     "efficiency": 2.0,
     "attackSpeed": 2.0,
     "enchantability": 25,
     "damageVsEntity": 4.0,
     "usageCount": 32,
-    "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [],
     "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

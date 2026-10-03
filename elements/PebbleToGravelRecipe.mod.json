@@ -1,47 +1,28 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Pebble"
-      },
-      {
-        "value": "CUSTOM:Pebble"
-      },
-      {
-        "value": "CUSTOM:Pebble"
-      },
-      {
-        "value": "CUSTOM:Pebble"
-      },
-      {
-        "value": "CUSTOM:Pebble"
-      },
-      {
-        "value": "CUSTOM:Pebble"
-      },
-      {
-        "value": "CUSTOM:Pebble"
-      },
-      {
-        "value": "CUSTOM:Pebble"
-      },
-      {
-        "value": "CUSTOM:Pebble"
-      }
+      "CUSTOM:Pebble",
+      "CUSTOM:Pebble",
+      "CUSTOM:Pebble",
+      "CUSTOM:Pebble",
+      "CUSTOM:Pebble",
+      "CUSTOM:Pebble",
+      "CUSTOM:Pebble",
+      "CUSTOM:Pebble",
+      "CUSTOM:Pebble"
     ],
-    "recipeReturnStack": {
-      "value": "Blocks.GRAVEL"
-    },
+    "recipeReturnStack": "Blocks.GRAVEL",
     "name": "pebble_to_gravel_recipe",
     "namespace": "mod"
   }

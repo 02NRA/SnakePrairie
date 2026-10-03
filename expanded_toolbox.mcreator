@@ -3,7 +3,6 @@
     {
       "name": "JustAKritch",
       "type": "tab",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "just_a_kritch",
@@ -14,14 +13,13 @@
     {
       "name": "Shiv",
       "type": "tool",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shiv",
       "metadata": {
         "files": [
-          "src/main/resources/assets/expanded_toolbox/models/item/shiv.json",
-          "src/main/java/net/mcreator/expanded_toolbox/item/ShivItem.java"
+          "src/main/java/net/mcreator/expanded_toolbox/item/ShivItem.java",
+          "src/main/resources/assets/expanded_toolbox/models/item/shiv.json"
         ]
       },
       "path": "~/Shiv"
@@ -29,13 +27,12 @@
     {
       "name": "ShivRecipe",
       "type": "recipe",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shiv_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/expanded_toolbox/recipes/shiv_recipe.json"
+          "src/main/resources/data/expanded_toolbox/recipe/shiv_recipe.json"
         ]
       },
       "path": "~/Shiv"
@@ -43,14 +40,13 @@
     {
       "name": "PotionOfGlow",
       "type": "item",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potion_of_glow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/expanded_toolbox/models/item/potion_of_glow.json",
-          "src/main/java/net/mcreator/expanded_toolbox/item/PotionOfGlowItem.java"
+          "src/main/java/net/mcreator/expanded_toolbox/item/PotionOfGlowItem.java",
+          "src/main/resources/assets/expanded_toolbox/models/item/potion_of_glow.json"
         ]
       },
       "path": "~/GlowPotion"
@@ -58,13 +54,12 @@
     {
       "name": "PotionOfGlowRecipe",
       "type": "recipe",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potion_of_glow_recipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/expanded_toolbox/recipes/brewing/PotionOfGlowRecipeBrewingRecipe.java"
+          "src/main/java/net/mcreator/expanded_toolbox/recipe/brewing/PotionOfGlowRecipeBrewingRecipe.java"
         ]
       },
       "path": "~/GlowPotion"
@@ -72,7 +67,6 @@
     {
       "name": "GlowEffect",
       "type": "procedure",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_effect",
@@ -92,7 +86,6 @@
     {
       "name": "Pebble",
       "type": "item",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pebble",
@@ -107,13 +100,12 @@
     {
       "name": "PebbleRecipe",
       "type": "recipe",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pebble_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/expanded_toolbox/recipes/pebble_recipe.json"
+          "src/main/resources/data/expanded_toolbox/recipe/pebble_recipe.json"
         ]
       },
       "path": "~/SlingShot"
@@ -121,13 +113,12 @@
     {
       "name": "PebbleToGravelRecipe",
       "type": "recipe",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pebble_to_gravel_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/expanded_toolbox/recipes/pebble_to_gravel_recipe.json"
+          "src/main/resources/data/expanded_toolbox/recipe/pebble_to_gravel_recipe.json"
         ]
       },
       "path": "~/SlingShot"
@@ -135,7 +126,6 @@
     {
       "name": "PebbleProjectile",
       "type": "projectile",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pebble_projectile",
@@ -149,7 +139,6 @@
     {
       "name": "SlingShot",
       "type": "item",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sling_shot",
@@ -164,13 +153,12 @@
     {
       "name": "SlingShotRecipe",
       "type": "recipe",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sling_shot_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/expanded_toolbox/recipes/sling_shot_recipe.json"
+          "src/main/resources/data/expanded_toolbox/recipe/sling_shot_recipe.json"
         ]
       },
       "path": "~/SlingShot"
@@ -178,14 +166,13 @@
     {
       "name": "CleanedGlass",
       "type": "block",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cleaned_glass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/expanded_toolbox/models/item/cleaned_glass.json",
           "src/main/resources/assets/expanded_toolbox/blockstates/cleaned_glass.json",
+          "src/main/resources/assets/expanded_toolbox/models/item/cleaned_glass.json",
           "src/main/resources/assets/expanded_toolbox/models/block/cleaned_glass.json",
           "src/main/java/net/mcreator/expanded_toolbox/block/CleanedGlassBlock.java"
         ]
@@ -195,13 +182,12 @@
     {
       "name": "CleanedGlassSilkTouch",
       "type": "loottable",
-      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cleaned_glass_silk_touch",
       "metadata": {
         "files": [
-          "src/main/resources/data/expanded_toolbox/loot_tables/blocks/cleaned_glass.json"
+          "src/main/resources/data/expanded_toolbox/loot_table/blocks/cleaned_glass.json"
         ]
       },
       "path": "~/LookingGlass"
@@ -209,16 +195,15 @@
     {
       "name": "LameCleanedGlass",
       "type": "block",
-      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lame_cleaned_glass",
       "metadata": {
         "files": [
           "src/main/resources/assets/expanded_toolbox/models/block/lame_cleaned_glass.json",
-          "src/main/resources/assets/expanded_toolbox/blockstates/lame_cleaned_glass.json",
+          "src/main/resources/assets/expanded_toolbox/models/item/lame_cleaned_glass.json",
           "src/main/java/net/mcreator/expanded_toolbox/block/LameCleanedGlassBlock.java",
-          "src/main/resources/assets/expanded_toolbox/models/item/lame_cleaned_glass.json"
+          "src/main/resources/assets/expanded_toolbox/blockstates/lame_cleaned_glass.json"
         ]
       },
       "path": "~/LameCleanedGlass"
@@ -226,7 +211,6 @@
     {
       "name": "LameCleanedGlassBrush",
       "type": "procedure",
-      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lame_cleaned_glass_brush",
@@ -262,13 +246,12 @@
     {
       "name": "LameCleanedGlassSilkTouch",
       "type": "loottable",
-      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lame_cleaned_glass_silk_touch",
       "metadata": {
         "files": [
-          "src/main/resources/data/expanded_toolbox/loot_tables/blocks/lame_cleaned_glass.json"
+          "src/main/resources/data/expanded_toolbox/loot_table/blocks/lame_cleaned_glass.json"
         ]
       },
       "path": "~/LameCleanedGlass"
@@ -276,13 +259,12 @@
     {
       "name": "CleanedGlassRecipe",
       "type": "recipe",
-      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cleaned_glass_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/expanded_toolbox/recipes/cleaned_glass_recipe.json"
+          "src/main/resources/data/expanded_toolbox/recipe/cleaned_glass_recipe.json"
         ]
       },
       "path": "~/LookingGlass"
@@ -290,7 +272,6 @@
     {
       "name": "GlowEffectLong",
       "type": "procedure",
-      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_effect_long",
@@ -310,14 +291,13 @@
     {
       "name": "PotionOfGlowLong",
       "type": "item",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potion_of_glow_long",
       "metadata": {
         "files": [
-          "src/main/resources/assets/expanded_toolbox/models/item/potion_of_glow_long.json",
-          "src/main/java/net/mcreator/expanded_toolbox/item/PotionOfGlowLongItem.java"
+          "src/main/java/net/mcreator/expanded_toolbox/item/PotionOfGlowLongItem.java",
+          "src/main/resources/assets/expanded_toolbox/models/item/potion_of_glow_long.json"
         ]
       },
       "path": "~/GlowPotion"
@@ -325,13 +305,12 @@
     {
       "name": "PotionOfGlowLongRecipe",
       "type": "recipe",
-      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potion_of_glow_long_recipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/expanded_toolbox/recipes/brewing/PotionOfGlowLongRecipeBrewingRecipe.java"
+          "src/main/java/net/mcreator/expanded_toolbox/recipe/brewing/PotionOfGlowLongRecipeBrewingRecipe.java"
         ]
       },
       "path": "~/GlowPotion"
@@ -339,6 +318,15 @@
   ],
   "variable_elements": [],
   "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~Shiv@CUSTOM:Shiv"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~SlingShot@CUSTOM:SlingShot"
+    ]
+  },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item_group.expanded_toolbox.just_a_kritch": "Expanded Toolbox",
@@ -354,8 +342,22 @@
       "item.expanded_toolbox.pebble": "Pebble",
       "item.expanded_toolbox.potion_of_glow": "Potion Of Glowing",
       "item.expanded_toolbox.potion_of_glow_long": "Potion Of Glowing",
-      "item.justakritch.pebble": "Pebble"
+      "item.justakritch.pebble": "Pebble",
+      "item.expanded_toolbox.potion_of_glow.description_0": "§9Glowing (3:00)",
+      "item.expanded_toolbox.potion_of_glow_long.description_0": "§9Glowing (8:00)"
     }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModBlocks.java",
+      "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModItems.java",
+      "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModEntityRenderers.java",
+      "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModEntities.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModTabs.java",
+      "src/main/java/net/mcreator/expanded_toolbox/ExpandedToolboxMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
   },
   "foldersRoot": {
     "name": "~",
@@ -385,20 +387,18 @@
   "workspaceSettings": {
     "modid": "expanded_toolbox",
     "modName": "expanded_toolbox",
-    "version": "1.2.4",
-    "author": "Kritcharon, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "2.0.0",
+    "author": "Kritcharon",
+    "websiteURL": "https://github.com/02NRA/SnakePrairie",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.expanded_toolbox",
-    "lockBaseModFiles": false
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.expanded_toolbox"
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202600233518
 }

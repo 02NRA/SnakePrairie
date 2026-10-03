@@ -1,19 +1,19 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "projectile",
   "definition": {
-    "projectileItem": {
-      "value": "CUSTOM:Pebble"
-    },
+    "projectileItem": "CUSTOM:Pebble",
     "showParticles": true,
-    "actionSound": {
-      "value": "entity.arrow.shoot"
-    },
+    "actionSound": "entity.arrow.shoot",
     "igniteFire": false,
+    "disableGravity": false,
+    "disableDiscarding": false,
     "power": 1.0,
     "damage": 3.0,
     "knockback": 6,
     "entityModel": "Default",
-    "customModelTexture": ""
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
   }
 }
