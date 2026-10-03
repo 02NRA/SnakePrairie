@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bowl"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "minecraft:wheat"
+    },
+    "d": {
+      "item": "minecraft:milk_bucket"
+    },
+    "e": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "spoonful_of_sugar:cereal_bowl",
+    "count": 4
+  }
+}

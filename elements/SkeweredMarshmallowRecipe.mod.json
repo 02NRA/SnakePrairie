@@ -1,47 +1,28 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 2,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.SUGAR"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "",
+      "",
+      "Items.SUGAR",
+      "",
+      "Items.STICK",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SkeweredMarshmallow"
-    },
+    "recipeReturnStack": "CUSTOM:SkeweredMarshmallow",
     "name": "skewered_marshmallow_recipe",
     "namespace": "mod"
   }

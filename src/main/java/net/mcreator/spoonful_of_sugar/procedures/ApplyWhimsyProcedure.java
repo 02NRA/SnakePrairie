@@ -12,7 +12,7 @@ public class ApplyWhimsyProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(SpoonfulOfSugarModMobEffects.WHIMSY.get(), 200, 1));
+			_entity.addEffect(new MobEffectInstance(SpoonfulOfSugarModMobEffects.WHIMSY, 200, 1));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 200, 1));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())

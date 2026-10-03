@@ -1,11 +1,9 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "tab",
   "definition": {
     "name": "Spoonful of Sugar",
-    "icon": {
-      "value": "Blocks.COMMAND_BLOCK"
-    },
+    "icon": "Blocks.COMMAND_BLOCK",
     "showSearch": true
   }
 }

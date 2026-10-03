@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Whimsy",
@@ -9,9 +9,10 @@
       "falpha": 0.0
     },
     "isInstant": false,
-    "isBad": false,
-    "isBenefitical": false,
+    "mobEffectCategory": "NEUTRAL",
     "renderStatusInInventory": true,
-    "renderStatusInHUD": true
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": []
   }
 }

@@ -1,21 +1,18 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Campfire cooking",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "FOOD",
     "xpReward": 1.0,
     "cookingTime": 600,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "campfireCookingInputStack": {
-      "value": "CUSTOM:SkeweredMarshmallow"
-    },
-    "campfireCookingReturnStack": {
-      "value": "CUSTOM:ToastedSkeweredMarshmallow"
-    },
+    "campfireCookingInputStack": "CUSTOM:SkeweredMarshmallow",
+    "campfireCookingReturnStack": "CUSTOM:ToastedSkeweredMarshmallow",
     "name": "toast_skew_marsh_recipe",
     "namespace": "mod"
   }
