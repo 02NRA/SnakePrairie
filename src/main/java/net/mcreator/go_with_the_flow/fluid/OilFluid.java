@@ -1,7 +1,6 @@
-
 package net.mcreator.go_with_the_flow.fluid;
 
-import net.minecraftforge.fluids.ForgeFlowingFluid;
+import net.neoforged.neoforge.fluids.BaseFlowingFluid;
 
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
@@ -15,8 +14,8 @@ import net.mcreator.go_with_the_flow.init.GoWithTheFlowModFluids;
 import net.mcreator.go_with_the_flow.init.GoWithTheFlowModFluidTypes;
 import net.mcreator.go_with_the_flow.init.GoWithTheFlowModBlocks;
 
-public abstract class OilFluid extends ForgeFlowingFluid {
-	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> GoWithTheFlowModFluidTypes.OIL_TYPE.get(), () -> GoWithTheFlowModFluids.OIL.get(), () -> GoWithTheFlowModFluids.FLOWING_OIL.get())
+public abstract class OilFluid extends BaseFlowingFluid {
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> GoWithTheFlowModFluidTypes.OIL_TYPE.get(), () -> GoWithTheFlowModFluids.OIL.get(), () -> GoWithTheFlowModFluids.FLOWING_OIL.get())
 			.explosionResistance(50f).tickRate(10).bucket(() -> GoWithTheFlowModItems.OIL_BUCKET.get()).block(() -> (LiquidBlock) GoWithTheFlowModBlocks.OIL.get());
 
 	private OilFluid() {

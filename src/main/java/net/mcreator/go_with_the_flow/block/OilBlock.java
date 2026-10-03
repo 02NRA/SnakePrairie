@@ -1,4 +1,3 @@
-
 package net.mcreator.go_with_the_flow.block;
 
 import net.minecraft.world.level.material.PushReaction;
@@ -15,7 +14,7 @@ import net.mcreator.go_with_the_flow.init.GoWithTheFlowModFluids;
 
 public class OilBlock extends LiquidBlock {
 	public OilBlock() {
-		super(() -> GoWithTheFlowModFluids.OIL.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(50f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(GoWithTheFlowModFluids.OIL.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(50f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override

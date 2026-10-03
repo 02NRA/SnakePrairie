@@ -1,20 +1,19 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "fluid",
   "definition": {
     "name": "Quicksand",
     "bucketName": "Quicksand Bucket",
     "textureStill": "suspicious_sand_3",
     "textureFlowing": "sand",
+    "hasFog": false,
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 20,
     "levelDecrease": 1,
     "slopeFindDistance": 4,
     "spawnParticles": false,
-    "dripParticle": {
-      "value": "CURRENT_DOWN"
-    },
+    "dripParticle": "CURRENT_DOWN",
     "flowStrength": -1.0,
     "luminosity": 0,
     "density": 1000,
@@ -23,12 +22,10 @@
     "type": "WATER",
     "generateBucket": true,
     "textureBucket": "",
-    "creativeTab": {
-      "value": "CUSTOM:JustAKritch"
-    },
-    "emptySound": {
-      "value": "block.sand.fall"
-    },
+    "creativeTabs": [
+      "CUSTOM:JustAKritch"
+    ],
+    "emptySound": "block.sand.fall",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -38,6 +35,7 @@
     "lightOpacity": 5,
     "emissiveRendering": false,
     "tickRate": 0,
+    "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT"

@@ -1,4 +1,3 @@
-
 package net.mcreator.go_with_the_flow.block;
 
 import net.minecraft.world.level.material.PushReaction;
@@ -14,7 +13,7 @@ import net.mcreator.go_with_the_flow.init.GoWithTheFlowModFluids;
 
 public class QuicksandBlock extends LiquidBlock {
 	public QuicksandBlock() {
-		super(() -> GoWithTheFlowModFluids.QUICKSAND.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(GoWithTheFlowModFluids.QUICKSAND.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override

@@ -3,7 +3,6 @@
     {
       "name": "JustAKritch",
       "type": "tab",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "just_a_kritch",
@@ -14,19 +13,18 @@
     {
       "name": "Quicksand",
       "type": "fluid",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quicksand",
       "metadata": {
         "files": [
           "src/main/resources/assets/go_with_the_flow/blockstates/quicksand.json",
-          "src/main/java/net/mcreator/go_with_the_flow/item/QuicksandItem.java",
           "src/main/resources/assets/go_with_the_flow/models/item/quicksand_bucket.json",
+          "src/main/java/net/mcreator/go_with_the_flow/fluid/types/QuicksandFluidType.java",
+          "src/main/resources/assets/go_with_the_flow/models/block/quicksand.json",
           "src/main/java/net/mcreator/go_with_the_flow/fluid/QuicksandFluid.java",
           "src/main/java/net/mcreator/go_with_the_flow/block/QuicksandBlock.java",
-          "src/main/java/net/mcreator/go_with_the_flow/fluid/types/QuicksandFluidType.java",
-          "src/main/resources/assets/go_with_the_flow/models/block/quicksand.json"
+          "src/main/java/net/mcreator/go_with_the_flow/item/QuicksandItem.java"
         ]
       },
       "path": "~/Quicksand"
@@ -34,13 +32,12 @@
     {
       "name": "QuicksandBucketRecipe",
       "type": "recipe",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quicksand_bucket_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/go_with_the_flow/recipes/quicksand_bucket_recipe.json"
+          "src/main/resources/data/go_with_the_flow/recipe/quicksand_bucket_recipe.json"
         ]
       },
       "path": "~/Quicksand"
@@ -48,19 +45,18 @@
     {
       "name": "Oil",
       "type": "fluid",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/go_with_the_flow/item/OilItem.java",
           "src/main/resources/assets/go_with_the_flow/models/item/oil_bucket.json",
+          "src/main/java/net/mcreator/go_with_the_flow/item/OilItem.java",
+          "src/main/resources/assets/go_with_the_flow/models/block/oil.json",
           "src/main/java/net/mcreator/go_with_the_flow/fluid/OilFluid.java",
           "src/main/java/net/mcreator/go_with_the_flow/block/OilBlock.java",
           "src/main/java/net/mcreator/go_with_the_flow/fluid/types/OilFluidType.java",
-          "src/main/resources/assets/go_with_the_flow/blockstates/oil.json",
-          "src/main/resources/assets/go_with_the_flow/models/block/oil.json"
+          "src/main/resources/assets/go_with_the_flow/blockstates/oil.json"
         ]
       },
       "path": "~/Oil"
@@ -68,7 +64,6 @@
     {
       "name": "OilFuel",
       "type": "itemextension",
-      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_fuel",
@@ -80,7 +75,6 @@
     {
       "name": "OilFuelFuelBurningSuccessCondition",
       "type": "procedure",
-      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_fuel_fuel_burning_success_condition",
@@ -112,13 +106,12 @@
     {
       "name": "OilLanternRecipe",
       "type": "recipe",
-      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_lantern_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/go_with_the_flow/recipes/oil_lantern_recipe.json"
+          "src/main/resources/data/go_with_the_flow/recipe/oil_lantern_recipe.json"
         ]
       },
       "path": "~/Oil"
@@ -126,7 +119,6 @@
     {
       "name": "OilShaleBlockDestroyedByExplosion",
       "type": "procedure",
-      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_shale_block_destroyed_by_explosion",
@@ -158,7 +150,6 @@
     {
       "name": "OilShaleOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_shale_on_block_right_clicked",
@@ -194,7 +185,6 @@
     {
       "name": "OilShaleBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_shale_block_destroyed_by_player",
@@ -230,19 +220,18 @@
     {
       "name": "OilShale",
       "type": "block",
-      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_shale",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/go_with_the_flow/block/OilShaleBlock.java",
-          "src/main/resources/assets/go_with_the_flow/models/item/oil_shale.json",
-          "src/main/resources/data/go_with_the_flow/worldgen/configured_feature/oil_shale.json",
-          "src/main/resources/assets/go_with_the_flow/blockstates/oil_shale.json",
-          "src/main/resources/data/go_with_the_flow/forge/biome_modifier/oil_shale_biome_modifier.json",
           "src/main/resources/data/go_with_the_flow/worldgen/placed_feature/oil_shale.json",
-          "src/main/resources/assets/go_with_the_flow/models/block/oil_shale.json"
+          "src/main/resources/data/go_with_the_flow/worldgen/configured_feature/oil_shale.json",
+          "src/main/resources/assets/go_with_the_flow/models/item/oil_shale.json",
+          "src/main/java/net/mcreator/go_with_the_flow/block/OilShaleBlock.java",
+          "src/main/resources/assets/go_with_the_flow/models/block/oil_shale.json",
+          "src/main/resources/data/go_with_the_flow/neoforge/biome_modifier/oil_shale_biome_modifier.json",
+          "src/main/resources/assets/go_with_the_flow/blockstates/oil_shale.json"
         ]
       },
       "path": "~/Oil"
@@ -250,13 +239,12 @@
     {
       "name": "OilShaleSilkTouch",
       "type": "loottable",
-      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_shale_silk_touch",
       "metadata": {
         "files": [
-          "src/main/resources/data/go_with_the_flow/loot_tables/blocks/oil_shale.json"
+          "src/main/resources/data/go_with_the_flow/loot_table/blocks/oil_shale.json"
         ]
       },
       "path": "~/Oil"
@@ -264,15 +252,14 @@
     {
       "name": "SmallQuicksandPit",
       "type": "structure",
-      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_quicksand_pit",
       "metadata": {
         "files": [
           "src/main/resources/data/go_with_the_flow/worldgen/structure/small_quicksand_pit.json",
-          "src/main/resources/data/go_with_the_flow/worldgen/structure_set/small_quicksand_pit.json",
-          "src/main/resources/data/go_with_the_flow/worldgen/template_pool/small_quicksand_pit.json"
+          "src/main/resources/data/go_with_the_flow/worldgen/template_pool/small_quicksand_pit.json",
+          "src/main/resources/data/go_with_the_flow/worldgen/structure_set/small_quicksand_pit.json"
         ]
       },
       "path": "~/Quicksand"
@@ -280,15 +267,14 @@
     {
       "name": "LargeQuicksandPit",
       "type": "structure",
-      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_quicksand_pit",
       "metadata": {
         "files": [
-          "src/main/resources/data/go_with_the_flow/worldgen/structure_set/large_quicksand_pit.json",
+          "src/main/resources/data/go_with_the_flow/worldgen/structure/large_quicksand_pit.json",
           "src/main/resources/data/go_with_the_flow/worldgen/template_pool/large_quicksand_pit.json",
-          "src/main/resources/data/go_with_the_flow/worldgen/structure/large_quicksand_pit.json"
+          "src/main/resources/data/go_with_the_flow/worldgen/structure_set/large_quicksand_pit.json"
         ]
       },
       "path": "~/Quicksand"
@@ -296,6 +282,19 @@
   ],
   "variable_elements": [],
   "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~Oil@CUSTOM:Oil",
+      "~Quicksand@CUSTOM:Quicksand"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~OilShale@CUSTOM:OilShale"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~OilShale@CUSTOM:OilShale"
+    ]
+  },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "fluid.justakritch.quicksand": "Quicksand",
@@ -312,8 +311,23 @@
       "block.go_with_the_flow.oil_shale": "Oil Shale",
       "fluid.justakritch.oil": "Oil",
       "block.go_with_the_flow.quicksand": "Quicksand",
-      "fluid.go_with_the_flow.oil": "Oil"
+      "fluid.go_with_the_flow.oil": "Oil",
+      "fluid_type.go_with_the_flow.quicksand": "Quicksand",
+      "fluid_type.go_with_the_flow.oil": "Oil"
     }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/go_with_the_flow/init/GoWithTheFlowModFluids.java",
+      "src/main/java/net/mcreator/go_with_the_flow/init/GoWithTheFlowModFluidTypes.java",
+      "src/main/java/net/mcreator/go_with_the_flow/init/GoWithTheFlowModFuels.java",
+      "src/main/java/net/mcreator/go_with_the_flow/init/GoWithTheFlowModBlocks.java",
+      "src/main/java/net/mcreator/go_with_the_flow/init/GoWithTheFlowModItems.java",
+      "src/main/java/net/mcreator/go_with_the_flow/GoWithTheFlowMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/go_with_the_flow/init/GoWithTheFlowModTabs.java"
+    ]
   },
   "foldersRoot": {
     "name": "~",
@@ -331,20 +345,18 @@
   "workspaceSettings": {
     "modid": "go_with_the_flow",
     "modName": "go_with_the_flow",
-    "version": "1.2.3",
-    "author": "Kritcharon, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "2.0.0",
+    "author": "Kritcharon",
+    "websiteURL": "https://github.com/02NRA/SnakePrairie",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.go_with_the_flow",
-    "lockBaseModFiles": false
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.go_with_the_flow"
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202600233518
 }

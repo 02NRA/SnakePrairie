@@ -1,7 +1,6 @@
-
 package net.mcreator.go_with_the_flow.fluid;
 
-import net.minecraftforge.fluids.ForgeFlowingFluid;
+import net.neoforged.neoforge.fluids.BaseFlowingFluid;
 
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
@@ -13,8 +12,8 @@ import net.mcreator.go_with_the_flow.init.GoWithTheFlowModFluids;
 import net.mcreator.go_with_the_flow.init.GoWithTheFlowModFluidTypes;
 import net.mcreator.go_with_the_flow.init.GoWithTheFlowModBlocks;
 
-public abstract class QuicksandFluid extends ForgeFlowingFluid {
-	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> GoWithTheFlowModFluidTypes.QUICKSAND_TYPE.get(), () -> GoWithTheFlowModFluids.QUICKSAND.get(),
+public abstract class QuicksandFluid extends BaseFlowingFluid {
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> GoWithTheFlowModFluidTypes.QUICKSAND_TYPE.get(), () -> GoWithTheFlowModFluids.QUICKSAND.get(),
 			() -> GoWithTheFlowModFluids.FLOWING_QUICKSAND.get()).explosionResistance(100f).tickRate(20).bucket(() -> GoWithTheFlowModItems.QUICKSAND_BUCKET.get()).block(() -> (LiquidBlock) GoWithTheFlowModBlocks.QUICKSAND.get());
 
 	private QuicksandFluid() {

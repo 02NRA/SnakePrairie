@@ -1,23 +1,26 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "structure",
   "definition": {
     "structure": "small_quicksand_pit",
     "projection": "terrain_matching",
     "ignoredBlocks": [
-      {
-        "value": "Blocks.STRUCTURE_BLOCK"
-      }
+      "Blocks.STRUCTURE_BLOCK"
     ],
     "spacing": 7,
     "separation": 5,
     "restrictionBiomes": [
-      {
-        "value": "desert"
-      }
+      "desert"
     ],
-    "surfaceDetectionType": "MOTION_BLOCKING",
     "terrainAdaptation": "bury",
-    "generationStep": "FLUID_SPRINGS"
+    "generationStep": "FLUID_SPRINGS",
+    "surfaceDetectionType": "MOTION_BLOCKING",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
   }
 }

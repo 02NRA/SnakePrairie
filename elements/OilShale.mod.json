@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "oilshale",
@@ -14,8 +14,12 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
+    "states": [],
+    "animations": [],
     "itemTexture": "",
     "particleTexture": "",
+    "blockSetType": "OAK",
+    "leavesParticleChance": 0.0,
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,6 +37,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Oil Shale",
     "specialInformation": {
       "fixedValue": []
@@ -41,23 +46,25 @@
     "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:JustAKritch"
-    },
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "creativeTabs": [
+      "CUSTOM:JustAKritch"
+    ],
     "destroyTool": "pickaxe",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
     "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
+    "hasCustomOpacity": false,
     "lightOpacity": 15,
-    "material": {
-      "value": "ROCK"
-    },
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
@@ -66,11 +73,11 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "creativePickItem": {
-      "value": ""
-    },
+    "noteBlockInstrument": "basedrum",
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -79,31 +86,22 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "DESTROY",
     "isNotColidable": false,
+    "soundOnStep": "BASALT",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "BASALT"
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
+    "luminance": {
+      "fixedValue": 0.0
     },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -119,37 +117,19 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "OilShaleBlockDestroyedByPlayer"
-    },
-    "onDestroyedByExplosion": {
-      "name": "OilShaleBlockDestroyedByExplosion"
-    },
-    "onStartToDestroy": {
-      "name": "OilShaleOnBlockRightClicked"
-    },
+    "onDestroyedByPlayer": "OilShaleBlockDestroyedByPlayer",
+    "onDestroyedByExplosion": "OilShaleBlockDestroyedByExplosion",
+    "onStartToDestroy": "OilShaleOnBlockRightClicked",
     "generateFeature": true,
     "restrictionBiomes": [
-      {
-        "value": "basalt_deltas"
-      }
+      "basalt_deltas"
     ],
     "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      },
-      {
-        "value": "Blocks.BASALT"
-      },
-      {
-        "value": "Blocks.POLISHED_BASALT"
-      },
-      {
-        "value": "Blocks.SMOOTH_BASALT"
-      },
-      {
-        "value": "Blocks.NETHERRACK"
-      }
+      "TAG:stone_ore_replaceables",
+      "Blocks.BASALT",
+      "Blocks.POLISHED_BASALT",
+      "Blocks.SMOOTH_BASALT",
+      "Blocks.NETHERRACK"
     ],
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 3,

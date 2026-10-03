@@ -1,47 +1,28 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.SAND#0"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.SAND#0"
-      },
-      {
-        "value": "Items.WATER_BUCKET"
-      },
-      {
-        "value": "Blocks.SAND#0"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.SAND#0"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "Blocks.SAND#0",
+      "",
+      "Blocks.SAND#0",
+      "Items.WATER_BUCKET",
+      "Blocks.SAND#0",
+      "",
+      "Blocks.SAND#0",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Quicksand.bucket"
-    },
+    "recipeReturnStack": "CUSTOM:Quicksand.bucket",
     "name": "quicksand_bucket_recipe",
     "namespace": "mod"
   }
