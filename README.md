@@ -24,7 +24,7 @@ All features were originally on branch JustAKritch, but were split up and added 
 
 ### Instructions to edit this mod
 1. Download and unzip the branch of your desired mod
-2. If you have no already, install the Forge version outlined above, and the MCreator version to match
+2. If you have not already, install the Forge version outlined above, and the MCreator version to match
 3. Open the .mcreator file
 4. Make your edits
 5. Export the mod as a .jar file (at the time of writing this, in the upper righthand corner of mcreator)
