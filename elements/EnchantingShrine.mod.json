@@ -1,23 +1,26 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "structure",
   "definition": {
     "structure": "enchanting_shrine",
     "projection": "rigid",
     "ignoredBlocks": [
-      {
-        "value": "Blocks.STRUCTURE_BLOCK"
-      }
+      "Blocks.STRUCTURE_BLOCK"
     ],
     "spacing": 128,
     "separation": 64,
     "restrictionBiomes": [
-      {
-        "value": "badlands"
-      }
+      "badlands"
     ],
-    "surfaceDetectionType": "WORLD_SURFACE_WG",
     "terrainAdaptation": "beard_thin",
-    "generationStep": "SURFACE_STRUCTURES"
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
   }
 }

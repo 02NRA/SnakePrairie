@@ -1,18 +1,16 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Astral Planes Biome",
-    "groundBlock": {
-      "value": "CUSTOM:AstralSand"
-    },
-    "undergroundBlock": {
-      "value": "Blocks.CRYING_OBSIDIAN"
-    },
-    "underwaterBlock": {
-      "value": ""
-    },
+    "groundBlock": "CUSTOM:AstralSand",
+    "undergroundBlock": "Blocks.CRYING_OBSIDIAN",
+    "underwaterBlock": "",
     "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "fogColor": {
       "value": -16777216,
       "falpha": 0.0
     },
@@ -32,23 +30,13 @@
       "value": -16777216,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": ""
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": true,
-    "particleToSpawn": {
-      "value": "ENCHANTMENT_TABLE"
-    },
+    "particleToSpawn": "ENCHANTMENT_TABLE",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.1,
     "temperature": 0.1,
@@ -75,22 +63,18 @@
       "min": -1.0,
       "max": 1.0
     },
+    "genDepth": {
+      "min": 0.2,
+      "max": 0.9
+    },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
-    "treeStem": {
-      "value": ""
-    },
-    "treeBranch": {
-      "value": ""
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "",
+    "treeBranch": "",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [
       "AmethystGeodes",
       "Caves"

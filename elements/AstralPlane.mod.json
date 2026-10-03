@@ -1,51 +1,61 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "CUSTOM:AstralPlanesBiome"
-      }
+      "CUSTOM:AstralPlanesBiome"
     ],
+    "biomesInDimensionCaves": [],
     "worldGenType": "Normal world gen",
-    "mainFillerBlock": {
-      "value": "Blocks.BEDROCK"
-    },
-    "fluidBlock": {
-      "value": "Blocks.VOID_AIR"
-    },
+    "mainFillerBlock": "Blocks.BEDROCK",
+    "fluidBlock": "Blocks.VOID_AIR",
+    "seaLevel": 63,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": false,
+    "cloudHeight": 192,
+    "skyType": "NONE",
     "airColor": {
       "value": -16777216,
       "falpha": 0.0
     },
+    "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": true,
-    "isDark": true,
+    "ambientLight": 0.0,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "enableCustomSunMoonTextures": false,
+    "bedWorks": true,
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
-    "onPlayerEntersDimension": {
-      "name": "AstralPlaneAmbiant"
-    },
-    "portalFrame": {
-      "value": ""
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "onPlayerEntersDimension": "AstralPlaneAmbiant",
+    "portalFrame": "",
+    "portalParticles": "PORTAL",
     "portalLuminance": 0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
+    "portalSound": "block.portal.ambient",
     "enableIgniter": true,
     "igniterName": "Astral Plane Portal Igniter",
+    "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
-    "igniterTab": {
-      "value": "TOOLS"
-    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
     "texture": "",
     "portalTexture": "",
     "enablePortal": false

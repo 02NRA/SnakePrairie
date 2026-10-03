@@ -1,32 +1,29 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "structure",
   "definition": {
     "structure": "enderman_castle_light",
     "projection": "terrain_matching",
     "ignoredBlocks": [
-      {
-        "value": "Blocks.STRUCTURE_BLOCK"
-      }
+      "Blocks.STRUCTURE_BLOCK"
     ],
     "spacing": 64,
     "separation": 16,
     "restrictionBiomes": [
-      {
-        "value": "end_barrens"
-      },
-      {
-        "value": "end_midlands"
-      },
-      {
-        "value": "small_end_islands"
-      },
-      {
-        "value": "end_highlands"
-      }
+      "end_barrens",
+      "end_midlands",
+      "small_end_islands",
+      "end_highlands"
     ],
-    "surfaceDetectionType": "MOTION_BLOCKING",
     "terrainAdaptation": "beard_thin",
-    "generationStep": "SURFACE_STRUCTURES"
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "MOTION_BLOCKING",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
   }
 }

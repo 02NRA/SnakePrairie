@@ -1,12 +1,10 @@
-
 package net.mcreator.thenewworld.world.dimension;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
+import net.neoforged.neoforge.event.entity.player.PlayerEvent;
+import net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.Level;
@@ -18,12 +16,11 @@ import net.minecraft.client.renderer.DimensionSpecialEffects;
 
 import net.mcreator.thenewworld.procedures.AstralPlaneAmbiantProcedure;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class AstralPlaneDimension {
-	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	public static class DimensionSpecialEffectsHandler {
+	@EventBusSubscriber(Dist.CLIENT)
+	public static class AstralPlaneSpecialEffectsHandler {
 		@SubscribeEvent
-		@OnlyIn(Dist.CLIENT)
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
@@ -36,7 +33,7 @@ public class AstralPlaneDimension {
 					return true;
 				}
 			};
-			event.register(new ResourceLocation("the_new_world:astral_plane"), customEffect);
+			event.register(ResourceLocation.parse("the_new_world:astral_plane"), customEffect);
 		}
 	}
 
@@ -47,7 +44,7 @@ public class AstralPlaneDimension {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("the_new_world:astral_plane"))) {
+		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("the_new_world:astral_plane"))) {
 			AstralPlaneAmbiantProcedure.execute(entity);
 		}
 	}
