@@ -1,47 +1,28 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.IRON_BARS"
-      },
-      {
-        "value": "Blocks.CRYING_OBSIDIAN"
-      },
-      {
-        "value": "Blocks.IRON_BARS"
-      },
-      {
-        "value": "Blocks.CRYING_OBSIDIAN"
-      },
-      {
-        "value": "Items.HEART_POTTERY_SHERD"
-      },
-      {
-        "value": "Blocks.CRYING_OBSIDIAN"
-      },
-      {
-        "value": "Blocks.IRON_BARS"
-      },
-      {
-        "value": "Blocks.CRYING_OBSIDIAN"
-      },
-      {
-        "value": "Blocks.IRON_BARS"
-      }
+      "Blocks.IRON_BARS",
+      "Blocks.CRYING_OBSIDIAN",
+      "Blocks.IRON_BARS",
+      "Blocks.CRYING_OBSIDIAN",
+      "Items.HEART_POTTERY_SHERD",
+      "Blocks.CRYING_OBSIDIAN",
+      "Blocks.IRON_BARS",
+      "Blocks.CRYING_OBSIDIAN",
+      "Blocks.IRON_BARS"
     ],
-    "recipeReturnStack": {
-      "value": "Blocks.MOB_SPAWNER"
-    },
+    "recipeReturnStack": "Blocks.MOB_SPAWNER",
     "name": "mob_spawner",
     "namespace": "mod"
   }

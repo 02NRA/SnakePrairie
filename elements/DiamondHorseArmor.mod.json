@@ -1,47 +1,28 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Items.LEATHER_HORSE_ARMOR"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Items.LEATHER_HORSE_ARMOR",
+      "Items.DIAMOND",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "Items.DIAMOND_HORSE_ARMOR"
-    },
+    "recipeReturnStack": "Items.DIAMOND_HORSE_ARMOR",
     "name": "diamond_horse_armor",
     "namespace": "mod"
   }

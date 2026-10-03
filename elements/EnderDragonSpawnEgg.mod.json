@@ -1,47 +1,28 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.END_CRYSTAL"
-      },
-      {
-        "value": "Blocks.SKULL#5"
-      },
-      {
-        "value": "Items.END_CRYSTAL"
-      },
-      {
-        "value": "Items.DRAGON_BREATH"
-      },
-      {
-        "value": "Items.HEART_POTTERY_SHERD"
-      },
-      {
-        "value": "Items.DRAGON_BREATH"
-      },
-      {
-        "value": "Items.END_CRYSTAL"
-      },
-      {
-        "value": "Items.DRAGON_BREATH"
-      },
-      {
-        "value": "Items.END_CRYSTAL"
-      }
+      "Items.END_CRYSTAL",
+      "Blocks.SKULL#5",
+      "Items.END_CRYSTAL",
+      "Items.DRAGON_BREATH",
+      "Items.HEART_POTTERY_SHERD",
+      "Items.DRAGON_BREATH",
+      "Items.END_CRYSTAL",
+      "Items.DRAGON_BREATH",
+      "Items.END_CRYSTAL"
     ],
-    "recipeReturnStack": {
-      "value": "Items.ENDER_DRAGON_SPAWN_EGG"
-    },
+    "recipeReturnStack": "Items.ENDER_DRAGON_SPAWN_EGG",
     "name": "ender_dragon_spawn_egg",
     "namespace": "mod"
   }
