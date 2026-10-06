@@ -5,7 +5,9 @@
     "recipeType": "Blasting",
     "recipeRetstackSize": 1,
     "group": "",
-    "unlockingItems": [],
+    "unlockingItems": [
+      "Blocks.LIGHT_WEIGHTED_PRESSURE_PLATE"
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 1.0,
     "cookingTime": 100,

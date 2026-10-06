@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Items.GOLDEN_HORSE_ARMOR"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": "Items.GOLDEN_HORSE_ARMOR",
+    "blastingReturnStack": "Items.GOLD_INGOT",
+    "name": "gold_horse_armor_melts",
+    "namespace": "mod"
+  }
+}

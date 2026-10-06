@@ -5,22 +5,24 @@
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
-    "unlockingItems": [],
+    "unlockingItems": [
+      "Items.LEATHER"
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      "Items.STRING",
       "",
-      "Items.STRING",
-      "Items.LEATHER",
-      "Items.LEATHER",
-      "Items.LEATHER",
-      "Blocks.TRIPWIRE_HOOK",
       "",
-      "Blocks.TRIPWIRE_HOOK"
+      "",
+      "",
+      "Items.LEATHER",
+      "",
+      "Items.LEATHER",
+      "Items.IRON_INGOT",
+      "Items.LEATHER"
     ],
     "recipeReturnStack": "Items.SADDLE",
     "name": "saddle_recipe",

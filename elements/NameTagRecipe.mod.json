@@ -5,7 +5,10 @@
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
-    "unlockingItems": [],
+    "unlockingItems": [
+      "Items.IRON_NUGGET",
+      "Items.PAPER"
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
@@ -13,10 +16,10 @@
     "recipeShapeless": true,
     "recipeSlots": [
       "",
-      "",
-      "Items.STRING",
-      "",
       "Items.PAPER",
+      "",
+      "",
+      "Items.IRON_NUGGET",
       "",
       "",
       "",

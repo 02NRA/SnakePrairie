@@ -5,7 +5,9 @@
     "recipeType": "Blasting",
     "recipeRetstackSize": 1,
     "group": "",
-    "unlockingItems": [],
+    "unlockingItems": [
+      "Blocks.LIGHTNING_ROD"
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 1.0,
     "cookingTime": 100,

@@ -8,6 +8,7 @@
       "registry_name": "saddle_recipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/saddle_recipe.json",
           "src/main/resources/data/enrichedvanillarecipes/recipe/saddle_recipe.json"
         ]
       },
@@ -21,6 +22,7 @@
       "registry_name": "name_tag_recipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/name_tag_recipe.json",
           "src/main/resources/data/enrichedvanillarecipes/recipe/name_tag_recipe.json"
         ]
       },
@@ -34,6 +36,7 @@
       "registry_name": "wool_to_string",
       "metadata": {
         "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/wool_to_string.json",
           "src/main/resources/data/enrichedvanillarecipes/recipe/wool_to_string.json"
         ]
       },
@@ -47,7 +50,8 @@
       "registry_name": "quartz_block_to_quartz_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/enrichedvanillarecipes/recipe/quartz_block_to_quartz_recipe.json"
+          "src/main/resources/data/enrichedvanillarecipes/recipe/quartz_block_to_quartz_recipe.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/quartz_block_to_quartz_recipe.json"
         ]
       },
       "path": "~/VanillaRecipes"
@@ -199,7 +203,8 @@
       "registry_name": "iron_bars_melt",
       "metadata": {
         "files": [
-          "src/main/resources/data/enrichedvanillarecipes/recipe/iron_bars_melt.json"
+          "src/main/resources/data/enrichedvanillarecipes/recipe/iron_bars_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/iron_bars_melt.json"
         ]
       },
       "path": "~/Meltdown"
@@ -212,7 +217,8 @@
       "registry_name": "iron_doors_melt",
       "metadata": {
         "files": [
-          "src/main/resources/data/enrichedvanillarecipes/recipe/iron_doors_melt.json"
+          "src/main/resources/data/enrichedvanillarecipes/recipe/iron_doors_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/iron_doors_melt.json"
         ]
       },
       "path": "~/Meltdown"
@@ -225,6 +231,7 @@
       "registry_name": "iron_trapdoors_melt",
       "metadata": {
         "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/iron_trapdoors_melt.json",
           "src/main/resources/data/enrichedvanillarecipes/recipe/iron_trapdoors_melt.json"
         ]
       },
@@ -238,6 +245,7 @@
       "registry_name": "iron_pressure_plates_melt",
       "metadata": {
         "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/iron_pressure_plates_melt.json",
           "src/main/resources/data/enrichedvanillarecipes/recipe/iron_pressure_plates_melt.json"
         ]
       },
@@ -251,6 +259,7 @@
       "registry_name": "gold_pressure_plates_melt",
       "metadata": {
         "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/gold_pressure_plates_melt.json",
           "src/main/resources/data/enrichedvanillarecipes/recipe/gold_pressure_plates_melt.json"
         ]
       },
@@ -264,7 +273,8 @@
       "registry_name": "anvils_melt",
       "metadata": {
         "files": [
-          "src/main/resources/data/enrichedvanillarecipes/recipe/anvils_melt.json"
+          "src/main/resources/data/enrichedvanillarecipes/recipe/anvils_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/anvils_melt.json"
         ]
       },
       "path": "~/Meltdown"
@@ -277,7 +287,8 @@
       "registry_name": "lightning_rods_melt",
       "metadata": {
         "files": [
-          "src/main/resources/data/enrichedvanillarecipes/recipe/lightning_rods_melt.json"
+          "src/main/resources/data/enrichedvanillarecipes/recipe/lightning_rods_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/lightning_rods_melt.json"
         ]
       },
       "path": "~/Meltdown"
@@ -290,7 +301,8 @@
       "registry_name": "cauldrons_melt",
       "metadata": {
         "files": [
-          "src/main/resources/data/enrichedvanillarecipes/recipe/cauldrons_melt.json"
+          "src/main/resources/data/enrichedvanillarecipes/recipe/cauldrons_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/cauldrons_melt.json"
         ]
       },
       "path": "~/Meltdown"
@@ -303,7 +315,8 @@
       "registry_name": "minecarts_melt",
       "metadata": {
         "files": [
-          "src/main/resources/data/enrichedvanillarecipes/recipe/minecarts_melt.json"
+          "src/main/resources/data/enrichedvanillarecipes/recipe/minecarts_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/minecarts_melt.json"
         ]
       },
       "path": "~/Meltdown"
@@ -316,7 +329,134 @@
       "registry_name": "chains_melt",
       "metadata": {
         "files": [
-          "src/main/resources/data/enrichedvanillarecipes/recipe/chains_melt.json"
+          "src/main/resources/data/enrichedvanillarecipes/recipe/chains_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/chains_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "NameTagRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_tag_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/name_tag_recipe_2.json",
+          "src/main/resources/data/enrichedvanillarecipes/recipe/name_tag_recipe_2.json"
+        ]
+      },
+      "path": "~/VanillaRecipes"
+    },
+    {
+      "name": "RailsMelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rails_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipe/rails_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/rails_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "PoweredRailsMelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powered_rails_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipe/powered_rails_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/powered_rails_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "DetectorRailsMelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detector_rails_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipe/detector_rails_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/detector_rails_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "ActivatorRailsMelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activator_rails_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/activator_rails_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/recipe/activator_rails_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "IronHorseArmorMelts",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_horse_armor_melts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/iron_horse_armor_melts.json",
+          "src/main/resources/data/enrichedvanillarecipes/recipe/iron_horse_armor_melts.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "GoldHorseArmorMelts",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_horse_armor_melts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/recipe/gold_horse_armor_melts.json",
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/gold_horse_armor_melts.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "ClocksMelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocks_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/clocks_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/recipe/clocks_melt.json"
+        ]
+      },
+      "path": "~/Meltdown"
+    },
+    {
+      "name": "CompassesMelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compasses_melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enrichedvanillarecipes/advancement/recipes/compasses_melt.json",
+          "src/main/resources/data/enrichedvanillarecipes/recipe/compasses_melt.json"
         ]
       },
       "path": "~/Meltdown"
@@ -365,7 +505,7 @@
   "workspaceSettings": {
     "modid": "enrichedvanillarecipes",
     "modName": "enriched_vanilla-recipes",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "author": "Kritcharon",
     "websiteURL": "https://github.com/02NRA/SnakePrairie",
     "license": "Academic Free License v3.0",

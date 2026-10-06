@@ -5,7 +5,9 @@
     "recipeType": "Blasting",
     "recipeRetstackSize": 1,
     "group": "",
-    "unlockingItems": [],
+    "unlockingItems": [
+      "Items.MINECART"
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 1.0,
     "cookingTime": 200,
