@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Glowing",
+    "splashName": "Splash Potion of Glowing",
+    "lingeringName": "Lingering Potion of Glowing",
+    "arrowName": "Arrow of Glowing",
+    "effects": [
+      {
+        "effect": "CUSTOM:Glow",
+        "duration": 9600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

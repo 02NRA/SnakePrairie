@@ -19,11 +19,9 @@ public class ExpandedToolboxModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> JUST_A_KRITCH = REGISTRY.register("just_a_kritch",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.expanded_toolbox.just_a_kritch")).icon(() -> new ItemStack(Blocks.COMMAND_BLOCK)).displayItems((parameters, tabData) -> {
 				tabData.accept(ExpandedToolboxModItems.SHIV.get());
-				tabData.accept(ExpandedToolboxModItems.POTION_OF_GLOW.get());
 				tabData.accept(ExpandedToolboxModItems.PEBBLE.get());
 				tabData.accept(ExpandedToolboxModItems.SLING_SHOT.get());
 				tabData.accept(ExpandedToolboxModBlocks.CLEANED_GLASS.get().asItem());
 				tabData.accept(ExpandedToolboxModBlocks.LAME_CLEANED_GLASS.get().asItem());
-				tabData.accept(ExpandedToolboxModItems.POTION_OF_GLOW_LONG.get());
 			}).withSearchBar().build());
 }

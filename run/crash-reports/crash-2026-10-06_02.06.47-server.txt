@@ -1,0 +1,144 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2026-10-06 02:06:47
+Description: Ticking player
+
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.HashMap$HashIterator.remove(HashMap.java:1619) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.removeEffectsCuredBy(LivingEntity.java:3526) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.MilkBucketItem.finishUsingItem(MilkBucketItem.java:27) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack.finishUsingItem(ItemStack.java:395) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.completeUsingItem(LivingEntity.java:3204) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.completeUsingItem(ServerPlayer.java:1391) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.updateUsingItem(LivingEntity.java:3085) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.updateUsingItem(ServerPlayer.java:1998) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.updatingUsingItem(LivingEntity.java:3068) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2394) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.player.Player.tick(Player.java:281) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:556) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:260) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.tick(Connection.java:412) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:159) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1051) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:110) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.base/java.util.HashMap$HashIterator.remove(HashMap.java:1619) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.removeEffectsCuredBy(LivingEntity.java:3526) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.MilkBucketItem.finishUsingItem(MilkBucketItem.java:27) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.ItemStack.finishUsingItem(ItemStack.java:395) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.completeUsingItem(LivingEntity.java:3204) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.completeUsingItem(ServerPlayer.java:1391) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.updateUsingItem(LivingEntity.java:3085) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.updateUsingItem(ServerPlayer.java:1998) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.updatingUsingItem(LivingEntity.java:3068) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2394) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.player.Player.tick(Player.java:281) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.server.level.ServerPlayer)
+	Entity ID: 43
+	Entity Name: Dev
+	Entity's Exact location: -12.72, 68.00, 30.23
+	Entity's Block location: World: (-13,68,30), Section: (at 3,4,14 in -1,4,1; chunk contains blocks -16,-64,16 to -1,319,31), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:556) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:260) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.tick(Connection.java:412) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:159) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1051) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:110) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.232.jar%23189!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.12.1, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 288352160 bytes (274 MiB) / 763363328 bytes (728 MiB) up to 16953376768 bytes (16168 MiB)
+	CPUs: 32
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 7950X 16-Core Processor            
+	Identifier: AuthenticAMD Family 25 Model 97 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 4.49
+	Number of physical packages: 1
+	Number of physical CPUs: 16
+	Number of logical CPUs: 32
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 512.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.21043.5001
+	Graphics card #1 name: AMD Radeon RX 6950 XT
+	Graphics card #1 vendor: Advanced Micro Devices, Inc.
+	Graphics card #1 VRAM (MiB): 16368.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.21043.5001
+	Memory slot #0 capacity (MiB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 82115.36
+	Virtual memory used (MiB): 72825.06
+	Swap memory total (MiB): 17460.89
+	Swap memory used (MiB): 1130.20
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 681183.38, total: 1906703.00
+	Space in storage for workdir (MiB): available: 681183.38, total: 1906703.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/43, l='ServerLevel[New World]', x=-12.72, y=68.00, z=30.23]]
+	Active Data Packs: vanilla, mod_data, mod/neoforge, mod/expanded_toolbox
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/expanded_toolbox, mod/neoforge, mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 4141967128568641643
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Launched Version: 21.1.232
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		main                                              |expanded_toolbox              |expanded_toolbox              |2.0.1               |Manifest: NOSIGNATURE
+		neoforge-21.1.232.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.232.jar                             |NeoForge                      |neoforge                      |21.1.232            |Manifest: NOSIGNATURE
+	Crash Report UUID: 4d53856a-a993-408a-8a6f-81edb0c16585
+	FML: 4.0.42
+	NeoForge: 21.1.232

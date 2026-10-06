@@ -18,10 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.expanded_toolbox.init.ExpandedToolboxModTabs;
-import net.mcreator.expanded_toolbox.init.ExpandedToolboxModItems;
-import net.mcreator.expanded_toolbox.init.ExpandedToolboxModEntities;
-import net.mcreator.expanded_toolbox.init.ExpandedToolboxModBlocks;
+import net.mcreator.expanded_toolbox.init.*;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
@@ -47,6 +44,8 @@ public class ExpandedToolboxMod {
 		ExpandedToolboxModItems.REGISTRY.register(modEventBus);
 		ExpandedToolboxModEntities.REGISTRY.register(modEventBus);
 		ExpandedToolboxModTabs.REGISTRY.register(modEventBus);
+		ExpandedToolboxModPotions.REGISTRY.register(modEventBus);
+		ExpandedToolboxModMobEffects.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

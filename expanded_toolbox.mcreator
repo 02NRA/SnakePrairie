@@ -38,52 +38,6 @@
       "path": "~/Shiv"
     },
     {
-      "name": "PotionOfGlow",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potion_of_glow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/expanded_toolbox/item/PotionOfGlowItem.java",
-          "src/main/resources/assets/expanded_toolbox/models/item/potion_of_glow.json"
-        ]
-      },
-      "path": "~/GlowPotion"
-    },
-    {
-      "name": "PotionOfGlowRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potion_of_glow_recipe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/expanded_toolbox/recipe/brewing/PotionOfGlowRecipeBrewingRecipe.java"
-        ]
-      },
-      "path": "~/GlowPotion"
-    },
-    {
-      "name": "GlowEffect",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "glow_effect",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/expanded_toolbox/procedures/GlowEffectProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/GlowPotion"
-    },
-    {
       "name": "Pebble",
       "type": "item",
       "compiles": true,
@@ -270,50 +224,122 @@
       "path": "~/LookingGlass"
     },
     {
-      "name": "GlowEffectLong",
+      "name": "Glowing",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Glow Potion 2"
+    },
+    {
+      "name": "GlowOnEffectActiveTick",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "glow_effect_long",
+      "registry_name": "glow_on_effect_active_tick",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/expanded_toolbox/procedures/GlowEffectLongProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/procedures/GlowOnEffectActiveTickProcedure.java"
         ]
       },
-      "path": "~/GlowPotion"
+      "path": "~/Glow Potion 2"
     },
     {
-      "name": "PotionOfGlowLong",
-      "type": "item",
+      "name": "Glow",
+      "type": "potioneffect",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potion_of_glow_long",
+      "registry_name": "glow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/expanded_toolbox/item/PotionOfGlowLongItem.java",
-          "src/main/resources/assets/expanded_toolbox/models/item/potion_of_glow_long.json"
+          "src/main/java/net/mcreator/expanded_toolbox/potion/GlowMobEffect.java"
         ]
       },
-      "path": "~/GlowPotion"
+      "path": "~/Glow Potion 2"
     },
     {
-      "name": "PotionOfGlowLongRecipe",
+      "name": "GlowingExtended",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_extended",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Glow Potion 2"
+    },
+    {
+      "name": "GlowPotionRecipe",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potion_of_glow_long_recipe",
+      "registry_name": "glow_potion_recipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/expanded_toolbox/recipe/brewing/PotionOfGlowLongRecipeBrewingRecipe.java"
+          "src/main/java/net/mcreator/expanded_toolbox/recipe/brewing/GlowPotionRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/GlowPotion"
+      "path": "~/Glow Potion 2"
+    },
+    {
+      "name": "ExtendedGlow",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extended_glow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/recipe/brewing/ExtendedGlowBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Glow Potion 2"
+    },
+    {
+      "name": "GlowEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/procedures/GlowEffectStartedappliedProcedure.java"
+        ]
+      },
+      "path": "~/Glow Potion 2"
+    },
+    {
+      "name": "GlowEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/expanded_toolbox/procedures/GlowEffectExpiresProcedure.java"
+        ]
+      },
+      "path": "~/Glow Potion 2"
     }
   ],
   "variable_elements": [],
@@ -340,15 +366,22 @@
       "item_group.justakritch.just_a_kritch": "Just A Kritch",
       "block.justakritch.cleaned_glass": "Cleaned Glass",
       "item.expanded_toolbox.pebble": "Pebble",
-      "item.expanded_toolbox.potion_of_glow": "Potion Of Glowing",
-      "item.expanded_toolbox.potion_of_glow_long": "Potion Of Glowing",
       "item.justakritch.pebble": "Pebble",
-      "item.expanded_toolbox.potion_of_glow.description_0": "§9Glowing (3:00)",
-      "item.expanded_toolbox.potion_of_glow_long.description_0": "§9Glowing (8:00)"
+      "item.minecraft.lingering_potion.effect.glowing": "Lingering Potion of Glowing",
+      "item.minecraft.tipped_arrow.effect.glowing": "Arrow of Glowing",
+      "item.minecraft.splash_potion.effect.glowing": "Splash Potion of Glowing",
+      "item.minecraft.potion.effect.glowing": "Potion of Glowing",
+      "effect.expanded_toolbox.glow": "Glowing",
+      "item.minecraft.potion.effect.glowing_extended": "Potion of Glowing",
+      "item.minecraft.lingering_potion.effect.glowing_extended": "Lingering Potion of Glowing",
+      "item.minecraft.tipped_arrow.effect.glowing_extended": "Arrow of Glowing",
+      "item.minecraft.splash_potion.effect.glowing_extended": "Splash Potion of Glowing"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModMobEffects.java",
+      "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModPotions.java",
       "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModBlocks.java",
       "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModItems.java",
       "src/main/java/net/mcreator/expanded_toolbox/init/ExpandedToolboxModEntityRenderers.java",
@@ -371,15 +404,15 @@
         "children": []
       },
       {
-        "name": "GlowPotion",
-        "children": []
-      },
-      {
         "name": "LookingGlass",
         "children": []
       },
       {
         "name": "LameCleanedGlass",
+        "children": []
+      },
+      {
+        "name": "Glow Potion 2",
         "children": []
       }
     ]
@@ -387,7 +420,7 @@
   "workspaceSettings": {
     "modid": "expanded_toolbox",
     "modName": "expanded_toolbox",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "author": "Kritcharon",
     "websiteURL": "https://github.com/02NRA/SnakePrairie",
     "license": "Academic Free License v3.0",

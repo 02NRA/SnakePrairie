@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Glowing",
+    "icon": "glowing",
+    "color": {
+      "value": -256,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onStarted": "GlowEffectStartedapplied",
+    "onExpired": "GlowEffectExpires"
+  }
+}
