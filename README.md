@@ -1,7 +1,7 @@
 # Enriched Vanilla: Recipes
-Current mod version: 1.1.1
+Current mod version: 2.1.0
 
-For MC version: 1.20.1
+For MC version: 1.21.1
 
 ## Contents
 Added crafting recipes for:
@@ -12,4 +12,4 @@ Added crafting recipes for:
 - String (wool can now be broken up)
 - Nether quartz (Nether quartz blocks can now be broken up)
 
-Blast furnace can now be used to melt down anything made entirely of iron, gold, or copper
+Blast furnace can now be used to melt down lots of items made of iron, gold, or copper
