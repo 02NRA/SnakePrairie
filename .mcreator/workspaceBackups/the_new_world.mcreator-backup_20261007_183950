@@ -1,0 +1,337 @@
+{
+  "mod_elements": [
+    {
+      "name": "EndermanCastleLight",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_castle_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_new_world/worldgen/structure/enderman_castle_light.json",
+          "src/main/resources/data/the_new_world/worldgen/template_pool/enderman_castle_light.json",
+          "src/main/resources/data/the_new_world/worldgen/structure_set/enderman_castle_light.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "EndermanCastleDark",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_castle_dark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_new_world/worldgen/template_pool/enderman_castle_dark.json",
+          "src/main/resources/data/the_new_world/worldgen/structure_set/enderman_castle_dark.json",
+          "src/main/resources/data/the_new_world/worldgen/structure/enderman_castle_dark.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "AstralPlanesBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_planes_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_new_world/worldgen/biome/astral_planes_biome.json"
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralPlane",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_plane",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_new_world/dimension/astral_plane.json",
+          "src/main/resources/data/the_new_world/dimension_type/astral_plane.json",
+          "src/main/java/net/mcreator/thenewworld/world/dimension/AstralPlaneDimension.java"
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralPlaneEntrance",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_plane_entrance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/procedures/AstralPlaneEntranceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralPlaneExit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_plane_exit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/procedures/AstralPlaneExitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralPlaneAmbiant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_plane_ambiant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/procedures/AstralPlaneAmbiantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralSandBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_sand_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/procedures/AstralSandBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralSand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_sand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/block/AstralSandBlock.java",
+          "src/main/resources/assets/the_new_world/models/item/astral_sand.json",
+          "src/main/resources/assets/the_new_world/blockstates/astral_sand.json",
+          "src/main/resources/assets/the_new_world/models/block/astral_sand.json"
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "AstralSandDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_sand_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_new_world/loot_table/blocks/astral_sand.json"
+        ]
+      },
+      "path": "~/AstralPlane"
+    },
+    {
+      "name": "RuinedEnchantingTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruined_enchanting_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/block/RuinedEnchantingTableBlock.java",
+          "src/main/resources/assets/the_new_world/models/block/ruined_enchanting_table.json",
+          "src/main/resources/assets/the_new_world/models/item/ruined_enchanting_table.json",
+          "src/main/resources/data/the_new_world/loot_table/blocks/ruined_enchanting_table.json",
+          "src/main/resources/assets/the_new_world/blockstates/ruined_enchanting_table.json"
+        ]
+      },
+      "path": "~/EnchantingShrine"
+    },
+    {
+      "name": "TheNewWorld",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_new_world",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RuinedEnchantingTableOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruined_enchanting_table_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewworld/procedures/RuinedEnchantingTableOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/EnchantingShrine"
+    },
+    {
+      "name": "EnchantingShrine",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanting_shrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_new_world/worldgen/structure/enchanting_shrine.json",
+          "src/main/resources/data/the_new_world/worldgen/template_pool/enchanting_shrine.json",
+          "src/main/resources/data/the_new_world/worldgen/structure_set/enchanting_shrine.json"
+        ]
+      },
+      "path": "~/EnchantingShrine"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~AstralPlane@Blocks.BEDROCK",
+      "~AstralPlane@Blocks.CRYING_OBSIDIAN",
+      "~AstralPlane@CUSTOM:AstralSand"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~RuinedEnchantingTable@CUSTOM:RuinedEnchantingTable"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.the_new_world.astral_planes_biome": "Astral Planes Biome",
+      "block.the_new_world.astral_sand": "Astral Sand",
+      "item_group.the_new_world.the_new_world": "The New World",
+      "block.the_new_world.ruined_enchanting_table": "Ruined Enchanting Table"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/thenewworld/init/TheNewWorldModBlocks.java",
+      "src/main/java/net/mcreator/thenewworld/init/TheNewWorldModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/thenewworld/TheNewWorldMod.java",
+      "src/main/java/net/mcreator/thenewworld/init/TheNewWorldModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "AstralPlane",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "EnchantingShrine",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_new_world",
+    "modName": "the_new_world",
+    "version": "2.0.0",
+    "author": "Kritcharon",
+    "websiteURL": "Upgrade to MC 1.21.1 (2.0.0)",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.thenewworld"
+  },
+  "mcreatorVersion": 202600233518
+}

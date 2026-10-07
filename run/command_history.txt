@@ -1,0 +1,17 @@
+/time set
+/time set night
+/ti
+/time set night
+/gamemode survival
+/time set night
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/time set night
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative

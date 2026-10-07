@@ -46,22 +46,22 @@ public class AstralPlaneEntranceProcedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.WRITABLE_BOOK
 				&& (((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getDisplayName().getString()).contains("Journal")
 						|| ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getDisplayName().getString()).contains("Diary"))) {
+			if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
+				ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("the_new_world:astral_plane"));
+				if (_player.level().dimension() == destinationType)
+					return;
+				ServerLevel nextLevel = _player.server.getLevel(destinationType);
+				if (nextLevel != null) {
+					_player.connection.send(new ClientboundGameEventPacket(ClientboundGameEventPacket.WIN_GAME, 0));
+					_player.teleportTo(nextLevel, _player.getX(), _player.getY(), _player.getZ(), _player.getYRot(), _player.getXRot());
+					_player.connection.send(new ClientboundPlayerAbilitiesPacket(_player.getAbilities()));
+					for (MobEffectInstance _effectinstance : _player.getActiveEffects())
+						_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance, false));
+					_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
+				}
+			}
 			TheNewWorldMod.queueServerWork(100, () -> {
-				if (entity instanceof LivingEntity _livEnt6 && _livEnt6.isSleeping()) {
-					if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
-						ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("the_new_world:astral_plane"));
-						if (_player.level().dimension() == destinationType)
-							return;
-						ServerLevel nextLevel = _player.server.getLevel(destinationType);
-						if (nextLevel != null) {
-							_player.connection.send(new ClientboundGameEventPacket(ClientboundGameEventPacket.WIN_GAME, 0));
-							_player.teleportTo(nextLevel, _player.getX(), _player.getY(), _player.getZ(), _player.getYRot(), _player.getXRot());
-							_player.connection.send(new ClientboundPlayerAbilitiesPacket(_player.getAbilities()));
-							for (MobEffectInstance _effectinstance : _player.getActiveEffects())
-								_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance, false));
-							_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
-						}
-					}
+				if (entity instanceof LivingEntity _livEnt7 && _livEnt7.isSleeping()) {
 					if (entity instanceof ServerPlayer _player)
 						_player.setGameMode(GameType.SPECTATOR);
 					while (!world.canSeeSkyFromBelowWater(BlockPos.containing(x, y, z))) {
