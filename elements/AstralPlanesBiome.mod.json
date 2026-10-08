@@ -38,7 +38,7 @@
     "spawnParticles": true,
     "particleToSpawn": "ENCHANTMENT_TABLE",
     "particlesProbability": 0.5,
-    "rainingPossibility": 0.1,
+    "rainingPossibility": 0.0,
     "temperature": 0.1,
     "spawnBiome": false,
     "spawnInCaves": false,
