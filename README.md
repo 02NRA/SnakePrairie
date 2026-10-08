@@ -1,5 +1,5 @@
 # The New World
-Current mod version: 2.0.2
+Current mod version: 2.0.3
 
 For MC version: 1.21.1
 
