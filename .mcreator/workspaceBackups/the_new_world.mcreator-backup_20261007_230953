@@ -272,13 +272,13 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~RuinedEnchantingTable@CUSTOM:RuinedEnchantingTable"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~AstralPlane@Blocks.BEDROCK",
       "~AstralPlane@Blocks.CRYING_OBSIDIAN",
       "~AstralPlane@CUSTOM:AstralSand"
-    ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~RuinedEnchantingTable@CUSTOM:RuinedEnchantingTable"
     ]
   },
   "tab_element_order": {},

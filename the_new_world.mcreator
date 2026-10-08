@@ -292,6 +292,7 @@
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/thenewworld/client/TheNewWorldModSkyboxRenderer.java",
       "src/main/java/net/mcreator/thenewworld/init/TheNewWorldModBlocks.java",
       "src/main/java/net/mcreator/thenewworld/init/TheNewWorldModItems.java",
       "src/main/resources/pack.mcmeta",
@@ -320,7 +321,7 @@
   "workspaceSettings": {
     "modid": "the_new_world",
     "modName": "the_new_world",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "author": "Kritcharon",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

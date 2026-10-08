@@ -272,13 +272,13 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~RuinedEnchantingTable@CUSTOM:RuinedEnchantingTable"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~AstralPlane@Blocks.BEDROCK",
       "~AstralPlane@Blocks.CRYING_OBSIDIAN",
       "~AstralPlane@CUSTOM:AstralSand"
-    ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~RuinedEnchantingTable@CUSTOM:RuinedEnchantingTable"
     ]
   },
   "tab_element_order": {},
@@ -320,7 +320,7 @@
   "workspaceSettings": {
     "modid": "the_new_world",
     "modName": "the_new_world",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "author": "Kritcharon",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

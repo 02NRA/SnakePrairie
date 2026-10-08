@@ -23,3 +23,7 @@
 /gamemode creative
 /time set night
 /gamemode survival
+/gamemode creative
+/time set night
+/gamemode creative
+/gamemode survival
