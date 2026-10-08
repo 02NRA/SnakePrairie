@@ -1,7 +1,7 @@
 # The New World
-Current mod version: 1.2.1
+Current mod version: 2.0.2
 
-For MC version: 1.20.1
+For MC version: 1.21.1
 
 ## Contents
 - Discover light and dark versions of enderman sandcastles in the end
