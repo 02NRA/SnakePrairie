@@ -3,11 +3,11 @@
 ### Platform Versions
 
 This mod was originally on Minecraft version 1.20.1;
-This mod is currently on Minecraft version 1.20.1
+This mod is currently on Minecraft version 1.21.1
 
 
 This mod was originally on Forge version 47.2.0;
-This mod is currently on Forge version 47.2.0
+This mod is currently on NeoForge version 21.1.232
 
 
 All features were originally on branch JustAKritch, but were split up and added to after 0.3.2
