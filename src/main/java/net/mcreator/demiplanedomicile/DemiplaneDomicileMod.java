@@ -18,6 +18,11 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.demiplanedomicile.init.DemiplaneDomicileModTabs;
+import net.mcreator.demiplanedomicile.init.DemiplaneDomicileModItems;
+import net.mcreator.demiplanedomicile.init.DemiplaneDomicileModBlocks;
+import net.mcreator.demiplanedomicile.init.DemiplaneDomicileModAttributes;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
 import java.util.PriorityQueue;
@@ -38,6 +43,10 @@ public class DemiplaneDomicileMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		DemiplaneDomicileModBlocks.REGISTRY.register(modEventBus);
+		DemiplaneDomicileModItems.REGISTRY.register(modEventBus);
+		DemiplaneDomicileModTabs.REGISTRY.register(modEventBus);
+		DemiplaneDomicileModAttributes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

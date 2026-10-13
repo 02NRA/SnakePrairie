@@ -1,0 +1,26 @@
+{
+  "_fv": 89,
+  "_type": "structure",
+  "definition": {
+    "structure": "pocket_dimension",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      "Blocks.STRUCTURE_BLOCK"
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      "CUSTOM:PocketDimensionBiome"
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 203,
+    "startHeightMax": 204,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

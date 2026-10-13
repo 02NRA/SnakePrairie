@@ -1,0 +1,413 @@
+{
+  "mod_elements": [
+    {
+      "name": "PocketDimensionPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_dimension_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/PocketDimensionPlayerEntersDimensionProcedure.java"
+        ]
+      },
+      "path": "~/PocketDimension"
+    },
+    {
+      "name": "PocketDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/dimension/pocket_dimension.json",
+          "src/main/java/net/mcreator/demiplanedomicile/world/dimension/PocketDimensionDimension.java",
+          "src/main/resources/data/demiplane_domicile/dimension_type/pocket_dimension.json"
+        ]
+      },
+      "path": "~/PocketDimension"
+    },
+    {
+      "name": "BlockOfDreamDust",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_dream_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/block/BlockOfDreamDustBlock.java",
+          "src/main/resources/data/demiplane_domicile/loot_table/blocks/block_of_dream_dust.json",
+          "src/main/resources/assets/demiplane_domicile/models/item/block_of_dream_dust.json",
+          "src/main/resources/assets/demiplane_domicile/models/block/block_of_dream_dust.json",
+          "src/main/resources/assets/demiplane_domicile/blockstates/block_of_dream_dust.json"
+        ]
+      },
+      "path": "~/Dream"
+    },
+    {
+      "name": "PocketDimensionBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_dimension_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/worldgen/configured_feature/pocket_dimension_biome_tree.json",
+          "src/main/resources/data/demiplane_domicile/worldgen/biome/pocket_dimension_biome.json",
+          "src/main/resources/data/demiplane_domicile/worldgen/placed_feature/pocket_dimension_biome_tree.json"
+        ]
+      },
+      "path": "~/PocketDimension"
+    },
+    {
+      "name": "PocketDimensionStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_dimension_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/worldgen/structure_set/pocket_dimension_structure.json",
+          "src/main/resources/data/demiplane_domicile/worldgen/structure/pocket_dimension_structure.json",
+          "src/main/resources/data/demiplane_domicile/worldgen/template_pool/pocket_dimension_structure.json"
+        ]
+      },
+      "path": "~/PocketDimension"
+    },
+    {
+      "name": "DreamPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/DreamPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Dream"
+    },
+    {
+      "name": "Dream",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/item/DreamItem.java",
+          "src/main/resources/assets/demiplane_domicile/models/item/dream.json"
+        ]
+      },
+      "path": "~/Dream"
+    },
+    {
+      "name": "PocketDimensionItemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_dimension_item_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/PocketDimensionItemRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/PortalItem"
+    },
+    {
+      "name": "PocketDimensionItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_dimension_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/demiplane_domicile/models/item/pocket_dimension_item.json",
+          "src/main/java/net/mcreator/demiplanedomicile/item/PocketDimensionItemItem.java"
+        ]
+      },
+      "path": "~/PortalItem"
+    },
+    {
+      "name": "PocketDimensionItemRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_dimension_item_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/advancement/recipes/pocket_dimension_item_recipe.json",
+          "src/main/resources/data/demiplane_domicile/recipe/pocket_dimension_item_recipe.json"
+        ]
+      },
+      "path": "~/PortalItem"
+    },
+    {
+      "name": "PreviousDimension",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "previous_dimension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Attributes"
+    },
+    {
+      "name": "PreviousX",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "previous_x",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Attributes"
+    },
+    {
+      "name": "PreviousY",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "previous_y",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Attributes"
+    },
+    {
+      "name": "PreviousZ",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "previous_z",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Attributes"
+    },
+    {
+      "name": "MemoryPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/MemoryPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Dream"
+    },
+    {
+      "name": "MemoryOnDroppedItemEntityDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_on_dropped_item_entity_destroyed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/MemoryOnDroppedItemEntityDestroyedProcedure.java"
+        ]
+      },
+      "path": "~/Dream"
+    },
+    {
+      "name": "Memory",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/item/MemoryItem.java",
+          "src/main/resources/assets/demiplane_domicile/models/item/memory.json"
+        ]
+      },
+      "path": "~/Dream"
+    },
+    {
+      "name": "BlockOfMemories",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_memories",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/demiplane_domicile/blockstates/block_of_memories.json",
+          "src/main/resources/assets/demiplane_domicile/models/item/block_of_memories.json",
+          "src/main/resources/data/demiplane_domicile/loot_table/blocks/block_of_memories.json",
+          "src/main/resources/assets/demiplane_domicile/models/block/block_of_memories.json",
+          "src/main/java/net/mcreator/demiplanedomicile/block/BlockOfMemoriesBlock.java"
+        ]
+      },
+      "path": "~/Dream"
+    },
+    {
+      "name": "MemoryBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/recipe/memory_block.json",
+          "src/main/resources/data/demiplane_domicile/advancement/recipes/memory_block.json"
+        ]
+      },
+      "path": "~/Dream"
+    },
+    {
+      "name": "DreamBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/advancement/recipes/dream_block.json",
+          "src/main/resources/data/demiplane_domicile/recipe/dream_block.json"
+        ]
+      },
+      "path": "~/Dream"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~BlockOfMemories@CUSTOM:BlockOfMemories"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~PocketDimension@Blocks.BEDROCK",
+      "~PocketDimension@Blocks.END_STONE"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.demiplane_domicile.block_of_dream_dust": "Block Of Dream Dust",
+      "biome.demiplane_domicile.pocket_dimension_biome": "Pocket Dimension Biome",
+      "item.demiplane_domicile.dream": "Dream",
+      "item.demiplane_domicile.pocket_dimension_item": "Pocket Dimension",
+      "attribute.demiplane_domicile.previous_dimension": "Previous Dimension",
+      "attribute.demiplane_domicile.previous_x": "Previous X",
+      "attribute.demiplane_domicile.previous_y": "Previous Y",
+      "attribute.demiplane_domicile.previous_z": "Previous Z",
+      "item.demiplane_domicile.memory": "Memory",
+      "block.demiplane_domicile.block_of_memories": "Block Of Dream Dust"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModAttributes.java",
+      "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModBlocks.java",
+      "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModTabs.java",
+      "src/main/java/net/mcreator/demiplanedomicile/DemiplaneDomicileMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dream",
+        "children": []
+      },
+      {
+        "name": "PocketDimension",
+        "children": []
+      },
+      {
+        "name": "PortalItem",
+        "children": []
+      },
+      {
+        "name": "Attributes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "demiplane_domicile",
+    "modName": "Demiplane Domicile",
+    "version": "0.1.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.demiplanedomicile"
+  },
+  "mcreatorVersion": 202600233518
+}

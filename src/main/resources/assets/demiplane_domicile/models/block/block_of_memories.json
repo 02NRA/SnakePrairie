@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "demiplane_domicile:block/dream_block_texture",
+    "particle": "demiplane_domicile:block/dream_block_texture"
+  },
+  "render_type": "cutout"
+}

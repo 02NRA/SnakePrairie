@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "demiplane_domicile:memory"
+    }
+  },
+  "result": {
+    "id": "demiplane_domicile:block_of_memories",
+    "count": 1
+  }
+}

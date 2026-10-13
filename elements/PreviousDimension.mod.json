@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "attribute",
+  "definition": {
+    "name": "Previous Dimension",
+    "minValue": 0.0,
+    "maxValue": 5.0,
+    "defaultValue": 1.0,
+    "sentiment": "NEUTRAL",
+    "addToAllEntities": true,
+    "addToPlayers": false,
+    "entities": []
+  }
+}

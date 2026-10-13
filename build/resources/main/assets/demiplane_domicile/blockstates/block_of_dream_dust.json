@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "demiplane_domicile:block/block_of_dream_dust"
+    },
+    "facing=east": {
+      "model": "demiplane_domicile:block/block_of_dream_dust",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "demiplane_domicile:block/block_of_dream_dust",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "demiplane_domicile:block/block_of_dream_dust",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "demiplane_domicile:block/block_of_dream_dust",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "demiplane_domicile:block/block_of_dream_dust",
+      "x": 90
+    }
+  }
+}

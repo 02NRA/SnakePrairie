@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:echo_shard"
+    },
+    "b": {
+      "item": "minecraft:ender_chest"
+    }
+  },
+  "result": {
+    "id": "demiplane_domicile:pocket_dimension_item",
+    "count": 1
+  }
+}

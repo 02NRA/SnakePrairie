@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "demiplane_domicile:block/block_of_memories"
+    },
+    "facing=east": {
+      "model": "demiplane_domicile:block/block_of_memories",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "demiplane_domicile:block/block_of_memories",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "demiplane_domicile:block/block_of_memories",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "demiplane_domicile:block/block_of_memories",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "demiplane_domicile:block/block_of_memories",
+      "x": 90
+    }
+  }
+}
