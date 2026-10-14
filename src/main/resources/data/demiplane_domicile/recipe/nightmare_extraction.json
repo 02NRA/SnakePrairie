@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "minecraft:soul_sand"
+  },
+  "result": {
+    "id": "demiplane_domicile:nightmare"
+  }
+}

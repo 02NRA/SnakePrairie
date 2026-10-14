@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "demiplane_domicile:nightmare"
+    },
+    {
+      "item": "demiplane_domicile:nightmare"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "demiplane_domicile:nightmare"
+    },
+    {
+      "item": "demiplane_domicile:nightmare"
+    }
+  ],
+  "result": {
+    "id": "demiplane_domicile:dream",
+    "count": 4
+  }
+}

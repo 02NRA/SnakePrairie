@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Nightmare"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:Nightmare",
+      "",
+      "CUSTOM:Nightmare",
+      "Items.GHAST_TEAR",
+      "CUSTOM:Nightmare",
+      "",
+      "CUSTOM:Nightmare",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:Dream",
+    "name": "nightmares_to_dreams_recipe",
+    "namespace": "mod"
+  }
+}

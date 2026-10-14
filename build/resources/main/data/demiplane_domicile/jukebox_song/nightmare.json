@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.demiplane_domicile.nightmare.desc"
+  },
+  "length_in_seconds": 5,
+  "sound_event": "ambient.soul_sand_valley.mood"
+}

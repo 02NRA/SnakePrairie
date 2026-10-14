@@ -24,7 +24,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 2) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.13")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -35,7 +35,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 3) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.5")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -46,7 +46,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 4) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.blocks")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -57,7 +57,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 5) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.cat")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -68,7 +68,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 6) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.chirp")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -79,7 +79,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 7) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.creator")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -90,7 +90,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 8) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.creator_music_box")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -101,7 +101,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 9) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.far")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -112,7 +112,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 10) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.mall")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -123,7 +123,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 11) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.mellohi")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -134,7 +134,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 12) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.otherside")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -145,7 +145,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 13) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.pigstep")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -156,7 +156,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 14) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.precipice")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -167,7 +167,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 15) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.relic")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -178,7 +178,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 16) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.stal")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -189,7 +189,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 17) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.strad")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -200,7 +200,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 18) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.wait")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
@@ -211,7 +211,7 @@ public class MemoryOnDroppedItemEntityDestroyedProcedure {
 				}
 			}
 		}
-		if (Track == 1) {
+		if (Track == 19) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("music_disc.ward")), SoundSource.VOICE, (float) Mth.nextDouble(RandomSource.create(), 0.5, 2),
