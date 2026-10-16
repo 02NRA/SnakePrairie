@@ -26,7 +26,7 @@ public class BlockOfMemoriesBlock extends Block {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 	public BlockOfMemoriesBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).sound(SoundType.POWDER_SNOW).strength(1f, 10f).lightLevel(blockstate -> 3).speedFactor(0.3f).jumpFactor(2.5f).noOcclusion().pushReaction(PushReaction.DESTROY)
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).sound(SoundType.POWDER_SNOW).strength(1f, 10f).lightLevel(blockstate -> 3).speedFactor(0.3f).jumpFactor(1.5f).noOcclusion().pushReaction(PushReaction.DESTROY)
 				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false).replaceable().ignitedByLava().instrument(NoteBlockInstrument.FLUTE));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}

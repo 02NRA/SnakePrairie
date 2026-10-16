@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "CUSTOM:Bauble",
+    "showParticles": false,
+    "actionSound": "entity.snowball.throw",
+    "igniteFire": false,
+    "disableGravity": false,
+    "disableDiscarding": false,
+    "power": 0.7000000000000001,
+    "damage": 0.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": "BaubleProjectileProjectileHitsBlock"
+  }
+}

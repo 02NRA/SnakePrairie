@@ -407,20 +407,110 @@
         ]
       },
       "path": "~/Ideas"
+    },
+    {
+      "name": "BaubleProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauble_projectile_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/BaubleProjectileProjectileHitsBlockProcedure.java"
+        ]
+      },
+      "path": "~/Bauble"
+    },
+    {
+      "name": "Bauble",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauble",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/item/BaubleItem.java",
+          "src/main/resources/assets/demiplane_domicile/models/item/bauble.json"
+        ]
+      },
+      "path": "~/Bauble"
+    },
+    {
+      "name": "BaubleProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauble_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/entity/BaubleProjectileEntity.java"
+        ]
+      },
+      "path": "~/Bauble"
+    },
+    {
+      "name": "BaubleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauble_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/recipe/bauble_recipe.json",
+          "src/main/resources/data/demiplane_domicile/advancement/recipes/bauble_recipe.json"
+        ]
+      },
+      "path": "~/Bauble"
+    },
+    {
+      "name": "OminousPotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ominous_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/recipe/ominous_potion_recipe.json",
+          "src/main/resources/data/demiplane_domicile/advancement/recipes/ominous_potion_recipe.json"
+        ]
+      },
+      "path": "~/Ideas/Nightmare"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~Nightmare@CUSTOM:Nightmare"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~PocketDimension@Blocks.BEDROCK",
       "~PocketDimension@Blocks.END_STONE"
     ],
     "BLOCKS:minecraft:replaceable": [
       "~BlockOfMemories@CUSTOM:BlockOfMemories"
-    ],
-    "ITEMS:minecraft:music_discs": [
-      "~Nightmare@CUSTOM:Nightmare"
     ]
   },
   "tab_element_order": {},
@@ -437,7 +527,8 @@
       "item.demiplane_domicile.memory": "Memory",
       "block.demiplane_domicile.block_of_memories": "Condensed Memories",
       "item.demiplane_domicile.nightmare": "Nightmare",
-      "item.demiplane_domicile.nightmare.desc": "You - Remembering the Void"
+      "item.demiplane_domicile.nightmare.desc": "You - Remembering the Void",
+      "item.demiplane_domicile.bauble": "Bauble"
     }
   },
   "metadata": {
@@ -445,6 +536,8 @@
       "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModAttributes.java",
       "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModBlocks.java",
       "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModItems.java",
+      "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModEntityRenderers.java",
+      "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModEntities.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModTabs.java",
       "src/main/java/net/mcreator/demiplanedomicile/DemiplaneDomicileMod.java",
@@ -482,13 +575,17 @@
       {
         "name": "Attributes",
         "children": []
+      },
+      {
+        "name": "Bauble",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "demiplane_domicile",
     "modName": "Demiplane Domicile",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

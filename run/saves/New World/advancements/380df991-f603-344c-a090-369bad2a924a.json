@@ -426,5 +426,47 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-15 22:45:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-15 22:45:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-15 22:45:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2026-10-15 22:45:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2026-10-15 22:45:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2026-10-15 23:46:09 -0400"
+    },
+    "done": true
+  },
+  "demiplane_domicile:recipes/ominous_potion_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-15 23:56:14 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

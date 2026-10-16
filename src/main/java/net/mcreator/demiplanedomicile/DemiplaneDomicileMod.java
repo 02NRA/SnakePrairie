@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.demiplanedomicile.init.DemiplaneDomicileModTabs;
 import net.mcreator.demiplanedomicile.init.DemiplaneDomicileModItems;
+import net.mcreator.demiplanedomicile.init.DemiplaneDomicileModEntities;
 import net.mcreator.demiplanedomicile.init.DemiplaneDomicileModBlocks;
 import net.mcreator.demiplanedomicile.init.DemiplaneDomicileModAttributes;
 
@@ -45,6 +46,7 @@ public class DemiplaneDomicileMod {
 		modEventBus.addListener(this::registerNetworking);
 		DemiplaneDomicileModBlocks.REGISTRY.register(modEventBus);
 		DemiplaneDomicileModItems.REGISTRY.register(modEventBus);
+		DemiplaneDomicileModEntities.REGISTRY.register(modEventBus);
 		DemiplaneDomicileModTabs.REGISTRY.register(modEventBus);
 		DemiplaneDomicileModAttributes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init

@@ -27,6 +27,7 @@ public class DemiplaneDomicileModTabs {
 			tabData.accept(DemiplaneDomicileModItems.DREAM.get());
 			tabData.accept(DemiplaneDomicileModItems.POCKET_DIMENSION_ITEM.get());
 			tabData.accept(DemiplaneDomicileModItems.MEMORY.get());
+			tabData.accept(DemiplaneDomicileModItems.BAUBLE.get());
 		}
 	}
 }

@@ -16,6 +16,7 @@ import net.mcreator.demiplanedomicile.item.PocketDimensionItemItem;
 import net.mcreator.demiplanedomicile.item.NightmareItem;
 import net.mcreator.demiplanedomicile.item.MemoryItem;
 import net.mcreator.demiplanedomicile.item.DreamItem;
+import net.mcreator.demiplanedomicile.item.BaubleItem;
 import net.mcreator.demiplanedomicile.DemiplaneDomicileMod;
 
 public class DemiplaneDomicileModItems {
@@ -26,6 +27,7 @@ public class DemiplaneDomicileModItems {
 	public static final DeferredItem<Item> MEMORY;
 	public static final DeferredItem<Item> BLOCK_OF_MEMORIES;
 	public static final DeferredItem<Item> NIGHTMARE;
+	public static final DeferredItem<Item> BAUBLE;
 	static {
 		BLOCK_OF_DREAM_DUST = block(DemiplaneDomicileModBlocks.BLOCK_OF_DREAM_DUST, new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant());
 		DREAM = REGISTRY.register("dream", DreamItem::new);
@@ -33,6 +35,7 @@ public class DemiplaneDomicileModItems {
 		MEMORY = REGISTRY.register("memory", MemoryItem::new);
 		BLOCK_OF_MEMORIES = block(DemiplaneDomicileModBlocks.BLOCK_OF_MEMORIES, new Item.Properties().rarity(Rarity.RARE));
 		NIGHTMARE = REGISTRY.register("nightmare", NightmareItem::new);
+		BAUBLE = REGISTRY.register("bauble", BaubleItem::new);
 	}
 
 	// Start of user code block custom items

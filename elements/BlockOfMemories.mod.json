@@ -88,7 +88,7 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 0.30000000000000004,
-    "jumpFactor": 2.5,
+    "jumpFactor": 1.5,
     "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "soundOnStep": "POWDER_SNOW",
