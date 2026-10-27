@@ -96,6 +96,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -497,20 +513,82 @@
         ]
       },
       "path": "~/Ideas/Nightmare"
+    },
+    {
+      "name": "DoomsdayClockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doomsday_clock_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/DoomsdayClockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/DoomsdayClock"
+    },
+    {
+      "name": "DoomsdayClock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doomsday_clock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/demiplane_domicile/models/item/doomsday_clock.json",
+          "src/main/java/net/mcreator/demiplanedomicile/item/DoomsdayClockItem.java"
+        ]
+      },
+      "path": "~/DoomsdayClock"
+    },
+    {
+      "name": "DoomsdayClockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doomsday_clock_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/recipe/doomsday_clock_recipe.json"
+        ]
+      },
+      "path": "~/DoomsdayClock"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:minecraft:music_discs": [
-      "~Nightmare@CUSTOM:Nightmare"
-    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~PocketDimension@Blocks.BEDROCK",
       "~PocketDimension@Blocks.END_STONE"
     ],
     "BLOCKS:minecraft:replaceable": [
       "~BlockOfMemories@CUSTOM:BlockOfMemories"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~Nightmare@CUSTOM:Nightmare"
     ]
   },
   "tab_element_order": {},
@@ -528,7 +606,8 @@
       "block.demiplane_domicile.block_of_memories": "Condensed Memories",
       "item.demiplane_domicile.nightmare": "Nightmare",
       "item.demiplane_domicile.nightmare.desc": "You - Remembering the Void",
-      "item.demiplane_domicile.bauble": "Bauble"
+      "item.demiplane_domicile.bauble": "Bauble",
+      "item.demiplane_domicile.doomsday_clock": "Doomsday Clock"
     }
   },
   "metadata": {
@@ -578,6 +657,10 @@
       },
       {
         "name": "Bauble",
+        "children": []
+      },
+      {
+        "name": "DoomsdayClock",
         "children": []
       }
     ]

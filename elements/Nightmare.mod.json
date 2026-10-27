@@ -11,7 +11,9 @@
     "animations": [],
     "name": "Nightmare",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      "TOOLS"
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 16,

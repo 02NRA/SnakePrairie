@@ -31,9 +31,9 @@ public class PocketDimensionPlayerEntersDimensionProcedure {
 		pocketDimensionOffset = (double) (Math.abs(entity.getUUID().toString().hashCode()) % 100000) * 10;
 		{
 			Entity _ent = entity;
-			double _tx = (pocketDimensionOffset + 6);
+			double _tx = (pocketDimensionOffset + 7);
 			double _ty = 203;
-			double _tz = 405;
+			double _tz = 406;
 			_ent.teleportTo(_tx, _ty, _tz);
 			if (_ent instanceof ServerPlayer _serverPlayer)
 				_serverPlayer.connection.teleport(_tx, _ty, _tz, _ent.getYRot(), _ent.getXRot());
@@ -42,9 +42,9 @@ public class PocketDimensionPlayerEntersDimensionProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 20, 1));
 		entity.getPersistentData().putDouble("pocketDimensionOffset", pocketDimensionOffset);
 		DemiplaneDomicileMod.queueServerWork(1, () -> {
-			if (world.canSeeSkyFromBelowWater(BlockPos.containing(entity.getPersistentData().getDouble("pocketDimensionOffset") + 7, 203, 403))) {
+			if (world.canSeeSkyFromBelowWater(BlockPos.containing(entity.getPersistentData().getDouble("pocketDimensionOffset") + 8, 203, 404))) {
 				if (world instanceof ServerLevel _serverworld) {
-					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("demiplane_domicile", "pocket_dimension_memory"));
+					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("demiplane_domicile", "big_pocket_dimension_memory"));
 					if (template != null) {
 						template.placeInWorld(_serverworld, BlockPos.containing(entity.getPersistentData().getDouble("pocketDimensionOffset"), 199, 398), BlockPos.containing(entity.getPersistentData().getDouble("pocketDimensionOffset"), 199, 398),
 								new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "demiplane_domicile:nightmare"
+    },
+    "b": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "id": "demiplane_domicile:doomsday_clock",
+    "count": 1
+  }
+}

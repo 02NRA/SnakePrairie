@@ -1,50 +1,50 @@
-/place structure demiplane_domicile:pocket_dimension_structure 564125 126 100
-/place structure demiplane_domicile:pocket_dimension_structure 564125 126 125
-/place structure demiplane_domicile:pocket_dimension_structure 564125 127 125
-/place structure demiplane_domicile:pocket_dimension_structure 564125 127 128
-//
-/place structure demiplane_domicile:pocket_dimension_structure 564187 127 390
-/place template demiplane_domicile:pocket_dimension ~ ~ ~
-/place template demiplane_domicile:pocket_dimension ~-2 ~-2 ~
-/place template demiplane_domicile:pocket_dimension ~-4 ~-4 ~
-/place template demiplane_domicile:pocket_dimension ~-6 ~-6 ~
-/place template demiplane_domicile:pocket_dimension ~-6 ~ ~-6
-/place template demiplane_domicile:pocket_dimension ~-6 ~-2 ~-6
-/place template demiplane_domicile:pocket_dimension_structure ~-6 ~-2 ~-6
-/place template demiplane_domicile:pocket_dimension ~-6 ~-2 ~-6
-/place template demiplane_domicile:pocket_dimension 564170 201 401
-/place template demiplane_domicile:pocket_dimension 564170 198 397
-/place template demiplane_domicile:pocket_dimension 564170 200 397
-/place template demiplane_domicile:pocket_dimension 564170 202 397
-/place template demiplane_domicile:pocket_dimension 564170 200 397
-/place template demiplane_domicile:pocket_dimension_memory 564170 200 397
-/place template minecraft:igloo/top 564170 200 397
-/give @p demiplane_domicile:zlgh
-/place template minecraft:igloo/top
-/place template minecraft:pocket_dimension_memory
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/time set day
-/time set
-/time set noon
-/time set midnight
-/time set day
-/time set midnight
-/tick sprint
 /tick sprint 60s
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/tick sprint 60s
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @p demiplane_domicile:pocket_dimension_item
+/gamemode creative
+/give @p minecraft:structure_block
+/tick sprint 60s
+/gamemode survival
+/gamemode creative
+/tick sprint 120
+/tick sprint 120s
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @p demiplane_domicile:doomsday_clock
+/gamemode creative
+/give @p demiplane_domicile:doomsday_clock
+/gamemode survival
+/give @p demiplane_domicile:doomsday_clock
+/gamemode creative
+/tp @p 0 0 0
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative

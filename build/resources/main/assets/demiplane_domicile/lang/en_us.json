@@ -11,5 +11,6 @@
   "block.demiplane_domicile.block_of_memories": "Condensed Memories",
   "item.demiplane_domicile.nightmare": "Nightmare",
   "item.demiplane_domicile.nightmare.desc": "You - Remembering the Void",
-  "item.demiplane_domicile.bauble": "Bauble"
+  "item.demiplane_domicile.bauble": "Bauble",
+  "item.demiplane_domicile.doomsday_clock": "Doomsday Clock"
 }
