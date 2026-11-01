@@ -363,37 +363,6 @@
       "path": "~/Ideas/Dream"
     },
     {
-      "name": "NightmareItemIsCraftedsmelted",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nightmare_item_is_craftedsmelted",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/demiplanedomicile/procedures/NightmareItemIsCraftedsmeltedProcedure.java"
-        ]
-      },
-      "path": "~/Ideas/Nightmare"
-    },
-    {
       "name": "Nightmare",
       "type": "item",
       "compiles": true,
@@ -622,6 +591,82 @@
         ]
       },
       "path": "~/PortalItem"
+    },
+    {
+      "name": "PocketDimensionBorder",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_dimension_border",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/loot_table/blocks/pocket_dimension_border.json",
+          "src/main/resources/assets/demiplane_domicile/models/item/pocket_dimension_border.json",
+          "src/main/resources/assets/demiplane_domicile/blockstates/pocket_dimension_border.json",
+          "src/main/resources/assets/demiplane_domicile/models/block/pocket_dimension_border.json",
+          "src/main/java/net/mcreator/demiplanedomicile/block/PocketDimensionBorderBlock.java"
+        ]
+      },
+      "path": "~/PocketDimension"
+    },
+    {
+      "name": "NightmareRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/NightmareRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/Ideas/Nightmare"
+    },
+    {
+      "name": "SoulPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/item/SoulPowderItem.java",
+          "src/main/resources/assets/demiplane_domicile/models/item/soul_powder.json"
+        ]
+      },
+      "path": "~/Ideas/Nightmare/SoulPowder"
+    },
+    {
+      "name": "SoulPowderCooked",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_powder_cooked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/advancement/recipes/soul_powder_cooked.json",
+          "src/main/resources/data/demiplane_domicile/recipe/soul_powder_cooked.json"
+        ]
+      },
+      "path": "~/Ideas/Nightmare/SoulPowder"
     }
   ],
   "variable_elements": [],
@@ -654,7 +699,9 @@
       "item.demiplane_domicile.nightmare": "Nightmare",
       "item.demiplane_domicile.nightmare.desc": "You - Remembering the Void",
       "item.demiplane_domicile.bauble": "Bauble",
-      "item.demiplane_domicile.doomsday_clock": "Doomsday Clock"
+      "item.demiplane_domicile.doomsday_clock": "Doomsday Clock",
+      "block.demiplane_domicile.pocket_dimension_border": "Pocket Dimension Border",
+      "item.demiplane_domicile.soul_powder": "Soul Powder"
     }
   },
   "metadata": {
@@ -686,7 +733,12 @@
           },
           {
             "name": "Nightmare",
-            "children": []
+            "children": [
+              {
+                "name": "SoulPowder",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -715,7 +767,7 @@
   "workspaceSettings": {
     "modid": "demiplane_domicile",
     "modName": "Demiplane Domicile",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

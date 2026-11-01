@@ -30,6 +30,7 @@ public class DemiplaneDomicileModTabs {
 			tabData.accept(DemiplaneDomicileModItems.NIGHTMARE.get());
 			tabData.accept(DemiplaneDomicileModItems.BAUBLE.get());
 			tabData.accept(DemiplaneDomicileModItems.DOOMSDAY_CLOCK.get());
+			tabData.accept(DemiplaneDomicileModItems.SOUL_POWDER.get());
 		}
 	}
 }

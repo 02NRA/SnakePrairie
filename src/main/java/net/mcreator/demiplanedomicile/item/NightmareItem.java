@@ -1,6 +1,7 @@
 package net.mcreator.demiplanedomicile.item;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -10,12 +11,13 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.demiplanedomicile.procedures.NightmareItemIsCraftedsmeltedProcedure;
+import net.mcreator.demiplanedomicile.procedures.NightmareRightclickedOnBlockProcedure;
 import net.mcreator.demiplanedomicile.DemiplaneDomicileMod;
 
 public class NightmareItem extends Item {
@@ -39,8 +41,9 @@ public class NightmareItem extends Item {
 	}
 
 	@Override
-	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
-		super.onCraftedBy(itemstack, world, entity);
-		NightmareItemIsCraftedsmeltedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+	public InteractionResult useOn(UseOnContext context) {
+		super.useOn(context);
+		NightmareRightclickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ());
+		return InteractionResult.SUCCESS;
 	}
 }

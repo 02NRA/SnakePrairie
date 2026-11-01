@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/bedrock",
+    "up": "minecraft:block/bedrock",
+    "north": "minecraft:block/bedrock",
+    "east": "minecraft:block/bedrock",
+    "south": "minecraft:block/bedrock",
+    "west": "minecraft:block/bedrock",
+    "particle": "minecraft:block/bedrock"
+  },
+  "render_type": "solid"
+}

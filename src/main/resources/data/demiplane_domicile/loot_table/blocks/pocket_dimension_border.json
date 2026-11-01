@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "demiplane_domicile:blocks/pocket_dimension_border",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "demiplane_domicile:pocket_dimension_border"
+        }
+      ]
+    }
+  ]
+}

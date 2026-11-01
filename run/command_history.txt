@@ -1,19 +1,3 @@
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/tick sprint 60s
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
 /gamemode creative
 /gamemode survival
 /gamemode creative
@@ -44,6 +28,22 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/fill 564168 199 408 564183 213 393 demiplane_domicile:pocket_dimension_border replace minecraft:bedrock
+/fill 564160 190 410 564185 215 390 demiplane_domicile:pocket_dimension_border replace minecraft:bedrock
+/give @p demiplane_domicile:pocket_dimension_border
+/gamemode survival
+/give @p minecraft:diam
+/give @p minecraft:diamond_pickaxe
+/give @p minecraft:tnt
+/give @p minecraft:flint_and_steel
+/gamemode creative
+/gamemode survival
+/give @p minecraft:soul_sand
 /gamemode creative
 /gamemode survival
 /gamemode creative

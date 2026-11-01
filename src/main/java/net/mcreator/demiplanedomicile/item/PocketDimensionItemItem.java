@@ -29,7 +29,7 @@ public class PocketDimensionItemItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
-		return 40;
+		return 30;
 	}
 
 	@Override
