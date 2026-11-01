@@ -4,24 +4,10 @@
   "workspacePanelSortAscending": true,
   "projectBrowserState": {
     "expandedPaths": [
-      "[, Demiplane Domicile]",
-      "[, Demiplane Domicile, Source (Gradle)]",
-      "[, Demiplane Domicile, Resources (Gradle)]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets\\demiplane_domicile]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets\\demiplane_domicile, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets\\demiplane_domicile\\textures]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets\\demiplane_domicile, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets\\demiplane_domicile\\textures, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets\\demiplane_domicile\\textures\\block]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets\\demiplane_domicile, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets\\demiplane_domicile\\textures, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\assets\\demiplane_domicile\\textures\\item]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data\\demiplane_domicile]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data\\demiplane_domicile, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data\\demiplane_domicile\\structure]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data\\minecraft]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data\\minecraft, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data\\minecraft\\tags]",
-      "[, Demiplane Domicile, Resources (Gradle), C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data\\minecraft, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data\\minecraft\\tags, C:\\Users\\Nason\\Documents\\GitHub\\SnakePrairie\\src\\main\\resources\\data\\minecraft\\tags\\block]"
+      "[, the_new_world]"
     ]
   },
   "leftDockState": {
-    "expandedDock": "project_browser",
     "dockSizes": {
       "project_browser": 280,
       "local_history": 280

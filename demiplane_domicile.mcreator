@@ -767,8 +767,8 @@
   "workspaceSettings": {
     "modid": "demiplane_domicile",
     "modName": "Demiplane Domicile",
-    "version": "0.3.3",
-    "author": "MCreator",
+    "version": "1.0.0",
+    "author": "Kritcharon",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
@@ -777,7 +777,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.demiplanedomicile"
   },
   "mcreatorVersion": 202600233518

@@ -4,11 +4,11 @@ license="Not specified"
 
 [[mods]]
 modId="demiplane_domicile"
-version="0.3.3"
+version="1.0.0"
 displayName="Demiplane Domicile"
 displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+credits="https://mcreator.net/about"
+authors="Kritcharon"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
