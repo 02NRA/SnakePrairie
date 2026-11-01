@@ -143,10 +143,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -252,6 +248,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -575,6 +587,41 @@
         ]
       },
       "path": "~/DoomsdayClock"
+    },
+    {
+      "name": "PocketDimensionItemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_dimension_item_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/PocketDimensionItemPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/PortalItem"
     }
   ],
   "variable_elements": [],
@@ -668,7 +715,7 @@
   "workspaceSettings": {
     "modid": "demiplane_domicile",
     "modName": "Demiplane Domicile",
-    "version": "0.3.0",
+    "version": "0.3.2",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

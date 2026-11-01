@@ -48,6 +48,10 @@ public class DreamPlayerFinishesUsingItemProcedure {
 			if (entity instanceof Player _player)
 				_player.giveExperiencePoints(-(30));
 			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(DemiplaneDomicileModItems.DREAM.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			if (entity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(DemiplaneDomicileModItems.MEMORY.get()).copy();
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);

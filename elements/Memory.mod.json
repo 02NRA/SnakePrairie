@@ -47,7 +47,7 @@
     "rangedItemChargesPower": false,
     "projectile": "Arrow",
     "projectileDisableAmmoCheck": false,
-    "isFood": true,
+    "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.0,
     "eatResultItem": "",

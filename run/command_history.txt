@@ -1,6 +1,3 @@
-/tick sprint 60s
-/gamemode survival
-/gamemode creative
 /gamemode survival
 /gamemode creative
 /gamemode survival
@@ -48,3 +45,6 @@
 /gamemode creative
 /gamemode survival
 /gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
