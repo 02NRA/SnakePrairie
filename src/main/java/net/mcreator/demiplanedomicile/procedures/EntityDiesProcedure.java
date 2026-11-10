@@ -44,14 +44,14 @@ public class EntityDiesProcedure {
 					maxHealth = living.getMaxHealth();
 				}
 				entityNbt.putFloat("Health", maxHealth);
-				// Use consistent rounding
 				int bx = (int) Math.round(x);
 				int by = (int) Math.round(y);
 				int bz = (int) Math.round(z);
 				String key = bx + "_" + by + "_" + bz;
-				net.mcreator.demiplanedomicile.MobStorage.DATA.put(key, entityNbt.toString());
-				// Debug chat message to confirm storage
-				serverLevel.getServer().getPlayerList().broadcastSystemMessage(net.minecraft.network.chat.Component.literal("§a[Saved] Stored mob at: " + key), false);
+				net.mcreator.demiplanedomicile.MobStorage storage = net.mcreator.demiplanedomicile.MobStorage.get(serverLevel);
+				storage.getData().put(key, entityNbt.toString());
+				storage.setDirty(); // Forces Minecraft to save this to disk
+				serverLevel.getServer().getPlayerList().broadcastSystemMessage(net.minecraft.network.chat.Component.literal("§a[Saved Persistent] Stored mob at: " + key), false);
 			}
 		}
 	}

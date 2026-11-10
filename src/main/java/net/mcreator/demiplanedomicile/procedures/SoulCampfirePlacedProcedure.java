@@ -33,7 +33,8 @@ public class SoulCampfirePlacedProcedure {
 				int targetY = (int) Math.round(y - 1);
 				int targetZ = (int) Math.round(z);
 				String posKey = targetX + "_" + targetY + "_" + targetZ;
-				String nbtString = net.mcreator.demiplanedomicile.MobStorage.DATA.get(posKey);
+				net.mcreator.demiplanedomicile.MobStorage storage = net.mcreator.demiplanedomicile.MobStorage.get(serverLevel);
+				String nbtString = storage.getData().get(posKey);
 				if (nbtString != null && !nbtString.isEmpty()) {
 					try {
 						net.minecraft.nbt.CompoundTag resurrectedTag = net.minecraft.nbt.TagParser.parseTag(nbtString);
@@ -44,17 +45,19 @@ public class SoulCampfirePlacedProcedure {
 						if (resurrectedEntity != null) {
 							resurrectedEntity.setUUID(java.util.UUID.randomUUID());
 							serverLevel.addFreshEntity(resurrectedEntity);
-							net.mcreator.demiplanedomicile.MobStorage.DATA.remove(posKey);
+							storage.getData().remove(posKey);
+							storage.setDirty();
+							// Play sound effect
 							serverLevel.playSound(null, x, y, z, net.minecraft.sounds.SoundEvents.CANDLE_EXTINGUISH, net.minecraft.sounds.SoundSource.BLOCKS, 3.0f, 0.5f);
-							serverLevel.destroyBlock(new net.minecraft.core.BlockPos((int) Math.round(x), (int) Math.round(y), (int) Math.round(z)), true);
-							serverLevel.destroyBlock(new net.minecraft.core.BlockPos(targetX, targetY, targetZ), true);
+							// Fully erase both blocks into air without dropping items
+							serverLevel.setBlock(new net.minecraft.core.BlockPos((int) Math.round(x), (int) Math.round(y), (int) Math.round(z)), net.minecraft.world.level.block.Blocks.AIR.defaultBlockState(), 3);
+							serverLevel.setBlock(new net.minecraft.core.BlockPos(targetX, targetY, targetZ), net.minecraft.world.level.block.Blocks.AIR.defaultBlockState(), 3);
 						}
 					} catch (Exception e) {
 						e.printStackTrace();
 					}
 				} else {
-					// Debug chat message if key wasn't found
-					serverLevel.getServer().getPlayerList().broadcastSystemMessage(net.minecraft.network.chat.Component.literal("§c[Error] No saved data found for key: " + posKey), false);
+					serverLevel.getServer().getPlayerList().broadcastSystemMessage(net.minecraft.network.chat.Component.literal("§c[Error] No persistent data found for key: " + posKey), false);
 				}
 			}
 		}

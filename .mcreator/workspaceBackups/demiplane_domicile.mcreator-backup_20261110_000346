@@ -802,6 +802,19 @@
         ]
       },
       "path": "~/AnimalRes"
+    },
+    {
+      "name": "MobStorage",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mob_storage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/MobStorage.java"
+        ]
+      },
+      "path": "~/AnimalRes"
     }
   ],
   "variable_elements": [],
@@ -912,7 +925,7 @@
   "workspaceSettings": {
     "modid": "demiplane_domicile",
     "modName": "Demiplane Domicile",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Kritcharon",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
