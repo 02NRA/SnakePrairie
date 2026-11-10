@@ -1,9 +1,3 @@
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/give @p demiplane_domicile:pocket_dimension_item
-/gamemode creative
 /give @p minecraft:structure_block
 /tick sprint 60s
 /gamemode survival
@@ -48,3 +42,9 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
+/give @p demiplane_domicile:memento_mori
+/gamemode creative
+/give @p demiplane_domicile:memento_mori
+/gamemode survival
+/gamemode creative
+/give @p demiplane_domicile:memento_mori

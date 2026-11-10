@@ -14,5 +14,7 @@
   "item.demiplane_domicile.bauble": "Bauble",
   "item.demiplane_domicile.doomsday_clock": "Doomsday Clock",
   "block.demiplane_domicile.pocket_dimension_border": "Pocket Dimension Border",
-  "item.demiplane_domicile.soul_powder": "Soul Powder"
+  "item.demiplane_domicile.soul_powder": "Soul Powder",
+  "item.demiplane_domicile.memento_mori": "Memento Mori",
+  "block.demiplane_domicile.sanctum_animae": "Sanctum Animae"
 }

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Memory"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:Memory",
+      "",
+      "CUSTOM:Memory",
+      "Items.NETHERITE_INGOT",
+      "CUSTOM:Memory",
+      "",
+      "CUSTOM:Memory",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:MementoMori",
+    "name": "memento_mori_recipe",
+    "namespace": "mod"
+  }
+}

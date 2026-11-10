@@ -23,14 +23,17 @@ public class DemiplaneDomicileModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(DemiplaneDomicileModBlocks.BLOCK_OF_DREAM_DUST.get().asItem());
 			tabData.accept(DemiplaneDomicileModBlocks.BLOCK_OF_MEMORIES.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(DemiplaneDomicileModItems.DREAM.get());
-			tabData.accept(DemiplaneDomicileModItems.POCKET_DIMENSION_ITEM.get());
 			tabData.accept(DemiplaneDomicileModItems.MEMORY.get());
-			tabData.accept(DemiplaneDomicileModItems.NIGHTMARE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(DemiplaneDomicileModItems.POCKET_DIMENSION_ITEM.get());
 			tabData.accept(DemiplaneDomicileModItems.BAUBLE.get());
 			tabData.accept(DemiplaneDomicileModItems.DOOMSDAY_CLOCK.get());
 			tabData.accept(DemiplaneDomicileModItems.SOUL_POWDER.get());
+			tabData.accept(DemiplaneDomicileModItems.MEMENTO_MORI.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(DemiplaneDomicileModItems.NIGHTMARE.get());
 		}
 	}
 }

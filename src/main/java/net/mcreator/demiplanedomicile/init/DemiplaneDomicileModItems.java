@@ -27,6 +27,8 @@ public class DemiplaneDomicileModItems {
 	public static final DeferredItem<Item> DOOMSDAY_CLOCK;
 	public static final DeferredItem<Item> POCKET_DIMENSION_BORDER;
 	public static final DeferredItem<Item> SOUL_POWDER;
+	public static final DeferredItem<Item> MEMENTO_MORI;
+	public static final DeferredItem<Item> SANCTUM_ANIMAE;
 	static {
 		BLOCK_OF_DREAM_DUST = block(DemiplaneDomicileModBlocks.BLOCK_OF_DREAM_DUST, new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant());
 		DREAM = REGISTRY.register("dream", DreamItem::new);
@@ -38,6 +40,8 @@ public class DemiplaneDomicileModItems {
 		DOOMSDAY_CLOCK = REGISTRY.register("doomsday_clock", DoomsdayClockItem::new);
 		POCKET_DIMENSION_BORDER = block(DemiplaneDomicileModBlocks.POCKET_DIMENSION_BORDER, new Item.Properties().rarity(Rarity.EPIC));
 		SOUL_POWDER = REGISTRY.register("soul_powder", SoulPowderItem::new);
+		MEMENTO_MORI = REGISTRY.register("memento_mori", MementoMoriItem::new);
+		SANCTUM_ANIMAE = block(DemiplaneDomicileModBlocks.SANCTUM_ANIMAE);
 	}
 
 	// Start of user code block custom items

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "demiplane_domicile:blocks/sanctum_animae",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "demiplane_domicile:sanctum_animae"
+        }
+      ]
+    }
+  ]
+}

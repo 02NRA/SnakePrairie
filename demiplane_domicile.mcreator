@@ -667,6 +667,153 @@
         ]
       },
       "path": "~/Ideas/Nightmare/SoulPowder"
+    },
+    {
+      "name": "MementoMori",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memento_mori",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/item/MementoMoriItem.java",
+          "src/main/resources/assets/demiplane_domicile/models/item/memento_mori.json"
+        ]
+      },
+      "path": "~/AnimalRes"
+    },
+    {
+      "name": "EntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/EntityDiesProcedure.java"
+        ]
+      },
+      "path": "~/AnimalRes"
+    },
+    {
+      "name": "SanctumAnimae",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanctum_animae",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/loot_table/blocks/sanctum_animae.json",
+          "src/main/resources/assets/demiplane_domicile/blockstates/sanctum_animae.json",
+          "src/main/java/net/mcreator/demiplanedomicile/block/SanctumAnimaeBlock.java",
+          "src/main/resources/assets/demiplane_domicile/models/block/sanctum_animae.json",
+          "src/main/java/net/mcreator/demiplanedomicile/block/entity/SanctumAnimaeBlockEntity.java",
+          "src/main/resources/assets/demiplane_domicile/models/item/sanctum_animae.json"
+        ]
+      },
+      "path": "~/AnimalRes"
+    },
+    {
+      "name": "MementoMoriRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memento_mori_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/demiplane_domicile/recipe/memento_mori_recipe.json",
+          "src/main/resources/data/demiplane_domicile/advancement/recipes/memento_mori_recipe.json"
+        ]
+      },
+      "path": "~/AnimalRes"
+    },
+    {
+      "name": "MementoMoriUsed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memento_mori_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/MementoMoriUsedProcedure.java"
+        ]
+      },
+      "path": "~/AnimalRes"
+    },
+    {
+      "name": "SoulCampfirePlaced",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_campfire_placed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/procedures/SoulCampfirePlacedProcedure.java"
+        ]
+      },
+      "path": "~/AnimalRes"
+    },
+    {
+      "name": "MobStorage",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mob_storage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/demiplanedomicile/MobStorage.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -681,6 +828,9 @@
     ],
     "ITEMS:minecraft:music_discs": [
       "~Nightmare@CUSTOM:Nightmare"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~MementoMori@CUSTOM:MementoMori"
     ]
   },
   "tab_element_order": {},
@@ -701,13 +851,16 @@
       "item.demiplane_domicile.bauble": "Bauble",
       "item.demiplane_domicile.doomsday_clock": "Doomsday Clock",
       "block.demiplane_domicile.pocket_dimension_border": "Pocket Dimension Border",
-      "item.demiplane_domicile.soul_powder": "Soul Powder"
+      "item.demiplane_domicile.soul_powder": "Soul Powder",
+      "item.demiplane_domicile.memento_mori": "Memento Mori",
+      "block.demiplane_domicile.sanctum_animae": "Sanctum Animae"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModAttributes.java",
       "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModBlocks.java",
+      "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModBlockEntities.java",
       "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModItems.java",
       "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModEntityRenderers.java",
       "src/main/java/net/mcreator/demiplanedomicile/init/DemiplaneDomicileModEntities.java",
@@ -761,13 +914,17 @@
       {
         "name": "DoomsdayClock",
         "children": []
+      },
+      {
+        "name": "AnimalRes",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "demiplane_domicile",
     "modName": "Demiplane Domicile",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Kritcharon",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

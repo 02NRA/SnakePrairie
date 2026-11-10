@@ -12,7 +12,7 @@
     "name": "Nightmare",
     "rarity": "COMMON",
     "creativeTabs": [
-      "TOOLS"
+      "MATERIALS"
     ],
     "stackSize": 64,
     "enchantability": 0,
@@ -41,8 +41,6 @@
     "inventorySize": 9,
     "inventoryStackSize": 99,
     "onRightClickedOnBlock": "NightmareRightclickedOnBlock",
-    "onCrafted": "NightmareItemIsCraftedsmelted",
-    "onDroppedByPlayer": "NightmareItemIsDroppedByPlayer",
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
