@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "minecraft:block/blast_furnace_top",
-    "up": "minecraft:block/chiseled_tuff_bricks_top",
-    "north": "minecraft:block/vault_top_ominous",
-    "east": "minecraft:block/vault_top_ominous",
-    "south": "minecraft:block/vault_top_ominous",
-    "west": "minecraft:block/vault_top_ominous",
-    "particle": "minecraft:block/blast_furnace_top"
+    "down": "minecraft:block/crafter_bottom",
+    "up": "demiplane_domicile:block/tombstonetop",
+    "north": "demiplane_domicile:block/tombstone",
+    "east": "demiplane_domicile:block/tombstone",
+    "south": "demiplane_domicile:block/tombstone",
+    "west": "demiplane_domicile:block/tombstone",
+    "particle": "minecraft:block/crafter_bottom"
   },
   "render_type": "solid"
 }
