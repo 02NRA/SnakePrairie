@@ -1,5 +1,3 @@
-/tick sprint 60s
-/gamemode survival
 /gamemode creative
 /tick sprint 120
 /tick sprint 120s
@@ -48,3 +46,5 @@
 /gamemode creative
 /give @p demiplane_domicile:memento_mori
 /time set midnight
+/give @p demiplane_domicile:bauble
+/tick sprint 60s

@@ -1,5 +1,8 @@
 package net.mcreator.demiplanedomicile.item;
 
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
@@ -28,6 +31,12 @@ public class BaubleItem extends Item {
 	@Override
 	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
 		return 10;
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
 	}
 
 	@Override

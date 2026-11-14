@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bauble",
+    "texture": "bauble2",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -33,7 +33,7 @@
       "fixedValue": []
     },
     "glowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "openGUIOnRightClick": {
       "fixedValue": false
